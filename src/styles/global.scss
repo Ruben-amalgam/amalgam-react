@@ -1,0 +1,21 @@
+@import url("./variables.scss");
+
+header {
+  width: 100%;
+  height: 72;
+  padding: 0 64;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: $border-primary;
+  background: $background-color-primary;
+}
+
+header-panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  background-color: transparent;
+}

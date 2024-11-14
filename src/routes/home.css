@@ -1,0 +1,244 @@
+home-left-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.home-row-1 {
+  width: 100%;
+  height: 500px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-row-1-text-box {
+  /* height: 421px; */
+  /* height: 80%; */
+  /* width: 768px; */
+  width: 45%;
+}
+
+.home-row-1-heading {
+  font-family: Roboto, sans-serif; /* Ensure fallback font */
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+
+  background: linear-gradient(90deg, #16d6ad 0%, #5512d3 100%);
+  background-clip: text;
+  -webkit-background-clip: text; /* For Safari and older browsers */
+  -webkit-text-fill-color: transparent; /* Makes gradient visible */
+}
+
+.rocket {
+  height: 80%;
+  width: 35%;
+}
+
+.home-text {
+  color: #fff;
+
+  /* Text/Medium/Normal */
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+
+.home-lets-talk {
+  display: flex;
+  padding: 8px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(0deg, #16d6ad 0%, #16d6ad 100%);
+  width: 120px;
+  height: 40px;
+  border: none;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 24px */
+}
+
+.home-row-2 {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.home-row-2-header {
+  color: var(--Text-primary, #000);
+
+  /* Text/Medium/Bold */
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 27px */
+}
+.webflow {
+  width: 150px;
+  height: 56px;
+  margin-left: 30px;
+  display: none;
+}
+.relume {
+  width: 150px;
+  height: 56px;
+  margin-left: 30px;
+  display: none;
+}
+.banner {
+  width: 100%;
+}
+
+.home-row-3 {
+  margin-top: 112px;
+  margin-bottom: 112px;
+}
+
+.home-row-3-container {
+  padding-left: 64px;
+  padding-right: 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around ;
+}
+
+.home-row-3-left-header {
+  color: var(--Text-primary, #000);
+  /* Heading/Desktop/H3 */
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 48px */
+  
+}
+
+.home-row-3-left-text {
+  color: var(--Text-primary, #000);
+  /* Text/Medium/Normal */
+  font-family: Roboto;
+  font-size: 18px;
+  width: 600px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+
+.home-row-3-right {
+}
+.solutions {
+  width: 90%;
+  height: auto;
+}
+
+@media (max-width: 1024px) {
+  .home-text {
+    font-size: 12px;
+  }
+  .home-lets-talk {
+    width: 95px;
+    height: 35px;
+    border: none;
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 24px */
+  }
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+  .home-row-1 {
+    background: rgba(0, 0, 0, 0.95);
+  }
+  .home-row-1-text-box {
+    /* height: 421px; */
+    /* height: 80%; */
+    /* width: 768px; */
+    width: 60%;
+  }
+  .rocket {
+    display: none;
+  }
+  .home-row-1-heading {
+    font-family: Roboto, sans-serif; /* Ensure fallback font */
+    font-size: 40px;
+    text-align: center;
+    color: white;
+
+    background: white;
+    -webkit-background-clip: text; /* For Safari and older browsers */
+  }
+  .home-text {
+    color: var(--Text-alternate, #fff);
+    text-align: center;
+
+    /* Text/Regular/Normal */
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+  }
+
+  .home-lets-talk {
+    background: #000;
+    color: #fff;
+  }
+
+  .home-row-2 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: unset;
+    margin-top: unset;
+    margin-bottom: unset;
+  }
+  .home-row-2-header {
+    font-size: 18px;
+    font-style: normal;
+    padding-left: 30px;
+    padding-top: 40px;
+  }
+  .banner {
+    display: none;
+  }
+  .home-row-2-worked-with {
+    display: flex;
+    padding-bottom: 48px;
+    padding-top: 48px;
+  }
+  .webflow {
+    width: 150px;
+    height: 56px;
+    margin-left: 30px;
+    display: flex;
+  }
+  .relume {
+    width: 150px;
+    height: 56px;
+    margin-left: 30px;
+    display: flex;
+  }
+}
