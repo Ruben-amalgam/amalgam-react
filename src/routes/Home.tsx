@@ -4,6 +4,11 @@ import Banner from '../assets/images/Banner.png'
 import Relume from '../assets/images/Relume.png'
 import Webflow from '../assets/images/Webflow.png'
 import Solutions from '../assets/images/Solutions.png'
+import Placeholder from '../assets/images/Placeholder.png'
+import Consulting from '../assets/images/Consulting.png'
+import Entrprenuer from '../assets/images/Entrepreneurial-Hub.png'
+import TechConsulting from '../assets/images/Tech-Consulting.png'
+
 import './home.css'
 
 function Home() {
@@ -36,7 +41,26 @@ function Home() {
                         <p className='home-row-3-left-text'>The best things in life come in threes. So does our offering.</p>
                     </div>
                     <div className='home-row-3-right'>
-                        <img src={Solutions} className='solutions' />
+                        <img src={Placeholder} className='solutions' />
+                    </div>
+                </div>
+            </div>
+
+            <div className='home-row-4'>
+                <div className='home-row-4-top'>
+                    <h1 className='home-row-4-top-header'>How we can help you</h1>
+                    <p className='home-row-4-top-text'>We support you on all fronts:</p>
+                </div>
+
+                <div className='home-row-4-bottom'>
+                    <div style={{width: "400px"}}>
+                        <img src={Consulting} alt="Consulting" className='home-row-4-images' />
+                    </div>
+                    <div style={{width: "400px"}}>
+                        <img src={TechConsulting} alt="Consulting" className='home-row-4-images'/>
+                    </div>
+                    <div style={{width: "400px"}}>
+                        <img src={Entrprenuer} alt="Consulting" className='home-row-4-images'/>
                     </div>
                 </div>
             </div>
