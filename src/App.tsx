@@ -6,7 +6,7 @@ import Header from './assets/components/Header'
 
 const App: React.FC = () => {
   return (
-    <Router>
+    <Router basename="/amalgam-react">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} /> 
