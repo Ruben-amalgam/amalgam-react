@@ -9,6 +9,16 @@ import Consulting from '../assets/images/Consulting.png'
 import Entrprenuer from '../assets/images/Entrepreneurial-Hub.png'
 import TechConsulting from '../assets/images/Tech-Consulting.png'
 import AmalgamGroup from '../assets/images/Amalgam-Group.png'
+import Amalgam from '../assets/images/Amalgam-logo.png'
+import Cube from '../assets/images/Cube.png'
+import Facebook from '../assets/images/Facebook.png'
+import Instagram from '../assets/images/Instagram.png'
+import X from '../assets/images/X.png'
+import LinkedIn from '../assets/images/LinkedIn.png'
+import Youtube from '../assets/images/Youtube.png'
+
+
+
 
 import './home.css'
 
@@ -100,7 +110,7 @@ function Home() {
                 </div>
                 <div className='home-row-6-webflow-container'>
                     <div className='home-row-6-left'>
-                        <img src={Webflow} className='home-row-6-image' />
+                        <img src={Webflow} className='home-row-6-image' alt='Webflow' />
                         <p className='home-row-6-webflow-header'>Partnering with Amalgam has helped us to streamline our team’s evaluative workflows and to pilot new technologies in ways that consistently help us to better understand the impact of our funding and to learn how to improve our grantmaking.</p>
                         <div>
                             <p className='home-row-6-name'>Steve Fitzmier</p>
@@ -108,7 +118,7 @@ function Home() {
                         </div>
                     </div>
                     <div className='home-row-6-left'>
-                        <img src={Webflow} className='home-row-6-image' />
+                        <img src={Webflow} className='home-row-6-image' alt='Webflow' />
                         <p className='home-row-6-webflow-header'>We’ve worked with many consulting firms, but finding one that delivers excellent results and genuinely cares about our success is extremely rare. The Amalgam team has been delightful, working smoothly, consistently keeping us informed, and accommodating every change we needed.</p>
                         <div>
                             <p className='home-row-6-name'>Mike Mooney</p>
@@ -119,7 +129,7 @@ function Home() {
             </div>
             <div className='home-row-6-webflow-container'>
                 <div className='home-row-6-left'>
-                    <img src={Webflow} className='home-row-6-image' />
+                    <img src={Webflow} className='home-row-6-image' alt='Webflow' />
                     <p className='home-row-6-webflow-header'>Amalgam has helped us build the virtual power plant that has
                         helped us raise over $100 millions to date. They've been our loyal allies since our early days, wisely guiding our efforts as we scaled. That's why they're our sole development partner.</p>
                     <div>
@@ -128,7 +138,7 @@ function Home() {
                     </div>
                 </div>
                 <div className='home-row-6-left'>
-                    <img src={Webflow} className='home-row-6-image' />
+                    <img src={Webflow} className='home-row-6-image' alt='Webflow' />
                     <p className='home-row-6-webflow-header'>ASK NEERAJ TO BE PUT IN TOUCH GET QUOTE GET QUOTE GET QUOTE</p>
                     <div>
                         <p className='home-row-6-name'>Zach Peterson</p>
@@ -142,11 +152,109 @@ function Home() {
                     <p className='home-row-7-header'>We meet you where you are</p>
                     <p className='home-row-7-text'>From your business's conceptual phase to the realization of your most ambitious plans, our end-to-end solution gets you where you want to be. At what stage of your journey are you?</p>
                 </div>
-                <img src={AmalgamGroup} className='amalgam-group'/>
+                <img src={AmalgamGroup} className='amalgam-group' alt='Amalgam-group' />
+            </div>
+            <div className='divider'>
+            </div>
+            <div className='home-row-8'>
+                <div className='home-row-8-header'>Business consulting</div>
+                <div className='home-row-8-content'>
+                    <div className='home-row-8-content-container'>
+                        <img src={Cube} className='cube' alt='Cube' />
+                        <p className='home-row-8-content-header'>Business & strategy consulting</p>
+                    </div>
+                    <div className='home-row-8-content-container'>
+                        <img src={Cube} className='cube' alt='Cube' />
+                        <p className='home-row-8-content-header'>Operational optimization</p>
+                    </div>
+                    <div className='home-row-8-content-container'>
+                        <img src={Cube} className='cube' alt='Cube' />
+                        <p className='home-row-8-content-header'>Marketing & branding support</p>
+                    </div>
+                </div>
             </div>
 
-            <div className='divider'>
+            <div className='home-row-9'>
+                <div className='home-row-9-header'>Bespoke tech solutions</div>
+                <div className='home-row-9-content'>
+                    <div className='home-row-9-content-container'>
+                        <img src={Cube} className='cube' alt='Cube' />
+                        <p className='home-row-9-content-header'>Customer experience & UX/UI</p>
+                    </div>
+                    <div className='home-row-8-content-container'>
+                        <img src={Cube} className='cube' alt='Cube' />
+                        <p className='home-row-9-content-header'>Web & mobile app development</p>
+                    </div>
+                    <div className='home-row-8-content-container'>
+                        <img src={Cube} className='cube' alt='Cube' />
+                        <p className='home-row-9-content-header'>Artificial Intelligence & Machine Learning</p>
+                    </div>
+                    <div className='home-row-8-content-container'>
+                        <img src={Cube} className='cube' alt='Cube' />
+                        <p className='home-row-9-content-header'>Languages & scripts</p>
+                    </div>
+                </div>
+            </div>
 
+            <div className='home-row-10'></div>
+            <div className='home-row-8'>
+                <div className='home-row-8-content'>
+                    <div className='home-row-8-content-container'>
+                        <img src={Cube} className='cube' alt='Cube' />
+                        <p className='home-row-8-content-header'>Data management & integration</p>
+                    </div>
+                    <div className='home-row-8-content-container'>
+                        <img src={Cube} className='cube' alt='Cube' />
+                        <p className='home-row-8-content-header'>Databases, integrations & tools</p>
+                    </div>
+                    <div className='home-row-8-content-container'>
+                        <img src={Cube} className='cube' alt='Cube' />
+                        <p className='home-row-8-content-header'>Cloud, blockchain & platforms</p>
+                    </div>
+                </div>
+            </div>
+            <div className='home-row-11' >
+                <div className='home-row-9-header'>Entrepreneurial hub</div>
+                <div className='home-row-8'>
+                    <div className='home-row-8-content'>
+                        <div className='home-row-8-content-container'>
+                            <img src={Cube} className='cube' alt='Cube' />
+                            <p className='home-row-8-content-header'>Networking & funding</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className='home-row-12'>
+                <div className='home-row-12-content'>
+                    <p className='home-row-12-header'>
+                        Get in touch
+                    </p>
+                    <p className='home-row-12-text'>Reach out to us to gather more information or set our wheels in motion.</p>
+                    <button className='home-lets-talk-bottom'>Let's talk</button>
+                </div>
+            </div>
+
+            <div className='home-row-13'>
+                <div className='home-row-13-content'>
+                    <div className='home-row-13-content-left'>
+                        <img src={Amalgam} alt="Amalgam" className='logo' />
+                    </div>
+                    <div className='home-row-13-content-middle'>
+                        <p className='home-row-13-links'>Our Work</p>
+                        <p className='home-row-13-links'>About Us</p>
+                        <p className='home-row-13-links'>Blog</p>
+                        <p className='home-row-13-links'>Careers</p>
+                        <p className='home-row-13-links'>Contact Us</p>
+                    </div>
+                    <div className='home-row-13-content-right'>
+                        <img src={Facebook} className='social-media' alt='Facebook'/>
+                        <img src={Instagram}className='social-media' alt='Instagram'/>
+                        <img src={X}className='social-media' alt='X'/>
+                        <img src={LinkedIn}className='social-media' alt='LinkedIn'/>
+                        <img src={Youtube}className='social-media' alt='Youtube'/>
+                    </div>
+                </div>
             </div>
         </div>
     )
