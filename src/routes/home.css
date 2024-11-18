@@ -692,6 +692,52 @@
   width: 24px;
   height: 24px;
 }
+
+.home-row-13-bottom {
+  display: flex;
+  padding-bottom: 16px;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  align-self: stretch;
+  border-top: 2px solid white;
+}
+
+.home-row-13-footer {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.home-row-13-footer-links {
+  color: #fff;
+
+  /* Text/Small/Link */
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+
+.home-row-13-footer-links:nth-child(1) {
+  color: #fff;
+
+  /* Text/Small/Normal */
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+  text-decoration-line: unset;
+}
+
 @media (max-width: 1100px) {
   .home-row-13-content {
     justify-content: space-between;
@@ -896,6 +942,57 @@
 }
 
 @media (max-width: 576px) {
+  .home-row-13-bottom {
+    border-top: 2px solid black;
+  }
+
+  .home-row-13-footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .home-row-13-footer-links {
+    color: black;
+  }
+  .home-row-13 {
+    background: white;
+  }
+  .home-row-13-content {
+    flex-direction: column;
+  }
+  .logo {
+    filter: brightness(0) invert(0);
+    width: 70%;
+    align-self: center;
+  }
+  .home-row-13-links {
+    font-size: 16px;
+  }
+  .home-row-13-content-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .home-row-13-content-middle {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  .home-row-13-links {
+    color: black;
+  }
+
+  .home-row-13-content-right {
+    width: 30%;
+    gap: 12px;
+    display: flex;
+    justify-content: center;
+  }
+  .social-media {
+    width: 24px;
+    height: 24px;
+    filter: brightness(0) invert(0);
+  }
   .home-row-12 {
     display: flex;
     padding: unset;

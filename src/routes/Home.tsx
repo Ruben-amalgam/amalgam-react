@@ -248,12 +248,20 @@ function Home() {
                         <p className='home-row-13-links'>Contact Us</p>
                     </div>
                     <div className='home-row-13-content-right'>
-                        <img src={Facebook} className='social-media' alt='Facebook'/>
-                        <img src={Instagram}className='social-media' alt='Instagram'/>
-                        <img src={X}className='social-media' alt='X'/>
-                        <img src={LinkedIn}className='social-media' alt='LinkedIn'/>
-                        <img src={Youtube}className='social-media' alt='Youtube'/>
+                        <img src={Facebook} className='social-media' alt='Facebook' />
+                        <img src={Instagram} className='social-media' alt='Instagram' />
+                        <img src={X} className='social-media' alt='X' />
+                        <img src={LinkedIn} className='social-media' alt='LinkedIn' />
+                        <img src={Youtube} className='social-media' alt='Youtube' />
                     </div>
+                </div>
+
+            <div className='home-row-13-bottom'></div>
+                <div className='home-row-13-footer'>
+                    <p className='home-row-13-footer-links'>© 2023 Relume. All rights reserved.</p>
+                    <p className='home-row-13-footer-links'>Privacy Policy</p>
+                    <p className='home-row-13-footer-links'>Terms and Conditions</p>
+                    <p className='home-row-13-footer-links'>Cookie Policy</p>
                 </div>
             </div>
         </div>
