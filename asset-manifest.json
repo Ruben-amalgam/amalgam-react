@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/amalgam-react/static/css/main.24760038.css",
-    "main.js": "/amalgam-react/static/js/main.909825ac.js",
+    "main.css": "/amalgam-react/static/css/main.b457f9d1.css",
+    "main.js": "/amalgam-react/static/js/main.80d5687c.js",
     "static/media/Rocket.png": "/amalgam-react/static/media/Rocket.9fc8481f2ff4e97066d1.png",
-    "static/media/Amalgam-Group.png": "/amalgam-react/static/media/Amalgam-Group.f0e41ec4ca90ecbc8818.png",
+    "static/media/Amalgam-Group.png": "/amalgam-react/static/media/Amalgam-Group.0eaaa03af5aa0abce22a.png",
     "static/media/Tech-Consulting.png": "/amalgam-react/static/media/Tech-Consulting.4bece141fd89417595ab.png",
     "static/media/Consulting.png": "/amalgam-react/static/media/Consulting.2469d54273dfc7045c40.png",
     "static/media/Entrepreneurial-Hub.png": "/amalgam-react/static/media/Entrepreneurial-Hub.c40108ab3351435aa3e6.png",
     "static/media/Banner.png": "/amalgam-react/static/media/Banner.cce8d28ebd4db2c98449.png",
     "static/media/Placeholder.png": "/amalgam-react/static/media/Placeholder.e3e6d1002b825d849602.png",
     "index.html": "/amalgam-react/index.html",
-    "main.24760038.css.map": "/amalgam-react/static/css/main.24760038.css.map",
-    "main.909825ac.js.map": "/amalgam-react/static/js/main.909825ac.js.map"
+    "main.b457f9d1.css.map": "/amalgam-react/static/css/main.b457f9d1.css.map",
+    "main.80d5687c.js.map": "/amalgam-react/static/js/main.80d5687c.js.map"
   },
   "entrypoints": [
-    "static/css/main.24760038.css",
-    "static/js/main.909825ac.js"
+    "static/css/main.b457f9d1.css",
+    "static/js/main.80d5687c.js"
   ]
 }
