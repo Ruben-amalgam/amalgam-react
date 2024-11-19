@@ -88,6 +88,98 @@
   font-weight: 700;
   line-height: 150%; /* 27px */
 }
+.home-row-2-worked-with {
+  display: flex;
+  padding-bottom: 48px;
+  padding-top: 48px;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  color: #fff;
+  align-items: center;
+  gap: 24px;
+}
+
+.home-row-2-carousel-content {
+  display: inline-block;
+  animation: scroll 30s linear infinite;
+  gap: 24px;
+}
+.home-row-2-carousel-content::before {
+  content: '';
+  display: repeat(auto-fill, 100px); /* Dynamically fill with duplicates */
+}
+.home-row-2-carousel-content img {
+  display: inline-block;
+  margin-left: 200px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.zenbank {
+  width: 174px;
+  height: 51.504px;
+}
+
+.sofi {
+  width: 174px;
+  height: 51.504px;
+}
+
+.pfa {
+  width: 144px;
+  height: 42px;
+}
+
+.pearlx {
+  width: 137px;
+  height: 31px;
+}
+.ngrowth {
+  width: 155px;
+  height: 41.392px;
+}
+.moodys {
+  width: 200px;
+  height: 31.633px;
+}
+
+.mtbank {
+  width: 174px;
+  height: 31px;
+}
+
+.johntempleton {
+  width: 196px;
+  height: 78.792px;
+}
+.everbank {
+  width: 200px;
+  height: 31.633px;
+}
+.cleanitsupply {
+  width: 200px;
+  height: 31.633px;
+}
+.afmensa {
+  width: 196px;
+  height: 31px;
+}
+.bankofguam {
+  width: 180.758px;
+  height: 71.701px;
+}
+.bureauvandijk {
+  width: 162px;
+  height: 75.492px;
+}
 .webflow {
   width: 150px;
   height: 56px;
@@ -1396,7 +1488,15 @@
     display: flex;
     padding-bottom: 48px;
     padding-top: 48px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    color: #fff;
+    align-items: center;
   }
+
+  
+
   .webflow {
     width: 150px;
     height: 56px;

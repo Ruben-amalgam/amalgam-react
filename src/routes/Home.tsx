@@ -16,6 +16,23 @@ import Instagram from '../assets/images/Instagram.png'
 import X from '../assets/images/X.png'
 import LinkedIn from '../assets/images/LinkedIn.png'
 import Youtube from '../assets/images/Youtube.png'
+import AFmensa from '../assets/images/carousel-photos/AFmensa.png'
+import BankOfGuam from '../assets/images/carousel-photos/BankOfGuam.png'
+import BureauVanDijk from '../assets/images/carousel-photos/BureauVanDijk.png'
+import CleanItSupply from '../assets/images/carousel-photos/CleanItSupply.png'
+import Everbank from '../assets/images/carousel-photos/Everbank.png'
+import JohnTempleton from '../assets/images/carousel-photos/JohnTempleton.png'
+import MTBank from '../assets/images/carousel-photos/M&TBank.png'
+import Moodys from '../assets/images/carousel-photos/Moodys.png'
+import NGrowth from '../assets/images/carousel-photos/NGrowth.png'
+import PearlX from '../assets/images/carousel-photos/PearlX.png'
+import PFA from '../assets/images/carousel-photos/PFA.png'
+import Sofi from '../assets/images/carousel-photos/Sofi.png'
+import Zenbank from '../assets/images/carousel-photos/Zenbanx.png'
+
+
+
+
 
 
 
@@ -38,10 +55,24 @@ function Home() {
 
             <div className='home-row-2'>
                 <h3 className='home-row-2-header'>We've worked with:</h3>
-                <img src={Banner} className='banner' alt='Banner' />
                 <div className='home-row-2-worked-with'>
-                    <img src={Webflow} className='webflow' alt='Webflow' />
-                    <img src={Relume} className='relume' alt='Relume' />
+                    <div className='home-row-2-carousel-content'>
+                        {/* <img src={Webflow} className='webflow' alt='Webflow' /> */}
+                        {/* <img src={Relume} className='relume' alt='Relume' /> */}
+                        <img src={AFmensa} className='afmensa'/>
+                        <img src={BankOfGuam} className='bankofguam'/>
+                        <img src={BureauVanDijk} className='bureauvandijk'/>
+                        <img src={CleanItSupply} className='cleanitsupply'/>
+                        <img src={Everbank} className='everbank'/>
+                        <img src={JohnTempleton} className='johntempleton'/>
+                        <img src={MTBank} className='mtbank'/>
+                        <img src={Moodys} className='moodys'/>
+                        <img src={NGrowth} className='ngrowth'/>
+                        <img src={PearlX} className='pearlx'/>
+                        <img src={PFA} className='pfa'/>
+                        <img src={Sofi} className='sofi'/>
+                        <img src={Zenbank} className='zenbank'/>
+                    </div>
                 </div>
             </div>
 
@@ -256,7 +287,7 @@ function Home() {
                     </div>
                 </div>
 
-            <div className='home-row-13-bottom'></div>
+                <div className='home-row-13-bottom'></div>
                 <div className='home-row-13-footer'>
                     <p className='home-row-13-footer-links'>© 2023 Relume. All rights reserved.</p>
                     <p className='home-row-13-footer-links'>Privacy Policy</p>
