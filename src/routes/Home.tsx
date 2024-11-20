@@ -1,9 +1,7 @@
 import React from 'react'
+import '../styles/home.css'
 import Rocket from '../assets/images/Rocket.png'
-import Banner from '../assets/images/Banner.png'
-import Relume from '../assets/images/Relume.png'
 import Webflow from '../assets/images/Webflow.png'
-import Solutions from '../assets/images/Solutions.png'
 import Placeholder from '../assets/images/Placeholder.png'
 import Consulting from '../assets/images/Consulting.png'
 import Entrprenuer from '../assets/images/Entrepreneurial-Hub.png'
@@ -30,19 +28,9 @@ import PFA from '../assets/images/carousel-photos/PFA.png'
 import Sofi from '../assets/images/carousel-photos/Sofi.png'
 import Zenbank from '../assets/images/carousel-photos/Zenbanx.png'
 
-
-
-
-
-
-
-
-import './home.css'
-
 function Home() {
     return (
         <div >
-
             <div className='home-row-1'>
                 <div className='home-row-1-text-box'>
                     <h1 className="home-row-1-heading">We're the rocket fuel to your moonshot</h1>
@@ -57,21 +45,19 @@ function Home() {
                 <h3 className='home-row-2-header'>We've worked with:</h3>
                 <div className='home-row-2-worked-with'>
                     <div className='home-row-2-carousel-content'>
-                        {/* <img src={Webflow} className='webflow' alt='Webflow' /> */}
-                        {/* <img src={Relume} className='relume' alt='Relume' /> */}
-                        <img src={AFmensa} className='afmensa'/>
-                        <img src={BankOfGuam} className='bankofguam'/>
-                        <img src={BureauVanDijk} className='bureauvandijk'/>
-                        <img src={CleanItSupply} className='cleanitsupply'/>
-                        <img src={Everbank} className='everbank'/>
-                        <img src={JohnTempleton} className='johntempleton'/>
-                        <img src={MTBank} className='mtbank'/>
-                        <img src={Moodys} className='moodys'/>
-                        <img src={NGrowth} className='ngrowth'/>
-                        <img src={PearlX} className='pearlx'/>
-                        <img src={PFA} className='pfa'/>
-                        <img src={Sofi} className='sofi'/>
-                        <img src={Zenbank} className='zenbank'/>
+                        <img src={AFmensa} className='afmensa' alt='AFmensa' />
+                        <img src={BankOfGuam} className='bankofguam' alt='BankOfGuam' />
+                        <img src={BureauVanDijk} className='bureauvandijk' alt='BureauVanDijk' />
+                        <img src={CleanItSupply} className='cleanitsupply' alt='CleanItSupply' />
+                        <img src={Everbank} className='everbank' alt='Everbank' />
+                        <img src={JohnTempleton} className='johntempleton' alt='johntempleton' />
+                        <img src={MTBank} className='mtbank' alt='mtbank' />
+                        <img src={Moodys} className='moodys' alt='moodys' />
+                        <img src={NGrowth} className='ngrowth' alt='ngrowth' />
+                        <img src={PearlX} className='pearlx' alt='pearlx' />
+                        <img src={PFA} className='pfa' alt='pfa' />
+                        <img src={Sofi} className='sofi' alt='sofi' />
+                        <img src={Zenbank} className='zenbank' alt='zenbank' />
                     </div>
                 </div>
             </div>

@@ -25,6 +25,7 @@
 }
 .navlink {
   color: #000;
+  text-decoration: none;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -83,7 +84,6 @@
 
 @media (max-width: 900px) {
   .header {
-  
   }
   .header-logo {
     width: 130px;
@@ -91,12 +91,13 @@
   }
 
   .navlink {
-    color: #000;
+    color: var(--Link-primary, #000);
     font-family: Roboto;
-    font-size: 14px;
+    text-decoration: none;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 150%;
+    line-height: 150%; /* 24px */
   }
   .careers-button {
     width: 76px;
@@ -112,7 +113,7 @@
 
 @media (max-width: 576px) {
   .header {
-    display: flex; 
+    display: flex;
     justify-content: unset;
     align-items: center;
     width: 100%;
