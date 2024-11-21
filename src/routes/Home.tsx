@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/home.css'
 import Rocket from '../assets/images/Rocket.png'
+import Solutions from '../assets/images/Solutions.png'
 import Webflow from '../assets/images/Webflow.png'
 import Placeholder from '../assets/images/Placeholder.png'
 import Consulting from '../assets/images/Consulting.png'
@@ -69,7 +70,7 @@ function Home() {
                         <p className='home-row-3-left-text'>The best things in life come in threes. So does our offering.</p>
                     </div>
                     <div className='home-row-3-right'>
-                        <img src={Placeholder} className='solutions' alt='Placeholder' />
+                        <img src={Solutions} className='solutions' alt='Placeholder' />
                     </div>
                 </div>
             </div>
@@ -206,10 +207,6 @@ function Home() {
                         <img src={Cube} className='cube' alt='Cube' />
                         <p className='home-row-9-content-header'>Artificial Intelligence & Machine Learning</p>
                     </div>
-                    <div className='home-row-8-content-container'>
-                        <img src={Cube} className='cube' alt='Cube' />
-                        <p className='home-row-9-content-header'>Languages & scripts</p>
-                    </div>
                 </div>
             </div>
 
@@ -217,16 +214,15 @@ function Home() {
             <div className='home-row-8'>
                 <div className='home-row-8-content'>
                     <div className='home-row-8-content-container'>
-                        <img src={Cube} className='cube' alt='Cube' />
-                        <p className='home-row-8-content-header'>Data management & integration</p>
-                    </div>
-                    <div className='home-row-8-content-container'>
-                        <img src={Cube} className='cube' alt='Cube' />
                         <p className='home-row-8-content-header'>Databases, integrations & tools</p>
                     </div>
                     <div className='home-row-8-content-container'>
                         <img src={Cube} className='cube' alt='Cube' />
-                        <p className='home-row-8-content-header'>Cloud, blockchain & platforms</p>
+                        <p className='home-row-8-content-header'>Cloud & Managment Services </p>
+                    </div>
+                    <div className='home-row-8-content-container'>
+                        <img src={Cube} className='cube' alt='Cube' />
+                        <p className='home-row-8-content-header'>  Web  </p>
                     </div>
                 </div>
             </div>
@@ -234,6 +230,14 @@ function Home() {
                 <div className='home-row-9-header'>Entrepreneurial hub</div>
                 <div className='home-row-8'>
                     <div className='home-row-8-content'>
+                        <div className='home-row-8-content-container'>
+                            <img src={Cube} className='cube' alt='Cube' />
+                            <p className='home-row-8-content-header'>Tech & Advisory</p>
+                        </div>
+                        <div className='home-row-8-content-container'>
+                            <img src={Cube} className='cube' alt='Cube' />
+                            <p className='home-row-8-content-header'>Funding</p>
+                        </div>
                         <div className='home-row-8-content-container'>
                             <img src={Cube} className='cube' alt='Cube' />
                             <p className='home-row-8-content-header'>Networking & funding</p>
