@@ -1,6 +1,6 @@
 import React from 'react'
 import Laptop from '../assets/images/Laptop.png'
-import '../styles/aboutus.css'
+import '../styles/ourwork.css'
 import Cube from '../assets/images/Cube.png'
 import Easel from '../assets/images/Easel.png'
 
