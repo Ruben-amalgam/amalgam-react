@@ -223,3 +223,109 @@
   font-weight: 400;
   line-height: 150%; /* 27px */
 }
+
+.aboutus-row-4 {
+  display: flex;
+  padding: 112px 64px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 60px;
+}
+
+.aboutus-row-4-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.aboutus-row-4-top-header {
+  color: var(--Text-primary, #000);
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 57.6px */
+}
+.aboutus-row-4-top-text {
+  color: var(--Text-primary, #000);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+.aboutus-row-4-bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutus-row-4-employees {
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 32px;
+  align-self: stretch;
+}
+
+.aboutus-row-4-employees div {
+  color: var(--Text-primary, #000);
+
+  /* Text/Large/Semi Bold */
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 30px */
+  width: 304px;
+}
+
+.aboutus-row-4-employees p {
+  color: var(--Text-primary, #000);
+
+  /* Text/Regular/Normal */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+
+.aboutus-row-4-employees img {
+  height: 296px;
+  align-self: stretch;
+}
+
+.aboutus-row-4-employees-social {
+  gap: 14px;
+}
+.aboutus-row-4-employees-social img {
+  width: 24px;
+  height: 24px;
+  margin-right: 14px;
+}
+
+.aboutus-row-5 {
+  display: flex;
+  flex-direction: column;
+}
+.aboutus-row-5 h2 {
+  color: var(--Text-primary, #000);
+  text-align: center;
+
+  /* Heading/Desktop/H2 */
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 57.6px */
+}
+
+.aboutus-row-5 img {
+  width: 100%;
+  max-width: 1440px;
+  align-self: center;
+}
