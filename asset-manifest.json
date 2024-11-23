@@ -1,11 +1,15 @@
 {
   "files": {
-    "main.css": "/amalgam-react/static/css/main.0082b763.css",
-    "main.js": "/amalgam-react/static/js/main.a724fe41.js",
+    "main.css": "/amalgam-react/static/css/main.87f3f53e.css",
+    "main.js": "/amalgam-react/static/js/main.d0be12ce.js",
+    "static/media/Team.png": "/amalgam-react/static/media/Team.eb9d3f6e6426a7013109.png",
+    "static/media/Neeraj.png": "/amalgam-react/static/media/Neeraj.84e048d95e3471fa1f42.png",
     "static/media/Rocket.png": "/amalgam-react/static/media/Rocket.9fc8481f2ff4e97066d1.png",
     "static/media/Amalgam-Group.png": "/amalgam-react/static/media/Amalgam-Group.0eaaa03af5aa0abce22a.png",
     "static/media/Tech-Consulting.png": "/amalgam-react/static/media/Tech-Consulting.4bece141fd89417595ab.png",
     "static/media/Laptop.png": "/amalgam-react/static/media/Laptop.5d2d7d927d41b3dfe55d.png",
+    "static/media/Solutions.png": "/amalgam-react/static/media/Solutions.b3f7ed705c8833729e42.png",
+    "static/media/Easel.png": "/amalgam-react/static/media/Easel.e919906154d342765cc0.png",
     "static/media/Consulting.png": "/amalgam-react/static/media/Consulting.2469d54273dfc7045c40.png",
     "static/media/Entrepreneurial-Hub.png": "/amalgam-react/static/media/Entrepreneurial-Hub.c40108ab3351435aa3e6.png",
     "static/media/JohnTempleton.png": "/amalgam-react/static/media/JohnTempleton.da100d1b68a815d118bb.png",
@@ -21,13 +25,13 @@
     "static/media/NGrowth.png": "/amalgam-react/static/media/NGrowth.cad86226d4833d345afd.png",
     "static/media/Moodys.png": "/amalgam-react/static/media/Moodys.e3dd213cf21ad8ee4726.png",
     "static/media/PearlX.png": "/amalgam-react/static/media/PearlX.bb7ce45c0a59d075e5a1.png",
-    "static/media/Placeholder.png": "/amalgam-react/static/media/Placeholder.e3e6d1002b825d849602.png",
+    "static/media/Placeholder2.png": "/amalgam-react/static/media/Placeholder2.fd801fc2c1c5ce802b42.png",
     "index.html": "/amalgam-react/index.html",
-    "main.0082b763.css.map": "/amalgam-react/static/css/main.0082b763.css.map",
-    "main.a724fe41.js.map": "/amalgam-react/static/js/main.a724fe41.js.map"
+    "main.87f3f53e.css.map": "/amalgam-react/static/css/main.87f3f53e.css.map",
+    "main.d0be12ce.js.map": "/amalgam-react/static/js/main.d0be12ce.js.map"
   },
   "entrypoints": [
-    "static/css/main.0082b763.css",
-    "static/js/main.a724fe41.js"
+    "static/css/main.87f3f53e.css",
+    "static/js/main.d0be12ce.js"
   ]
 }
