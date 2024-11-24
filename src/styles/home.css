@@ -835,6 +835,15 @@
   .home-row-13-content {
     justify-content: space-between;
   }
+  .home-row-3-left {
+    width: 40%;
+  }
+
+
+  .solutions {
+  width: 419px;
+  height: 335px;
+}
 
   .logo {
     width: 126px;

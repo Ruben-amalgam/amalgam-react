@@ -7,6 +7,18 @@ import X from '../assets/images/XDark.png'
 import LinkedIn from '../assets/images/LinkedInDark.png'
 import Dribble from '../assets/images/Dribble.png'
 import Team from '../assets/images/Team.png'
+import Map from '../assets/images/Map.png'
+import Divider from '../assets/images/Divider.png'
+import Envelope from '../assets/icons/Envelope.png'
+import Location from '../assets/icons/Location.png'
+import Phone from '../assets/icons/Phone.png'
+import Amalgam from '../assets/images/Amalgam-logo.png'
+
+import Xlight from '../assets/images/X.png'
+import LinkedInLight from '../assets/images/LinkedIn.png'
+import Facebook from '../assets/images/Facebook.png'
+import Instagram from '../assets/images/Instagram.png'
+import Youtube from '../assets/images/Youtube.png'
 
 function Aboutus() {
 
@@ -169,8 +181,141 @@ function Aboutus() {
 
             <section className='aboutus-row-5'>
                 <h2>Our Team</h2>
-                <img src={Team} />
+                <img src={Team} alt='team' />
             </section>
+
+            <section className='aboutus-row-6'>
+                <div className='aboutus-row-6-headers'>
+                    <p>We're everywhere!</p>
+                    <h1>Our team is truly global:</h1>
+                </div>
+                <div className='aboutus-row-6-bottom'>
+                    <div className='aboutus-row-6-bottom-details'>
+                        <img src={Envelope} alt='Envelope' />
+                        <img src={Phone} alt='Phone' />
+                        <img src={Location} alt='Location' />
+                    </div>
+                    <img src={Map} alt='Map' />
+                </div>
+            </section>
+
+            <section className='aboutus-timeline'>
+                <div className='aboutus-row-7'>
+                    <h1>Our story thus far</h1>
+                    <p>Here are a few significant milestones we hit during the past decade.</p>
+                </div>
+                <div className='aboutus-row-8'>
+                    <div className='aboutus-row-8-left'>
+                        2010
+                    </div>
+                    <div className='aboutus-row-8-middle'>
+                        <img src={Divider} style={{ height: "100%" }} alt='Divider' />
+                    </div>
+
+                    <div className='aboutus-row-8-right'>
+                        <p>Amalgam was born. In the early days, we worked with financial institutions. We're proud to say, we rapidly grew our numbers to double digits.</p>
+                        <img src={AvatarPlaceholder} alt='Placeholder'/>
+                    </div>
+                </div>
+
+                <div className='aboutus-row-8'>
+                    <div className='aboutus-row-8-left'>
+                        2012
+                    </div>
+                    <div className='aboutus-row-8-middle'>
+                        <img src={Divider} style={{ height: "100%" }} alt='Divider'/>
+                    </div>
+
+                    <div className='aboutus-row-8-right'>
+                        <p>Amalgam was born. In the early days, we worked with financial institutions. We're proud to say, we rapidly grew our numbers to double digits.</p>
+                        <img src={AvatarPlaceholder} alt='Placeholder'/>
+                    </div>
+                </div>
+                <div className='aboutus-row-8'>
+                    <div className='aboutus-row-8-left'>
+                        2015
+                    </div>
+                    <div className='aboutus-row-8-middle'>
+                        <img src={Divider} style={{ height: "100%" }} alt='Divider'/>
+                    </div>
+
+                    <div className='aboutus-row-8-right'>
+                        <p>Amalgam was born. In the early days, we worked with financial institutions. We're proud to say, we rapidly grew our numbers to double digits.</p>
+                        <img src={AvatarPlaceholder} alt='Divider'/>
+                    </div>
+                </div>
+                <div className='aboutus-row-8'>
+                    <div className='aboutus-row-8-left'>
+                        2019
+                    </div>
+                    <div className='aboutus-row-8-middle'>
+                        <img src={Divider} style={{ height: "100%" }} alt='Divider'/>
+                    </div>
+
+                    <div className='aboutus-row-8-right'>
+                        <p>Amalgam was born. In the early days, we worked with financial institutions. We're proud to say, we rapidly grew our numbers to double digits.</p>
+                        <img src={AvatarPlaceholder} alt='Placeholder'/>
+                    </div>
+                </div>
+
+            </section>
+
+            <section className='aboutus-timeline-2'>
+                <div className='aboutus-row-8'>
+                    <div className='aboutus-row-8-left'>
+                        2023
+                    </div>
+                    <div className='aboutus-row-8-middle'>
+                        <img src={Divider} style={{ height: "100%" }} alt='Divider' />
+                    </div>
+
+                    <div className='aboutus-row-8-right'>
+                        <p>Amalgam was born. In the early days, we worked with financial institutions. We're proud to say, we rapidly grew our numbers to double digits.</p>
+                        <img src={AvatarPlaceholder} alt='Placeholder'/>
+                    </div>
+                </div>
+
+                <div className='aboutus-row-12' style={{backgroundColor:"unset"}}>
+                    <div className='home-row-12-content'>
+                        <p className='home-row-12-header'>
+                            Get in touch
+                        </p>
+                        <p className='home-row-12-text'>Reach out to us to gather more information or set our wheels in motion.</p>
+                        <button className='home-lets-talk-bottom'>Let's talk</button>
+                    </div>
+                </div>
+
+                <div className='aboutus-row-13-last'>
+                    <div className='home-row-13-content'>
+                        <div className='home-row-13-content-left'>
+                            <img src={Amalgam} alt="Amalgam" className='logo' />
+                        </div>
+                        <div className='home-row-13-content-middle'>
+                            <p className='home-row-13-links'>Our Work</p>
+                            <p className='home-row-13-links'>About Us</p>
+                            <p className='home-row-13-links'>Blog</p>
+                            <p className='home-row-13-links'>Careers</p>
+                            <p className='home-row-13-links'>Contact Us</p>
+                        </div>
+                        <div className='home-row-13-content-right'>
+                            <img src={Facebook} className='social-media' alt='Facebook' />
+                            <img src={Instagram} className='social-media' alt='Instagram' />
+                            <img src={Xlight} className='social-media' alt='X' />
+                            <img src={LinkedInLight} className='social-media' alt='LinkedIn' />
+                            <img src={Youtube} className='social-media' alt='Youtube' />
+                        </div>
+                    </div>
+
+                    <div className='home-row-13-bottom'/>
+                    <div className='home-row-13-footer'>
+                        <p className='home-row-13-footer-links'>© 2023 Relume. All rights reserved.</p>
+                        <p className='home-row-13-footer-links'>Privacy Policy</p>
+                        <p className='home-row-13-footer-links'>Terms and Conditions</p>
+                        <p className='home-row-13-footer-links'>Cookie Policy</p>
+                    </div>
+                </div>
+            </section>
+
         </div>
     )
 }
