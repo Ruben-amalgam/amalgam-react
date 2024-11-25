@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/amalgam-react/static/css/main.23ef8405.css",
-    "main.js": "/amalgam-react/static/js/main.89fbfbb8.js",
+    "main.css": "/amalgam-react/static/css/main.352384de.css",
+    "main.js": "/amalgam-react/static/js/main.b188fdfd.js",
     "static/media/Team.png": "/amalgam-react/static/media/Team.eb9d3f6e6426a7013109.png",
     "static/media/Neeraj.png": "/amalgam-react/static/media/Neeraj.84e048d95e3471fa1f42.png",
     "static/media/Rocket.png": "/amalgam-react/static/media/Rocket.9fc8481f2ff4e97066d1.png",
+    "static/media/Teamwork.png": "/amalgam-react/static/media/Teamwork.8a186f5be262d9c6b810.png",
     "static/media/Amalgam-Group.png": "/amalgam-react/static/media/Amalgam-Group.0eaaa03af5aa0abce22a.png",
     "static/media/Tech-Consulting.png": "/amalgam-react/static/media/Tech-Consulting.4bece141fd89417595ab.png",
     "static/media/Laptop.png": "/amalgam-react/static/media/Laptop.5d2d7d927d41b3dfe55d.png",
@@ -28,11 +29,11 @@
     "static/media/PearlX.png": "/amalgam-react/static/media/PearlX.bb7ce45c0a59d075e5a1.png",
     "static/media/Placeholder2.png": "/amalgam-react/static/media/Placeholder2.fd801fc2c1c5ce802b42.png",
     "index.html": "/amalgam-react/index.html",
-    "main.23ef8405.css.map": "/amalgam-react/static/css/main.23ef8405.css.map",
-    "main.89fbfbb8.js.map": "/amalgam-react/static/js/main.89fbfbb8.js.map"
+    "main.352384de.css.map": "/amalgam-react/static/css/main.352384de.css.map",
+    "main.b188fdfd.js.map": "/amalgam-react/static/js/main.b188fdfd.js.map"
   },
   "entrypoints": [
-    "static/css/main.23ef8405.css",
-    "static/js/main.89fbfbb8.js"
+    "static/css/main.352384de.css",
+    "static/js/main.b188fdfd.js"
   ]
 }
