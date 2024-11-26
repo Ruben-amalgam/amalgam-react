@@ -19,7 +19,7 @@ function Header() {
                 </div>
                 <div className="nav-button-container">
                     <button className="careers-button" onClick={() => navigate('/careers')}>Careers</button>
-                    <button className="contact-us-button">Contact us</button>
+                    <button className="contact-us-button" onClick={() => navigate('/contactus')}>Contact us</button>
                 </div>
             </nav>
         </div>

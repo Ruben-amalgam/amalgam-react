@@ -204,7 +204,7 @@ function Blog() {
         <div className='blog-row-13'>
           <div className='blog-row-13-content'>
             <div className='blog-row-13-content-left'>
-              <img src={Amalgam} alt="Amalgam" className='logo' />
+              <img src={Amalgam} alt="Amalgam" className='logo'style={{filter:"brightness(0) invert(0)"}} />
             </div>
             <div className='blog-row-13-content-middle'>
               <p className='blog-row-13-links'>Our Work</p>
@@ -213,7 +213,7 @@ function Blog() {
               <p className='blog-row-13-links'>Careers</p>
               <p className='blog-row-13-links'>Contact Us</p>
             </div>
-            <div className='blog-row-13-content-right'>
+            <div className='blog-row-13-content-right' style={{filter:"brightness(0) invert(0)"}}>
               <img src={Facebook} className='social-media' alt='Facebook' />
               <img src={Instagram} className='social-media' alt='Instagram' />
               <img src={X} className='social-media' alt='X' />

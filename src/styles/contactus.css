@@ -1,0 +1,279 @@
+.contactus-row-1 {
+  display: flex;
+  padding: 112px 64px;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+}
+
+.contactus-row-1 h1 {
+  color: var(--Text-primary, #000);
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 24px;
+
+  /* Heading/Desktop/H1 */
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 67.2px */
+}
+
+.contactus-row-1 p {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: var(--Text-primary, #000);
+  text-align: center;
+
+  /* Text/Medium/Normal */
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+
+.contactus-row-2 {
+  display: flex;
+  padding: 112px 64px;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  background: var(--amalgam, linear-gradient(90deg, #16d6ad 0%, #5512d3 100%));
+}
+
+.contactus-row-2 form {
+  display: flex;
+  width: 560px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactus-row-2 form > label {
+  display: block; /* Makes labels appear on their own line */
+  visibility: visible; /* Ensure labels are visible */
+  margin-bottom: 8px; /* Add spacing after labels */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+  color: var(--Text-primary, #000);
+  /* Text/Regular/Normal */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+
+.contactus-row-2 form > input {
+  display: flex;
+  padding: 12px;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border: 1px solid var(--Color-Neutral-black, #000);
+  background: var(--Color-Neutral-white, #fff);
+}
+
+.contactus-row-2 form > textarea {
+  display: flex;
+  height: 180px;
+  padding: 12px;
+  align-items: flex-start;
+  align-self: stretch;
+  border: 1px solid var(--Color-Neutral-black, #000);
+  background: var(--Color-Neutral-white, #fff);
+}
+
+.contactus-row-2 form > textarea::placeholder {
+  color: var(--Color-Neutral-neutral, #666);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+
+.contactus-row-3 {
+  display: flex;
+  padding: 112px 64px;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+}
+
+.contactus-row-3-header {
+  display: flex;
+  width: 768px;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.contactus-row-3-header p {
+  color: var(--Text-primary, #000);
+  text-align: center;
+
+  /* Text/Regular/Semi Bold */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 24px */
+}
+
+.contactus-row-3-header h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: var(--Text-primary, #000);
+  text-align: center;
+
+  /* Heading/Desktop/H2 */
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 57.6px */
+}
+
+.contactus-row-3-contact {
+  display: flex;
+  align-items: flex-start;
+  gap: 48px;
+  align-self: stretch;
+}
+
+.contactus-row-3-contact div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  flex: 1 0 0;
+}
+
+.contactus-row-3-contact img {
+  width: 48px;
+  height: 48px;
+}
+
+.contactus-row-3-contact h3 {
+  color: var(--Text-primary, #000);
+  text-align: center;
+
+  /* Heading/Desktop/H4 */
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 41.6px */
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.contactus-row-3-contact p {
+  color: var(--Link-primary, #000);
+  text-align: center;
+
+  /* Text/Regular/Link */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+
+.contactus-row-4 {
+  display: flex;
+  padding: 112px 64px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 80px;
+}
+
+.contactus-row-4-content {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  align-self: stretch;
+}
+
+.contactus-row-4-content div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  flex: 1 0 0;
+}
+
+.contactus-row-4-content div h2 {
+  color: var(--Text-primary, #000);
+
+  /* Heading/Desktop/H2 */
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 57.6px */
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.contactus-row-4-content div > p {
+  /* Text/Medium/Normal */
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+
+.contactus-row-4-form {
+  display: flex;
+  width: 513px;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.contactus-row-4-form input {
+  display: flex;
+  padding: 12px;
+  align-items: center;
+  gap: 8px;
+  flex: 1 0 0;
+  margin-right: 16px;
+}
+
+.contactus-row-4-form input::placeholder {
+  color: var(--Color-Neutral-neutral, #666);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+
+.contactus-row-4-form button {
+  display: flex;
+  width: 103px;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background-color: #000;
+  color: var(--Text-alternate, #fff);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  white-space: nowrap;
+}

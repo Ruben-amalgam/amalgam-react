@@ -405,13 +405,11 @@
 }
 
 .logo {
-  filter: brightness(0) invert(0);
 }
 .social-media {
   width: 24px;
   height: 24px;
 
-  filter: brightness(0) invert(0);
 }
 
 .blog-row-13-bottom {
