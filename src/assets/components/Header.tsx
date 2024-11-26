@@ -1,9 +1,12 @@
 import React from 'react'
 import "./header.css"
 import Amalgam from '../images/Amalgam-logo.png'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom';
 
 function Header() {
+    const navigate = useNavigate();
+
     return (
         <div className="header">
             <img src={Amalgam} alt="Amalgam" className="header-logo" />
@@ -15,7 +18,7 @@ function Header() {
                     <Link to="/blog" className="navlink">Blog</Link>
                 </div>
                 <div className="nav-button-container">
-                    <button className="careers-button">Careers</button>
+                    <button className="careers-button" onClick={() => navigate('/careers')}>Careers</button>
                     <button className="contact-us-button">Contact us</button>
                 </div>
             </nav>

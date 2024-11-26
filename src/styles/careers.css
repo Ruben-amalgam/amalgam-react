@@ -1,0 +1,189 @@
+.careers-row-1 {
+  display: flex;
+  padding: 112px 64px;
+  flex-direction: column;
+  align-items: center;
+  background: var(--amalgam, linear-gradient(90deg, #16d6ad 0%, #5512d3 100%));
+}
+
+.careers-row-1 h1 {
+  color: var(--Border-alternate, #fff);
+  text-align: center;
+
+  /* Heading/Desktop/H1 */
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 67.2px */
+  margin-bottom: 24px;
+}
+
+.careers-row-1 p {
+  color: var(--Border-alternate, #fff);
+  text-align: center;
+
+  /* Text/Medium/Normal */
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+  margin-top: 0;
+}
+
+.careers-row-2 {
+  display: flex;
+  padding: 112px 64px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 80px;
+}
+
+.careers-row-2-header {
+  color: var(--Text-primary, #000);
+
+  /* Heading/Desktop/H2 */
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 57.6px */
+}
+
+.careers-row-2-content {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+}
+
+.careers-row-2 h2 {
+  color: var(--Text-primary, #000);
+
+  /* Heading/Desktop/H4 */
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 41.6px */
+}
+
+.careers-row-2-content :nth-child(2) {
+  color: var(--Text-primary, #000);
+
+  /* Text/Medium/Normal */
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+
+.careers-row-2-content :nth-child(3) {
+  color: var(--Text-primary, #000);
+  width: 768px;
+  /* Text/Regular/Normal */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+
+.careers-row-2-divider {
+  border-top: 1px solid #000;
+  width: 100%;
+}
+
+.careers-row-2-dropdown {
+  display: flex;
+  padding: 20px 0px;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  justify-content: space-between;
+}
+
+.careers-row-2-dropdown h1 {
+  margin-bottom: 0;
+  margin-top: 0;
+  color: var(--Text-primary, #000);
+
+  /* Heading/Desktop/H4 */
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 41.6px */
+}
+.careers-row-2-dropdown img {
+  width: 32px;
+  height: 32px;
+}
+
+.careers-row-3 {
+  display: flex;
+  padding: 112px 64px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 80px;
+}
+
+.careers-row-3-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 80px;
+  align-self: stretch;
+}
+.careers-row-3-right {
+  width: 50%;
+}
+.careers-row-3 h1 {
+  color: var(--Text-primary, #000);
+  width: 50%;
+
+  /* Heading/Desktop/H2 */
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 57.6px */
+}
+.careers-row-3-right-content {
+  display: flex;
+  padding: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.careers-row-3-right-content img {
+  width: 48px;
+  height: 48px;
+}
+
+.careers-row-3-right-content h3 {
+  color: var(--Text-primary, #000);
+
+  /* Heading/Desktop/H5 */
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  line-height: 140%; /* 33.6px */
+}
+
+.careers-row-3-right-content p {
+  color: var(--Text-primary, #000);
+
+  /* Text/Regular/Normal */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}

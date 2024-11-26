@@ -2,7 +2,14 @@ import React from 'react'
 import '../styles/blog.css'
 import Teamwork from '../assets/images/Teamwork.png'
 import AvatarPlaceholder from '../assets/images/AvatarPlaceholder.png'
+import Amalgam from '../assets/images/Amalgam-logo.png'
 import AvatarPlaceholder2 from '../assets/images/Placeholder2.png'
+import Facebook from '../assets/images/Facebook.png'
+import Instagram from '../assets/images/Instagram.png'
+import X from '../assets/images/X.png'
+import LinkedIn from '../assets/images/LinkedIn.png'
+import Youtube from '../assets/images/Youtube.png'
+
 
 function Blog() {
   return (
@@ -182,6 +189,46 @@ function Blog() {
       <section className='blog-row-4'>
         <div className='blog-row-4-content'>
           <h1>Subscribe to our monthly newsletter</h1>
+        </div>
+        <div className="blog-row-4-content-right">
+          <p>Stay updated with the latest insights and updates.</p>
+          <form>
+            <input type="email" placeholder="Your Email Address" required />
+            <button type="submit">Join Now</button>
+          </form>
+          <p>By joining, you agree to our Terms and Conditions.</p>
+        </div>
+
+      </section>
+      <section>
+        <div className='blog-row-13'>
+          <div className='blog-row-13-content'>
+            <div className='blog-row-13-content-left'>
+              <img src={Amalgam} alt="Amalgam" className='logo' />
+            </div>
+            <div className='blog-row-13-content-middle'>
+              <p className='blog-row-13-links'>Our Work</p>
+              <p className='blog-row-13-links'>About Us</p>
+              <p className='blog-row-13-links'>Blog</p>
+              <p className='blog-row-13-links'>Careers</p>
+              <p className='blog-row-13-links'>Contact Us</p>
+            </div>
+            <div className='blog-row-13-content-right'>
+              <img src={Facebook} className='social-media' alt='Facebook' />
+              <img src={Instagram} className='social-media' alt='Instagram' />
+              <img src={X} className='social-media' alt='X' />
+              <img src={LinkedIn} className='social-media' alt='LinkedIn' />
+              <img src={Youtube} className='social-media' alt='Youtube' />
+            </div>
+          </div>
+
+          <div className='blog-row-13-bottom'></div>
+          <div className='blog-row-13-footer'>
+            <p className='blog-row-13-footer-links'>© 2023 Relume. All rights reserved.</p>
+            <p className='blog-row-13-footer-links'>Privacy Policy</p>
+            <p className='blog-row-13-footer-links'>Terms and Conditions</p>
+            <p className='blog-row-13-footer-links'>Cookie Policy</p>
+          </div>
         </div>
       </section>
     </div>

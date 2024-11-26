@@ -5,6 +5,7 @@ import Header from './assets/components/Header'
 import Aboutus from './routes/Aboutus';
 import Ourwork from './routes/Ourwork';
 import Blog from 'routes/Blog';
+import Careers from 'routes/Careers';
 
 
 const App: React.FC = () => {
@@ -16,6 +17,7 @@ const App: React.FC = () => {
         <Route path="/ourwork" element={<Ourwork />} /> 
         <Route path="/aboutus" element={<Aboutus />} /> 
         <Route path="/blog" element={<Blog />} /> 
+        <Route path="/careers" element={<Careers/>} /> 
       </Routes>
     </Router>
   );
