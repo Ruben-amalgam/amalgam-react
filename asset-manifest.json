@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/amalgam-react/static/css/main.352384de.css",
-    "main.js": "/amalgam-react/static/js/main.b188fdfd.js",
+    "main.css": "/amalgam-react/static/css/main.f35f2de1.css",
+    "main.js": "/amalgam-react/static/js/main.82f5cb15.js",
     "static/media/Team.png": "/amalgam-react/static/media/Team.eb9d3f6e6426a7013109.png",
     "static/media/Neeraj.png": "/amalgam-react/static/media/Neeraj.84e048d95e3471fa1f42.png",
     "static/media/Rocket.png": "/amalgam-react/static/media/Rocket.9fc8481f2ff4e97066d1.png",
@@ -29,11 +29,11 @@
     "static/media/PearlX.png": "/amalgam-react/static/media/PearlX.bb7ce45c0a59d075e5a1.png",
     "static/media/Placeholder2.png": "/amalgam-react/static/media/Placeholder2.fd801fc2c1c5ce802b42.png",
     "index.html": "/amalgam-react/index.html",
-    "main.352384de.css.map": "/amalgam-react/static/css/main.352384de.css.map",
-    "main.b188fdfd.js.map": "/amalgam-react/static/js/main.b188fdfd.js.map"
+    "main.f35f2de1.css.map": "/amalgam-react/static/css/main.f35f2de1.css.map",
+    "main.82f5cb15.js.map": "/amalgam-react/static/js/main.82f5cb15.js.map"
   },
   "entrypoints": [
-    "static/css/main.352384de.css",
-    "static/js/main.b188fdfd.js"
+    "static/css/main.f35f2de1.css",
+    "static/js/main.82f5cb15.js"
   ]
 }
