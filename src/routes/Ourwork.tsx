@@ -1,10 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Laptop from '../assets/images/Laptop.png'
 import '../styles/ourwork.css'
 import Cube from '../assets/images/Cube.png'
 import Easel from '../assets/images/Easel.png'
+import {Link, useLocation, useNavigate } from 'react-router-dom'
 
 function Ourwork() {
+    const navigate = useNavigate();
+    const { pathname } = useLocation();
+    useEffect(() => {
+        window.scrollTo(0, 0); // Scroll to the top
+    }, [pathname]);
     return (
         <div>
             <div className='ourwork-row-1'>
@@ -52,7 +58,7 @@ function Ourwork() {
                     </div>
 
                     <div>
-                        <img src={Easel} alt="" className='easel'/>
+                        <img src={Easel} alt="" className='easel' />
                     </div>
 
                 </div>

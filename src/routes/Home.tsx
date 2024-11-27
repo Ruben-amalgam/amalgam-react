@@ -1,9 +1,8 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../styles/home.css'
 import Rocket from '../assets/images/Rocket.png'
 import Solutions from '../assets/images/Solutions.png'
 import Webflow from '../assets/images/Webflow.png'
-import Placeholder from '../assets/images/Placeholder.png'
 import Consulting from '../assets/images/Consulting.png'
 import Entrprenuer from '../assets/images/Entrepreneurial-Hub.png'
 import TechConsulting from '../assets/images/Tech-Consulting.png'
@@ -28,8 +27,14 @@ import PearlX from '../assets/images/carousel-photos/PearlX.png'
 import PFA from '../assets/images/carousel-photos/PFA.png'
 import Sofi from '../assets/images/carousel-photos/Sofi.png'
 import Zenbank from '../assets/images/carousel-photos/Zenbanx.png'
+import {Link, useLocation, useNavigate } from 'react-router-dom'
 
 function Home() {
+    const navigate = useNavigate();
+    const { pathname } = useLocation();
+    useEffect(() => {
+        window.scrollTo(0, 0); // Scroll to the top
+    }, [pathname]);
     return (
         <div >
             <div className='home-row-1'>
@@ -37,7 +42,7 @@ function Home() {
                     <h1 className="home-row-1-heading">We're the rocket fuel to your moonshot</h1>
                     <p className='home-text'>We empower visionary business owners like you to make their ideas come to life. Benefit from our long-standing expertise in business development and product-building, and access our network of enlightened entrepreneurs. Are you working on a breakthrough idea?</p>
                     <p className='home-text'>Are you working on a breakthrough idea?</p>
-                    <button className='home-lets-talk'>Let's talk</button>
+                    <button className='home-lets-talk' onClick={() => {navigate("./contactus")}}>Let's talk</button>
                 </div>
                 <img src={Rocket} className='rocket' alt='Rocket' />
             </div>
@@ -262,11 +267,11 @@ function Home() {
                         <img src={Amalgam} alt="Amalgam" className='logo' />
                     </div>
                     <div className='home-row-13-content-middle'>
-                        <p className='home-row-13-links'>Our Work</p>
-                        <p className='home-row-13-links'>About Us</p>
-                        <p className='home-row-13-links'>Blog</p>
-                        <p className='home-row-13-links'>Careers</p>
-                        <p className='home-row-13-links'>Contact Us</p>
+                        <Link to="/ourwork" className='home-row-13-links'>Our Work</Link>
+                        <Link to="/aboutus" className='home-row-13-links'>About Us</Link>
+                        <Link to="blog" className='home-row-13-links'>Blog</Link>
+                        <Link to="careers" className='home-row-13-links'>Careers</Link>
+                        <Link to="contactus" className='home-row-13-links'>Contact Us</Link>
                     </div>
                     <div className='home-row-13-content-right'>
                         <img src={Facebook} className='social-media' alt='Facebook' />

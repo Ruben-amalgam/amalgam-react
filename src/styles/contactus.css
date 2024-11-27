@@ -236,6 +236,10 @@
   line-height: 150%; /* 27px */
 }
 
+.contactus-row-4-content img {
+  height: 400px;
+  flex: 1 0 0;
+}
 .contactus-row-4-form {
   display: flex;
   width: 513px;

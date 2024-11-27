@@ -769,6 +769,7 @@
   font-weight: 600;
   line-height: 150%; /* 24px */
   flex-wrap: nowrap;
+  text-decoration: none;
 }
 
 .home-row-13-content-right {

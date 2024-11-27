@@ -121,6 +121,11 @@
   height: 32px;
 }
 
+.careers-row-2-dropdown button {
+  border: none;
+  background-color: white;
+}
+
 .careers-row-3 {
   display: flex;
   padding: 112px 64px;

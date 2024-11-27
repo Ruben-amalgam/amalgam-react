@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../styles/contactus.css'
 import Envelope from '../assets/icons/Envelope.png'
 import Phone from '../assets/icons/Phone.png'
@@ -9,10 +9,16 @@ import Instagram from '../assets/images/Instagram.png'
 import X from '../assets/images/X.png'
 import LinkedIn from '../assets/images/LinkedIn.png'
 import Youtube from '../assets/images/Youtube.png'
-
+import { Link, useLocation, useNavigate } from "react-router-dom";
+import Placeholder from '../assets/images/Placeholder.png'
 
 
 function ContactUs() {
+  const navigate = useNavigate();
+    const { pathname } = useLocation();
+    useEffect(() => {
+        window.scrollTo(0, 0); // Scroll to the top
+    }, [pathname]);
   return (
     <div>
 
@@ -86,7 +92,7 @@ function ContactUs() {
               <p>By clicking Sign Up, you confirm that you agree with our Terms and Conditions.</p>
             </div>
           </div>
-          <img src="" alt="" />
+          <img src={Placeholder} alt="" />
         </div>
       </section>
 
@@ -97,11 +103,11 @@ function ContactUs() {
               <img src={Amalgam} alt="Amalgam" className='logo' style={{ filter: "brightness(0) invert(0)" }} />
             </div>
             <div className='blog-row-13-content-middle'>
-              <p className='blog-row-13-links'>Our Work</p>
-              <p className='blog-row-13-links'>About Us</p>
-              <p className='blog-row-13-links'>Blog</p>
-              <p className='blog-row-13-links'>Careers</p>
-              <p className='blog-row-13-links'>Contact Us</p>
+              <Link to="/ourwork" className='blog-row-13-links'>Our Work</Link>
+              <Link to="/aboutus" className='blog-row-13-links'>About Us</Link>
+              <Link to="/blog" className='blog-row-13-links'>Blog</Link>
+              <Link to="/careers" className='blog-row-13-links'>Careers</Link>
+              <Link to="/contactus" className='blog-row-13-links'>Contact Us</Link>
             </div>
             <div className='blog-row-13-content-right' style={{ filter: "brightness(0) invert(0)" }}>
               <img src={Facebook} className='social-media' alt='Facebook' />

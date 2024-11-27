@@ -7,6 +7,8 @@ import Ourwork from './routes/Ourwork';
 import Blog from 'routes/Blog';
 import Careers from 'routes/Careers';
 import ContactUs from 'routes/ContactUs';
+import Startups from 'routes/Startups';
+import Faq from 'routes/Faq';
 
 
 const App: React.FC = () => {
@@ -20,6 +22,8 @@ const App: React.FC = () => {
         <Route path="/blog" element={<Blog />} /> 
         <Route path="/careers" element={<Careers/>} /> 
         <Route path="/contactus" element={<ContactUs/>} /> 
+        <Route path="/startups" element={<Startups/>} /> 
+        <Route path="/faq" element={<Faq/>} /> 
       </Routes>
     </Router>
   );

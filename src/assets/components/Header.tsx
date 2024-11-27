@@ -1,13 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./header.css"
 import Amalgam from '../images/Amalgam-logo.png'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom';
 
 function Header() {
     const navigate = useNavigate();
+    const { pathname } = useLocation();
+    useEffect(() => {
+        window.scrollTo(0, 0); // Scroll to the top
+    }, [pathname]);
 
     return (
+
         <div className="header">
             <img src={Amalgam} alt="Amalgam" className="header-logo" />
             <nav className="nav">

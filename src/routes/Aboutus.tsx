@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../styles/aboutus.css'
 import AvatarPlaceholder from '../assets/images/Placeholder2.png'
 import Neeraj from '../assets/images/Neeraj.png'
@@ -19,8 +19,14 @@ import LinkedInLight from '../assets/images/LinkedIn.png'
 import Facebook from '../assets/images/Facebook.png'
 import Instagram from '../assets/images/Instagram.png'
 import Youtube from '../assets/images/Youtube.png'
+import {Link, useLocation, useNavigate } from 'react-router-dom'
 
 function Aboutus() {
+    const navigate = useNavigate();
+    const { pathname } = useLocation();
+    useEffect(() => {
+        window.scrollTo(0, 0); // Scroll to the top
+    }, [pathname]);
 
     const employees1 = [
         {
@@ -214,7 +220,7 @@ function Aboutus() {
 
                     <div className='aboutus-row-8-right'>
                         <p>Amalgam was born. In the early days, we worked with financial institutions. We're proud to say, we rapidly grew our numbers to double digits.</p>
-                        <img src={AvatarPlaceholder} alt='Placeholder'/>
+                        <img src={AvatarPlaceholder} alt='Placeholder' />
                     </div>
                 </div>
 
@@ -223,12 +229,12 @@ function Aboutus() {
                         2012
                     </div>
                     <div className='aboutus-row-8-middle'>
-                        <img src={Divider} style={{ height: "100%" }} alt='Divider'/>
+                        <img src={Divider} style={{ height: "100%" }} alt='Divider' />
                     </div>
 
                     <div className='aboutus-row-8-right'>
                         <p>Amalgam was born. In the early days, we worked with financial institutions. We're proud to say, we rapidly grew our numbers to double digits.</p>
-                        <img src={AvatarPlaceholder} alt='Placeholder'/>
+                        <img src={AvatarPlaceholder} alt='Placeholder' />
                     </div>
                 </div>
                 <div className='aboutus-row-8'>
@@ -236,12 +242,12 @@ function Aboutus() {
                         2015
                     </div>
                     <div className='aboutus-row-8-middle'>
-                        <img src={Divider} style={{ height: "100%" }} alt='Divider'/>
+                        <img src={Divider} style={{ height: "100%" }} alt='Divider' />
                     </div>
 
                     <div className='aboutus-row-8-right'>
                         <p>Amalgam was born. In the early days, we worked with financial institutions. We're proud to say, we rapidly grew our numbers to double digits.</p>
-                        <img src={AvatarPlaceholder} alt='Divider'/>
+                        <img src={AvatarPlaceholder} alt='Divider' />
                     </div>
                 </div>
                 <div className='aboutus-row-8'>
@@ -249,12 +255,12 @@ function Aboutus() {
                         2019
                     </div>
                     <div className='aboutus-row-8-middle'>
-                        <img src={Divider} style={{ height: "100%" }} alt='Divider'/>
+                        <img src={Divider} style={{ height: "100%" }} alt='Divider' />
                     </div>
 
                     <div className='aboutus-row-8-right'>
                         <p>Amalgam was born. In the early days, we worked with financial institutions. We're proud to say, we rapidly grew our numbers to double digits.</p>
-                        <img src={AvatarPlaceholder} alt='Placeholder'/>
+                        <img src={AvatarPlaceholder} alt='Placeholder' />
                     </div>
                 </div>
 
@@ -271,11 +277,11 @@ function Aboutus() {
 
                     <div className='aboutus-row-8-right'>
                         <p>Amalgam was born. In the early days, we worked with financial institutions. We're proud to say, we rapidly grew our numbers to double digits.</p>
-                        <img src={AvatarPlaceholder} alt='Placeholder'/>
+                        <img src={AvatarPlaceholder} alt='Placeholder' />
                     </div>
                 </div>
 
-                <div className='aboutus-row-12' style={{backgroundColor:"unset"}}>
+                <div className='aboutus-row-12' style={{ backgroundColor: "unset" }}>
                     <div className='home-row-12-content'>
                         <p className='home-row-12-header'>
                             Get in touch
@@ -291,11 +297,11 @@ function Aboutus() {
                             <img src={Amalgam} alt="Amalgam" className='logo' />
                         </div>
                         <div className='home-row-13-content-middle'>
-                            <p className='home-row-13-links'>Our Work</p>
-                            <p className='home-row-13-links'>About Us</p>
-                            <p className='home-row-13-links'>Blog</p>
-                            <p className='home-row-13-links'>Careers</p>
-                            <p className='home-row-13-links'>Contact Us</p>
+                            <Link to="/ourwork" className='home-row-13-links'>Our Work</Link>
+                            <Link to="/aboutus" className='home-row-13-links'>About Us</Link>
+                            <Link to="/blog" className='home-row-13-links'>Blog</Link>
+                            <Link to="/careers" className='home-row-13-links'>Careers</Link>
+                            <Link to="/contactus" className='home-row-13-links'>Contact Us</Link>
                         </div>
                         <div className='home-row-13-content-right'>
                             <img src={Facebook} className='social-media' alt='Facebook' />
@@ -306,7 +312,7 @@ function Aboutus() {
                         </div>
                     </div>
 
-                    <div className='home-row-13-bottom'/>
+                    <div className='home-row-13-bottom' />
                     <div className='home-row-13-footer'>
                         <p className='home-row-13-footer-links'>© 2023 Relume. All rights reserved.</p>
                         <p className='home-row-13-footer-links'>Privacy Policy</p>
