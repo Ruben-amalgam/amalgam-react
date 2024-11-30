@@ -8,14 +8,15 @@ import Instagram from '../assets/images/Instagram.png'
 import X from '../assets/images/X.png'
 import LinkedIn from '../assets/images/LinkedIn.png'
 import Youtube from '../assets/images/Youtube.png'
-import {Link, useLocation  } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
+import Accordion from '../assets/components/Accordion'
 
 
 function Careers() {
-    const { pathname } = useLocation();
-    useEffect(() => {
-        window.scrollTo(0, 0); // Scroll to the top
-    }, [pathname]);
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top
+  }, [pathname]);
   return (
     <div>
       <section className='careers-row-1'>
@@ -27,16 +28,9 @@ function Careers() {
         <div className='careers-row-2-header'>
           <h1>Our open roles</h1>
         </div>
-        <div className='careers-row-2-content'>
-          <h2>Marketing Department</h2>
-          <p>New York</p>
-          <p>We are seeking a talented Marketing Specialist to join our dynamic team in New York. The ideal candidate will have a strong background in digital marketing and a passion for driving results.</p>
-        </div>
-        <div className='careers-row-2-content'>
-          <h2>Graphic Designer</h2>
-          <p>Boston </p>
-          <p>We are looking for a creative Graphic Designer to join our marketing team in Denver. The ideal candidate will have a strong portfolio and a passion for visual storytelling.</p>
-        </div>
+        <Accordion />
+        {/*
+        
         <div style={{ width: "100%" }}>
           <div className='careers-row-2-divider' />
           <div className='careers-row-2-dropdown'>
@@ -48,7 +42,7 @@ function Careers() {
             <h1>Operation Department</h1>
             <button><img src={Chevron} alt='Chevron'/></button>
           </div>
-        </div>
+        </div> */}
       </section>
 
       <section className='careers-row-3'>
@@ -84,7 +78,7 @@ function Careers() {
         <div className='blog-row-13'>
           <div className='blog-row-13-content'>
             <div className='blog-row-13-content-left'>
-              <img src={Amalgam} alt="Amalgam" className='logo' style={{filter:"brightness(0) invert(0)"}}/>
+              <img src={Amalgam} alt="Amalgam" className='logo' style={{ filter: "brightness(0) invert(0)" }} />
             </div>
             <div className='blog-row-13-content-middle'>
               <Link to="/ourwork" className='blog-row-13-links'>Our Work</Link>
@@ -93,7 +87,7 @@ function Careers() {
               <Link to="/careers" className='blog-row-13-links'>Careers</Link>
               <Link to="/contactus" className='blog-row-13-links'>Contact Us</Link>
             </div>
-            <div className='blog-row-13-content-right' style={{filter:"brightness(0) invert(0)"}}>
+            <div className='blog-row-13-content-right' style={{ filter: "brightness(0) invert(0)" }}>
               <img src={Facebook} className='social-media' alt='Facebook' />
               <img src={Instagram} className='social-media' alt='Instagram' />
               <img src={X} className='social-media' alt='X' />

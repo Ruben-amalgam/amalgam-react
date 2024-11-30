@@ -1,19 +1,7 @@
-import React, { useEffect } from 'react'
-import '../styles/home.css'
-import Rocket from '../assets/images/Rocket.png'
-import Solutions from '../assets/images/Solutions.png'
-import Webflow from '../assets/images/Webflow.png'
-import Consulting from '../assets/images/Consulting.png'
-import Entrprenuer from '../assets/images/Entrepreneurial-Hub.png'
-import TechConsulting from '../assets/images/Tech-Consulting.png'
+import { useEffect } from 'react'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 import AmalgamGroup from '../assets/images/Amalgam-Group.png'
 import Amalgam from '../assets/images/Amalgam-logo.png'
-import Cube from '../assets/images/Cube.png'
-import Facebook from '../assets/images/Facebook.png'
-import Instagram from '../assets/images/Instagram.png'
-import X from '../assets/images/X.png'
-import LinkedIn from '../assets/images/LinkedIn.png'
-import Youtube from '../assets/images/Youtube.png'
 import AFmensa from '../assets/images/carousel-photos/AFmensa.png'
 import BankOfGuam from '../assets/images/carousel-photos/BankOfGuam.png'
 import BureauVanDijk from '../assets/images/carousel-photos/BureauVanDijk.png'
@@ -27,7 +15,24 @@ import PearlX from '../assets/images/carousel-photos/PearlX.png'
 import PFA from '../assets/images/carousel-photos/PFA.png'
 import Sofi from '../assets/images/carousel-photos/Sofi.png'
 import Zenbank from '../assets/images/carousel-photos/Zenbanx.png'
-import {Link, useLocation, useNavigate } from 'react-router-dom'
+import Consulting from '../assets/images/Consulting.png'
+import Cube from '../assets/images/Cube.png'
+import Entrprenuer from '../assets/images/Entrepreneurial-Hub.png'
+import Facebook from '../assets/images/Facebook.png'
+import Fitzmier from '../assets/images/Fitzmier.png'
+import Mooney from '../assets/images/Mooney.png'
+import Mendoza from '../assets/images/Mendoza.png'
+import Instagram from '../assets/images/Instagram.png'
+import LinkedIn from '../assets/images/LinkedIn.png'
+import Rocket from '../assets/images/Rocket.png'
+import Solutions from '../assets/images/Solutions.png'
+import TechConsulting from '../assets/images/Tech-Consulting.png'
+import X from '../assets/images/X.png'
+import Youtube from '../assets/images/Youtube.png'
+import LeftQoutes from '../assets/images/LeftQuotes.png'
+import RightQoutes from '../assets/images/RightQuotes.png'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../styles/home.css'
 
 function Home() {
     const navigate = useNavigate();
@@ -42,13 +47,13 @@ function Home() {
                     <h1 className="home-row-1-heading">We're the rocket fuel to your moonshot</h1>
                     <p className='home-text'>We empower visionary business owners like you to make their ideas come to life. Benefit from our long-standing expertise in business development and product-building, and access our network of enlightened entrepreneurs. Are you working on a breakthrough idea?</p>
                     <p className='home-text'>Are you working on a breakthrough idea?</p>
-                    <button className='home-lets-talk' onClick={() => {navigate("./contactus")}}>Let's talk</button>
+                    <button className='home-lets-talk' onClick={() => { navigate("./contactus") }}>Let's talk</button>
                 </div>
                 <img src={Rocket} className='rocket' alt='Rocket' />
             </div>
 
             <div className='home-row-2'>
-                <h3 className='home-row-2-header'>We've worked with:</h3>
+                <h3 className='home-row-2-header' style={{ fontSize: "48px" }}>We've worked with:</h3>
                 <div className='home-row-2-worked-with'>
                     <div className='home-row-2-carousel-content'>
                         <img src={AFmensa} className='afmensa' alt='AFmensa' />
@@ -131,44 +136,56 @@ function Home() {
                 <div className='home-row-6-header'>
                     Why us? Hear it from our clients
                 </div>
-                <div className='home-row-6-webflow-container'>
-                    <div className='home-row-6-left'>
-                        <img src={Webflow} className='home-row-6-image' alt='Webflow' />
-                        <p className='home-row-6-webflow-header'>Partnering with Amalgam has helped us to streamline our team’s evaluative workflows and to pilot new technologies in ways that consistently help us to better understand the impact of our funding and to learn how to improve our grantmaking.</p>
-                        <div>
-                            <p className='home-row-6-name'>Steve Fitzmier</p>
-                            <p className='home-row-6-title'>Director of Planning & Evaluation, John Templeton Foundation</p>
+                <div className='home-row-6-content-container left'>
+                    <div className='home-row-6-content'>
+                        <p className='home-row-6-statement'>Partnering with
+                            Amalgam has helped us to streamline our team’s evaluative workflows and to pilot new technologies in ways that consistently help us to better understand the impact of our funding and to learn how to improve our grantmaking.
+                            <img src={LeftQoutes} alt="LeftQuotes" className='left-qoutes' />
+                            <img src={RightQoutes} alt="RightQuotes" className='right-qoutes' />
+                        </p>
+
+                        <div className='home-row-6-author-container'>
+                            <div>
+                                <p className='home-row-6-name'>Steve Fitzmier</p>
+                                <p className='home-row-6-title'>Director of Planning & Evaluation, <br /> John Templeton Foundation</p>
+                            </div>
+                            <img src={Fitzmier} className='author' />
+                        </div>
+
+                    </div>
+
+                    <div style={{ display: "flex", justifyContent: "flex-end" }}>
+                        <div className='home-row-6-content' id='content2' style={{ alignSelf: "right" }}>
+                            <p className='home-row-6-statement'>
+                                <img src={LeftQoutes} alt="LeftQuotes" className='left-qoutes' />
+                                <img src={RightQoutes} alt="RightQuotes" className='right-qoutes' />
+                                We’ve worked with many consulting firms, but finding one that delivers excellent results and genuinely cares about our success is extremely rare. The Amalgam team has been delightful, working smoothly, consistently keeping us informed, and accommodating every change we needed..</p>
+                            <div className='home-row-6-author-container'>
+                                <div>
+                                    <p className='home-row6-name'>Mike Mooney</p>
+                                    <p className='home-row-6-title'>Chief Technology Officer,<br /> CleanItSupply</p>
+                                </div>
+                                <img src={Mooney} className='author' />
+                            </div>
                         </div>
                     </div>
-                    <div className='home-row-6-left'>
-                        <img src={Webflow} className='home-row-6-image' alt='Webflow' />
-                        <p className='home-row-6-webflow-header'>We’ve worked with many consulting firms, but finding one that delivers excellent results and genuinely cares about our success is extremely rare. The Amalgam team has been delightful, working smoothly, consistently keeping us informed, and accommodating every change we needed.</p>
-                        <div>
-                            <p className='home-row-6-name'>Mike Mooney</p>
-                            <p className='home-row-6-title'>Chief Technology Officer, CleanItSupply</p>
+
+                    <div>
+                        <div className='home-row-6-content' id='content3' style={{ alignSelf: "right" }}>
+                            <p className='home-row-6-statement'>Amalgam has helped us build the virtual power plant that has helped us raise over $100 millions to date. They've been our loyal allies since our early days, wisely guiding our efforts as we scaled. That's why they're our sole development partner.</p>
+                            <div className='home-row-6-author-container'>
+                                <div>
+                                    <p className='home-row-6-name'>Peter Mendonez</p>
+                                    <p className='home-row-6-title'>Co-Founder and President, PearlX<br /> Infrastructure</p>
+                                </div>
+                                <img src={Mendoza} className='author' />
+                            </div>
                         </div>
                     </div>
+
                 </div>
             </div>
-            <div className='home-row-6-webflow-container'>
-                <div className='home-row-6-left'>
-                    <img src={Webflow} className='home-row-6-image' alt='Webflow' />
-                    <p className='home-row-6-webflow-header'>Amalgam has helped us build the virtual power plant that has
-                        helped us raise over $100 millions to date. They've been our loyal allies since our early days, wisely guiding our efforts as we scaled. That's why they're our sole development partner.</p>
-                    <div>
-                        <p className='home-row-6-name'>Peter Mendonez</p>
-                        <p className='home-row-6-title'>Co-Founder and President, PearlX Infrastructure</p>
-                    </div>
-                </div>
-                <div className='home-row-6-left'>
-                    <img src={Webflow} className='home-row-6-image' alt='Webflow' />
-                    <p className='home-row-6-webflow-header'>ASK NEERAJ TO BE PUT IN TOUCH GET QUOTE GET QUOTE GET QUOTE</p>
-                    <div>
-                        <p className='home-row-6-name'>Zach Peterson</p>
-                        <p className='home-row-6-title'>Chief Operating Officer, Premier Financial Alliance</p>
-                    </div>
-                </div>
-            </div>
+
 
             <div className='home-row-7'>
                 <div className='home-row-7-container'>

@@ -1,13 +1,24 @@
 .aboutus-row-1 {
   display: flex;
-  padding: 112px 64px;
-  flex-direction: column;
+  padding: 90px 64px;
+  flex-direction: row;
+  align-items: center;
   justify-content: center;
-  align-items: flex-start;
+  position: relative;
   gap: 80px;
-  margin-top: 200px;
+  margin-top: 40px;
 }
+.aboutus-row-1-header {
+  color: var(--Text-primary, #000);
+  text-align: center;
 
+  /* Heading/Desktop/H1 */
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 67.2px */
+}
 .aboutus-row-1-content {
   display: flex;
   width: 768px;
@@ -75,10 +86,8 @@
 }
 
 .Neeraj {
-  width: 871px;
-  height: 809px;
-  position: absolute;
-  right: 0;
+  width: 619px;
+  height: 585px;
 }
 
 .aboutus-row-2 {
@@ -496,4 +505,3 @@
   align-items: center;
   gap: 40px;
 }
-

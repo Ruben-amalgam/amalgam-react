@@ -19,7 +19,7 @@ import LinkedInLight from '../assets/images/LinkedIn.png'
 import Facebook from '../assets/images/Facebook.png'
 import Instagram from '../assets/images/Instagram.png'
 import Youtube from '../assets/images/Youtube.png'
-import {Link, useLocation, useNavigate } from 'react-router-dom'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 
 function Aboutus() {
     const navigate = useNavigate();
@@ -91,17 +91,18 @@ function Aboutus() {
     ]
 
     return (
-        <div>
+        <div >
             <section className='aboutus-row-1'>
                 <div className='aboutus-row-1-content'>
+                    <h1 className='aboutus-row-1-header' style={{ position: "absolute", top: 50,  left: "50%", transform: "translate(-50%, -50%)"}}>Get to know us</h1>
                     <h2>When I founded Amalgam, I wanted to build a business that reflected my ethos. We made one promise to our clients, and never broke it: to always put them first.</h2>
                     <div className='aboutus-row-1-info'>
                         <img src={AvatarPlaceholder} alt="placeholder" />
                         <h4>Neeraj Vir</h4>
                         <p>CEO, Amalgam</p>
                     </div>
-                    <img src={Neeraj} className='Neeraj' alt="Neeraj" />
                 </div>
+                <img src={Neeraj} className='Neeraj' alt="Neeraj" />
             </section>
 
             <section className='aboutus-row-2'>
