@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import '../styles/careers.css'
 import Chevron from '../assets/icons/ChevronDown.png'
 import Cube from '../assets/images/Cube.png'
+import Dots from '../assets/images/Dots.png'
 import Amalgam from '../assets/images/Amalgam-logo.png'
 import Facebook from '../assets/images/Facebook.png'
 import Instagram from '../assets/images/Instagram.png'
@@ -9,7 +10,7 @@ import X from '../assets/images/X.png'
 import LinkedIn from '../assets/images/LinkedIn.png'
 import Youtube from '../assets/images/Youtube.png'
 import { Link, useLocation } from 'react-router-dom'
-import Accordion from '../assets/components/Accordion'
+import Accordion from '../assets/components/AccordionCareers'
 
 
 function Careers() {
@@ -46,6 +47,7 @@ function Careers() {
       </section>
 
       <section className='careers-row-3'>
+        <img src={Dots} alt="dots" className='careers-dots' />
         <div className='careers-row-3-content'>
           <h1>You'll love it here if:</h1>
           <div className='careers-row-3-right'>
@@ -88,11 +90,11 @@ function Careers() {
               <Link to="/contactus" className='blog-row-13-links'>Contact Us</Link>
             </div>
             <div className='blog-row-13-content-right' style={{ filter: "brightness(0) invert(0)" }}>
-              <img src={Facebook} className='social-media' alt='Facebook' />
+              {/* <img src={Facebook} className='social-media' alt='Facebook' />
               <img src={Instagram} className='social-media' alt='Instagram' />
-              <img src={X} className='social-media' alt='X' />
+              <img src={X} className='social-media' alt='X' /> */}
               <img src={LinkedIn} className='social-media' alt='LinkedIn' />
-              <img src={Youtube} className='social-media' alt='Youtube' />
+              {/* <img src={Youtube} className='social-media' alt='Youtube' /> */}
             </div>
           </div>
 

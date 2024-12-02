@@ -219,11 +219,11 @@ function Blog() {
               <Link to="/contactus" className='blog-row-13-links'>Contact Us</Link>
             </div>
             <div className='blog-row-13-content-right' style={{ filter: "brightness(0) invert(0)" }}>
-              <img src={Facebook} className='social-media' alt='Facebook' />
+              {/* <img src={Facebook} className='social-media' alt='Facebook' />
               <img src={Instagram} className='social-media' alt='Instagram' />
-              <img src={X} className='social-media' alt='X' />
+              <img src={X} className='social-media' alt='X' /> */}
               <img src={LinkedIn} className='social-media' alt='LinkedIn' />
-              <img src={Youtube} className='social-media' alt='Youtube' />
+              {/* <img src={Youtube} className='social-media' alt='Youtube' /> */}
             </div>
           </div>
 

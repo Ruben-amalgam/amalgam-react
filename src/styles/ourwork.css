@@ -11,6 +11,11 @@
   width: 582px;
   height: 407px;
 }
+.ourwork-row-1-background {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: relative;
+}
 
 .ourwork-lets-talk {
   width: 95px;
@@ -52,6 +57,16 @@
   flex-direction: column;
   align-items: center;
   gap: 80px;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.dots {
+  width: 605px;
+  height: 588px;
+  position: absolute;
+  top: 45%; /* Center vertically */
+  right: -27%; /* Align to the right */
 }
 
 .ourwork-row-2-container {
@@ -120,6 +135,7 @@
   flex-direction: column;
   align-items: center;
   gap: 80px;
+  padding: 112px 64px;
 }
 
 .ourwork-row-4-container {

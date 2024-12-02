@@ -4,6 +4,8 @@ import Envelope from '../assets/icons/Envelope.png'
 import Phone from '../assets/icons/Phone.png'
 import Location from '../assets/icons/Location.png'
 import Amalgam from '../assets/images/Amalgam-logo.png'
+import Swirl from '../assets/images/Swirl.png'
+import Writing from '../assets/images/Writing.png'
 import Facebook from '../assets/images/Facebook.png'
 import Instagram from '../assets/images/Instagram.png'
 import X from '../assets/images/X.png'
@@ -15,32 +17,42 @@ import Placeholder from '../assets/images/Placeholder.png'
 
 function ContactUs() {
   const navigate = useNavigate();
-    const { pathname } = useLocation();
-    useEffect(() => {
-        window.scrollTo(0, 0); // Scroll to the top
-    }, [pathname]);
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top
+  }, [pathname]);
   return (
     <div>
 
-      <section className='contactus-row-1'>
-        <div>
-          <h1>Let's talk!</h1>
-          <p>We're here to help. Contact us for any inquiries or support.</p>
-        </div>
-      </section>
+      <div style={{ position: "relative" }}>
+        <section className='contactus-row-1'>
+          <img src={Swirl} alt="Swirl" className='swirl' />
+          <div>
+            <h1>Let's talk!</h1>
+            <p>We're here to help. Contact us for any inquiries or support.</p>
+          </div>
+        </section>
 
-      <section className='contactus-row-2'>
-        <form>
-          <label htmlFor="">Name</label>
-          <input type="text" />
+        <section className='contactus-row-2'>
+          <img src={Writing} alt="Swirl" className='contactus-blobert' />
+          <form>
+            <label htmlFor="">Name</label>
+            <input type="text" />
 
-          <label htmlFor="">Email</label>
-          <input type="text" />
+            <label htmlFor="">Email</label>
+            <input type="text" />
 
-          <label >Message</label>
-          <textarea name="comments" placeholder="Enter your message"></textarea>
-        </form>
-      </section>
+            <label >Message</label>
+            <textarea name="comments" placeholder="Enter your message"></textarea>
+            <div className='contactus-label'>
+              <input type="checkbox" />
+              <p>I agree to the Terms</p>
+            </div>
+            <button>Get in touch</button>
+
+          </form>
+        </section>
+      </div>
 
       <section className='contactus-row-3'>
         <div className='contactus-row-3-header'>
@@ -110,11 +122,11 @@ function ContactUs() {
               <Link to="/contactus" className='blog-row-13-links'>Contact Us</Link>
             </div>
             <div className='blog-row-13-content-right' style={{ filter: "brightness(0) invert(0)" }}>
-              <img src={Facebook} className='social-media' alt='Facebook' />
+              {/* <img src={Facebook} className='social-media' alt='Facebook' />
               <img src={Instagram} className='social-media' alt='Instagram' />
-              <img src={X} className='social-media' alt='X' />
+              <img src={X} className='social-media' alt='X' /> */}
               <img src={LinkedIn} className='social-media' alt='LinkedIn' />
-              <img src={Youtube} className='social-media' alt='Youtube' />
+              {/* <img src={Youtube} className='social-media' alt='Youtube' /> */}
             </div>
           </div>
 

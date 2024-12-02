@@ -8,6 +8,7 @@ import X from '../assets/images/X.png'
 import LinkedIn from '../assets/images/LinkedIn.png'
 import Youtube from '../assets/images/Youtube.png'
 import { Link } from 'react-router-dom'
+import Accordion from '../assets/components/AccordionFaq'
 
 function Faq() {
     return (
@@ -19,43 +20,14 @@ function Faq() {
 
             <section className='faq-row-2-shell'>
                 <h1>FAQs</h1>
-                <section className='faq-row-2'>
-                    <div style={{ width: "100%" }}>
-                        <div className='faq-row-2-divider' />
-                        <div className='faq-row-2-dropdown'>
-                            <p>What is business consulting?</p>
-                            <button><img src={Chevron} alt='Chevron' /></button>
-                        </div>
-                        <div className='faq-row-2-divider' />
-                        <div className='faq-row-2-dropdown'>
-                            <p>What are bespoke tech solutions?</p>
-                            <button><img src={Chevron} alt='Chevron' /></button>
-                        </div>
-                        <div className='faq-row-2-divider' />
-                        <div className='faq-row-2-dropdown'>
-                            <p>What is an entrepreneurial hub?</p>
-                            <button><img src={Chevron} alt='Chevron' /></button>
-                        </div>
-                        <div className='faq-row-2-divider' />
-                        <div className='faq-row-2-dropdown'>
-                            <p>How can I contact you?</p>
-                            <button><img src={Chevron} alt='Chevron' /></button>
-                        </div>
-                        <div className='faq-row-2-divider' />
-                        <div className='faq-row-2-dropdown'>
-                            <p>How long does it take to receive a response?</p>
-                            <button><img src={Chevron} alt='Chevron' /></button>
-                        </div>
-                        <div className='faq-row-2-divider' />
-                        <div className='faq-row-2-dropdown-bottom'>
-                            <h1>Haven't found what you were looking for?</h1>
-                            <p>Reach out to us, and ask away.</p>
-                            <button >Lets talk!</button>
-                        </div>
-                    </div>
-                </section>
+                <Accordion />
             </section>
 
+            <section className='faq-row-3'>
+                <h1>Havent found what you were looking for?</h1>
+                <p>Reach out to us, and ask away</p>
+                <button>Let's talk</button>
+            </section>
             <section>
                 <div className='blog-row-13'>
                     <div className='blog-row-13-content'>
@@ -70,13 +42,14 @@ function Faq() {
                             <Link to="/contactus" className='blog-row-13-links'>Contact Us</Link>
                         </div>
                         <div className='blog-row-13-content-right' style={{ filter: "brightness(0) invert(0)" }}>
-                            <img src={Facebook} className='social-media' alt='Facebook' />
+                            {/* <img src={Facebook} className='social-media' alt='Facebook' />
                             <img src={Instagram} className='social-media' alt='Instagram' />
-                            <img src={X} className='social-media' alt='X' />
+                            <img src={X} className='social-media' alt='X' /> */}
                             <img src={LinkedIn} className='social-media' alt='LinkedIn' />
-                            <img src={Youtube} className='social-media' alt='Youtube' />
+                            {/* <img src={Youtube} className='social-media' alt='Youtube' /> */}
                         </div>
                     </div>
+
 
                     <div className='blog-row-13-bottom'></div>
                     <div className='blog-row-13-footer'>

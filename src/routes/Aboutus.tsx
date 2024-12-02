@@ -8,11 +8,22 @@ import LinkedIn from '../assets/images/LinkedInDark.png'
 import Dribble from '../assets/images/Dribble.png'
 import Team from '../assets/images/Team.png'
 import Map from '../assets/images/Map.png'
+import Cloud from '../assets/images/Cloud.png'
+import Bulb from '../assets/images/Bulb.png'
 import Divider from '../assets/images/Divider.png'
 import Envelope from '../assets/icons/Envelope.png'
 import Location from '../assets/icons/Location.png'
 import Phone from '../assets/icons/Phone.png'
 import Amalgam from '../assets/images/Amalgam-logo.png'
+import Neeraj2 from '../assets/images/Team/Neeraj.png'
+import David from '../assets/images/Team/David.png'
+import Jub from '../assets/images/Team/Jub.png'
+import Naren from '../assets/images/Team/Naren.png'
+import Lisa from '../assets/images/Team/Lisa.png'
+import Vikas from '../assets/images/Team/Vikas.png'
+import Sumita from '../assets/images/Team/Sumita.png'
+import Oleg from '../assets/images/Team/Oleg.png'
+import Viktor from '../assets/images/Team/Viktor.png'
 
 import Xlight from '../assets/images/X.png'
 import LinkedInLight from '../assets/images/LinkedIn.png'
@@ -30,28 +41,28 @@ function Aboutus() {
 
     const employees1 = [
         {
-            img: AvatarPlaceholder,
+            img: Neeraj2,
             name: "Neeraj",
             title: "CEO",
             description: "Neeraj is Amalgam's founder. He digs into 25 years of experience in startups, Financial Services, and software development to mentor and guide our team of consultants. He's an avid reader, dabbles in writing, and loves to travel.",
             social: ""
         },
         {
-            img: AvatarPlaceholder,
+            img: David,
             name: "David",
             title: "Principal, BD & Partnerships",
             description: "David focuses on business development and engineering custom solutions. He has over 8 years of marketing, sales, and investing experience in the financial technology and media sectors. David loves cats and making comedy sketches.",
             social: ""
         },
         {
-            img: AvatarPlaceholder,
+            img: Jub,
             name: "Supamit (Jub)",
             title: "Lead Developer",
             description: "Over the last 20 years, Hub has found breakthrough technical solutions to business problems for a variety of major names in the retail, financial, and insurance industries. He's built himself a reputation as a stellar problem-solver, and a proficient full-stack developer. When he isn't programming, Jub listens to music and plays with his daughter.",
             social: ""
         },
         {
-            img: AvatarPlaceholder,
+            img: Naren,
             name: "Naren",
             title: "Enterprise Architect",
             description: "Naren is an accomplished leader with deep technical skills developing next-gen, cloud-compliant applications using open-source and emerging technologies. He has over 20 years of experience in successfully creating enterprise products within finance, retail, telecom, CPG, and pharma firms. In his free time, Naren loves to play badminton.",
@@ -61,40 +72,49 @@ function Aboutus() {
 
     const employees2 = [
         {
-            img: AvatarPlaceholder,
+            img: Lisa,
             name: "Lisa",
             title: "Agile Practice Lead",
             description: "Lisa's experience includes quality assurance testing, development, project management, and scrum master roles utilizing Waterfall and Agile methodologies in the telecommunications, pharmaceutical, and insurance spaces. In her free time, she's an amateur photographer, nature lover, and fitness enthusiast.",
             social: ""
         },
         {
-            img: AvatarPlaceholder,
+            img: Vikas,
             name: "Vikas",
             title: "Principal, BD & Partnerships",
             description: "Vikas specializes in the architecture and development of very large scale enterprise applications, data pipeline, and service integration platform. He has over 20 years of experience and has worked in Sun Microsystems, Software AG, OpenText and Oracle. Vikas loves to visit new places and explore.",
             social: ""
         },
         {
-            img: AvatarPlaceholder,
+            img: Sumita,
             name: "Sumita",
             title: "Partner - Legal & HR",
             description: "Sumita’s business and legal acumen is essential to keeping daily operations running smoothly at Amalgam. She uses her law background to oversee agreements and define terms of work with our clients. She also loves creating a variety of dishes in the kitchen for her family, friends and colleagues.",
             social: ""
         },
         {
-            img: AvatarPlaceholder,
+            img: Oleg,
             name: "Oleg",
             title: "Architect and DevOps Lead",
             description: "Oleg has been leading DevOps at Amalgam for the last 5 years. His focus had been on Docker, Kubernetes and AWS. He has more than 12 years of experience leading the development and deployment of large scale web & mobile applications. When he's off, Oleg loves spending time with his children and playing table tennis.",
             social: ""
         }
     ]
+    const employees3 = [
+        {
+            img: Viktor,
+            name: "Vikor",
+            title: "Data Conversion & Migration Developer",
+            description: "Viktor has 8 years in software development and 5 years of extensive experience in the sphere of Web programming. Viktor was a part of the team that successfully implemented two famous projects for Avaya Company. Currently he is working as a senior full-stack engineer (Angular, React, RxJs, Redux, Java EE, SQL optimizations)",
+            social: ""
+        },
+    ]
 
     return (
         <div >
             <section className='aboutus-row-1'>
                 <div className='aboutus-row-1-content'>
-                    <h1 className='aboutus-row-1-header' style={{ position: "absolute", top: 50,  left: "50%", transform: "translate(-50%, -50%)"}}>Get to know us</h1>
+                    <h1 className='aboutus-row-1-header' style={{ position: "absolute", top: 50, left: "50%", transform: "translate(-50%, -50%)" }}>Get to know us</h1>
                     <h2>When I founded Amalgam, I wanted to build a business that reflected my ethos. We made one promise to our clients, and never broke it: to always put them first.</h2>
                     <div className='aboutus-row-1-info'>
                         <img src={AvatarPlaceholder} alt="placeholder" />
@@ -106,6 +126,7 @@ function Aboutus() {
             </section>
 
             <section className='aboutus-row-2'>
+                <img src={Bulb} alt="Bulb" className='bulb' />
                 <div className='aboutus-row-2-left'>
                     <h2 className='aboutus-row-2-left-header'>What we believe in</h2>
                     <p className='aboutus-row-2-left-text'>At Amalgam, our commitment to innovation, efficiency, and partnership is rooted in these four core values:</p>
@@ -140,6 +161,7 @@ function Aboutus() {
             </section>
 
             <section className='aboutus-row-3'>
+                <img src={Cloud} className='cloud' alt='Placeholder' />
                 <div className='aboutus-row-3-content'>
                     <p className='aboutus-row-3-content-header'>How we do it</p>
                     <p className='aboutus-row-3-content-text'>We leverage our highly specialized knowledge and deliver innovative solutions that address the needs of forward-thinking business owners.</p>
@@ -155,7 +177,7 @@ function Aboutus() {
                         <div className='aboutus-row-4-employees'>
                             {employees1.map((employee) => {
                                 return <div>
-                                    <img src={AvatarPlaceholder} alt="" />
+                                    <img src={employee.img} alt="" />
                                     <h2>{employee.name}</h2>
                                     <p>{employee.title}</p>
                                     <p>{employee.description}</p>
@@ -170,7 +192,22 @@ function Aboutus() {
                         <div className='aboutus-row-4-employees'>
                             {employees2.map((employee) => {
                                 return <div>
-                                    <img src={AvatarPlaceholder} alt="" />
+                                    <img src={employee.img} alt="" />
+                                    <h2>{employee.name}</h2>
+                                    <p>{employee.title}</p>
+                                    <p>{employee.description}</p>
+                                    <div className='aboutus-row-4-employees-social'>
+                                        <img src={LinkedIn} alt="LinkedIn" />
+                                        <img src={X} alt="X" />
+                                        <img src={Dribble} alt="Dribble" />
+                                    </div>
+                                </div>
+                            })}
+                        </div>
+                        <div className='aboutus-row-4-employees'>
+                            {employees3.map((employee) => {
+                                return <div>
+                                    <img src={employee.img} alt="" />
                                     <h2>{employee.name}</h2>
                                     <p>{employee.title}</p>
                                     <p>{employee.description}</p>
@@ -184,7 +221,7 @@ function Aboutus() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section >
 
             <section className='aboutus-row-5'>
                 <h2>Our Team</h2>
@@ -305,11 +342,11 @@ function Aboutus() {
                             <Link to="/contactus" className='home-row-13-links'>Contact Us</Link>
                         </div>
                         <div className='home-row-13-content-right'>
-                            <img src={Facebook} className='social-media' alt='Facebook' />
+                            {/* <img src={Facebook} className='social-media' alt='Facebook' />
                             <img src={Instagram} className='social-media' alt='Instagram' />
-                            <img src={Xlight} className='social-media' alt='X' />
+                            <img src={Xlight} className='social-media' alt='X' /> */}
                             <img src={LinkedInLight} className='social-media' alt='LinkedIn' />
-                            <img src={Youtube} className='social-media' alt='Youtube' />
+                            {/* <img src={Youtube} className='social-media' alt='Youtube' /> */}
                         </div>
                     </div>
 
@@ -323,7 +360,7 @@ function Aboutus() {
                 </div>
             </section>
 
-        </div>
+        </div >
     )
 }
 

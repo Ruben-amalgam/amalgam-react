@@ -4,6 +4,14 @@
   flex-direction: column;
   align-items: center;
   gap: 80px;
+  position: relative;
+}
+.swirl {
+  position: absolute;
+  width: 471px;
+  height: 354px;
+  right: 0;
+  z-index: 2;
 }
 
 .contactus-row-1 h1 {
@@ -41,6 +49,52 @@
   align-items: center;
   gap: 80px;
   background: var(--amalgam, linear-gradient(90deg, #16d6ad 0%, #5512d3 100%));
+  position: relative;
+}
+.contactus-row-2 form {
+  
+  gap: 24px;
+}
+.contactus-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  gap: 8px;
+}
+
+.contactus-label p {
+  color: var(--Text-primary, #000);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+}
+
+.contactus-row-2 button {
+  display: flex;
+  width: 99px;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: var(--Text-alternate, #fff);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  background-color: black;
+  text-wrap: nowrap;
+}
+
+.contactus-blobert {
+  position: absolute;
+  width: 408px;
+  height: 317px;
+  bottom: -15%;
+  left: 10%;
 }
 
 .contactus-row-2 form {

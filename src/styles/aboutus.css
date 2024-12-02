@@ -96,6 +96,13 @@
   justify-content: center;
   align-items: flex-start;
   gap: 80px;
+  position: relative;
+}
+.bulb {
+  position: absolute;
+  width: 193px;
+  height: 261px;
+  top: -8%;
 }
 
 .aboutus-row-2-left {
@@ -200,6 +207,13 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 80px;
+  position: relative;
+}
+.cloud {
+  width: 597px;
+  height: 489px;
+  position: absolute;
+  right: 0;
 }
 
 .aboutus-row-3-content {

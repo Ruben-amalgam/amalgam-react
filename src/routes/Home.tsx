@@ -31,6 +31,7 @@ import X from '../assets/images/X.png'
 import Youtube from '../assets/images/Youtube.png'
 import LeftQoutes from '../assets/images/LeftQuotes.png'
 import RightQoutes from '../assets/images/RightQuotes.png'
+import Writing from '../assets/images/Writing.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/home.css'
 
@@ -38,7 +39,7 @@ function Home() {
     const navigate = useNavigate();
     const { pathname } = useLocation();
     useEffect(() => {
-        window.scrollTo(0, 0); // Scroll to the top
+        // window.scrollTo(0, 0); // Scroll to the top
     }, [pathname]);
     return (
         <div >
@@ -191,6 +192,7 @@ function Home() {
                 <div className='home-row-7-container'>
                     <p className='home-row-7-header'>We meet you where you are</p>
                     <p className='home-row-7-text'>From your business's conceptual phase to the realization of your most ambitious plans, our end-to-end solution gets you where you want to be. At what stage of your journey are you?</p>
+                    <button>I'm a startup</button>
                 </div>
                 <img src={AmalgamGroup} className='amalgam-group' alt='Amalgam-group' />
             </div>
@@ -200,21 +202,58 @@ function Home() {
                 <div className='home-row-8-header'>Business consulting</div>
                 <div className='home-row-8-content'>
                     <div className='home-row-8-content-container'>
-                        <img src={Cube} className='cube' alt='Cube' />
-                        <p className='home-row-8-content-header'>Business & strategy consulting</p>
+                        <p className='home-row-8-content-header' >Business & strategy consulting</p>
                     </div>
                     <div className='home-row-8-content-container'>
-                        <img src={Cube} className='cube' alt='Cube' />
                         <p className='home-row-8-content-header'>Operational optimization</p>
                     </div>
                     <div className='home-row-8-content-container'>
-                        <img src={Cube} className='cube' alt='Cube' />
+                        <p className='home-row-8-content-header'>Marketing & branding support</p>
+                    </div>
+                    <h1>Bespoke tech solution</h1>
+                    <div></div>
+                    <div></div>
+                    <div className='home-row-8-content-container'>
+                        <p className='home-row-8-content-header'>Marketing & branding support</p>
+                    </div>
+                    <div className='home-row-8-content-container'>
+                        <p className='home-row-8-content-header'>Marketing & branding support</p>
+                    </div>
+                    <div className='home-row-8-content-container'>
+                        <p className='home-row-8-content-header'>Marketing & branding support</p>
+                    </div>
+
+                    <div className='home-row-8-content-container'>
+                        <p className='home-row-8-content-header'>Marketing & branding support</p>
+                    </div>
+
+                    <div className='home-row-8-content-container'>
+                        <p className='home-row-8-content-header'>Marketing & branding support</p>
+                    </div>
+
+                    <div className='home-row-8-content-container'>
+                        <p className='home-row-8-content-header'>Marketing & branding support</p>
+                    </div>
+
+                    <h1>Entrepreneurial hub</h1>
+                    <div></div>
+                    <div></div>
+
+                    <div className='home-row-8-content-container'>
+                        <p className='home-row-8-content-header'>Marketing & branding support</p>
+                    </div>
+
+                    <div className='home-row-8-content-container'>
+                        <p className='home-row-8-content-header'>Marketing & branding support</p>
+                    </div>
+
+                    <div className='home-row-8-content-container'>
                         <p className='home-row-8-content-header'>Marketing & branding support</p>
                     </div>
                 </div>
             </div>
 
-            <div className='home-row-9'>
+            {/* <div className='home-row-9'>
                 <div className='home-row-9-header'>Bespoke tech solutions</div>
                 <div className='home-row-9-content'>
                     <div className='home-row-9-content-container'>
@@ -230,9 +269,9 @@ function Home() {
                         <p className='home-row-9-content-header'>Artificial Intelligence & Machine Learning</p>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
-            <div className='home-row-10'></div>
+            {/* <div className='home-row-10'></div>
             <div className='home-row-8'>
                 <div className='home-row-8-content'>
                     <div className='home-row-8-content-container'>
@@ -247,8 +286,8 @@ function Home() {
                         <p className='home-row-8-content-header'>  Web  </p>
                     </div>
                 </div>
-            </div>
-            <div className='home-row-11' >
+            </div> */}
+            {/* <div className='home-row-11' >
                 <div className='home-row-9-header'>Entrepreneurial hub</div>
                 <div className='home-row-8'>
                     <div className='home-row-8-content'>
@@ -266,9 +305,10 @@ function Home() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             <div className='home-row-12'>
+                <img src={Writing} alt="Writing" id='writing'/>
                 <div className='home-row-12-content'>
                     <p className='home-row-12-header'>
                         Get in touch
@@ -291,11 +331,11 @@ function Home() {
                         <Link to="contactus" className='home-row-13-links'>Contact Us</Link>
                     </div>
                     <div className='home-row-13-content-right'>
-                        <img src={Facebook} className='social-media' alt='Facebook' />
+                        {/* <img src={Facebook} className='social-media' alt='Facebook' />
                         <img src={Instagram} className='social-media' alt='Instagram' />
-                        <img src={X} className='social-media' alt='X' />
+                        <img src={X} className='social-media' alt='X' /> */}
                         <img src={LinkedIn} className='social-media' alt='LinkedIn' />
-                        <img src={Youtube} className='social-media' alt='Youtube' />
+                        {/* <img src={Youtube} className='social-media' alt='Youtube' /> */}
                     </div>
                 </div>
 
@@ -310,5 +350,4 @@ function Home() {
         </div>
     )
 }
-
 export default Home
