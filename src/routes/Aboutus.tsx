@@ -1,40 +1,36 @@
-import React, { useEffect } from 'react'
-import '../styles/aboutus.css'
-import AvatarPlaceholder from '../assets/images/Placeholder2.png'
-import Neeraj from '../assets/images/Neeraj.png'
-import Cube from '../assets/images/Cube.png'
-import X from '../assets/images/XDark.png'
-import LinkedIn from '../assets/images/LinkedInDark.png'
-import Dribble from '../assets/images/Dribble.png'
-import Team from '../assets/images/Team.png'
-import Map from '../assets/images/Map.png'
-import Cloud from '../assets/images/Cloud.png'
-import Bulb from '../assets/images/Bulb.png'
-import Divider from '../assets/images/Divider.png'
+import { useEffect } from 'react'
 import Envelope from '../assets/icons/Envelope.png'
 import Location from '../assets/icons/Location.png'
 import Phone from '../assets/icons/Phone.png'
 import Amalgam from '../assets/images/Amalgam-logo.png'
-import Neeraj2 from '../assets/images/Team/Neeraj.png'
+import Bulb from '../assets/images/Bulb.png'
+import Cloud from '../assets/images/Cloud.png'
+import Cube from '../assets/images/Cube.png'
+import Divider from '../assets/images/Divider.png'
+import Dribble from '../assets/images/Dribble.png'
+import LinkedIn from '../assets/images/LinkedInDark.png'
+import Map from '../assets/images/Map.png'
+import Neeraj from '../assets/images/Neeraj.png'
+import AvatarPlaceholder from '../assets/images/Placeholder2.png'
+import Team from '../assets/images/Team.png'
 import David from '../assets/images/Team/David.png'
 import Jub from '../assets/images/Team/Jub.png'
-import Naren from '../assets/images/Team/Naren.png'
 import Lisa from '../assets/images/Team/Lisa.png'
-import Vikas from '../assets/images/Team/Vikas.png'
-import Sumita from '../assets/images/Team/Sumita.png'
+import Naren from '../assets/images/Team/Naren.png'
+import Neeraj2 from '../assets/images/Team/Neeraj.png'
 import Oleg from '../assets/images/Team/Oleg.png'
-import Viktor from '../assets/images/Team/Viktor.png'
+import Sumita from '../assets/images/Team/Sumita.png'
+import Vikas from '../assets/images/Team/Vikas.png'
+import X from '../assets/images/XDark.png'
+import '../styles/aboutus.css'
 
-import Xlight from '../assets/images/X.png'
-import LinkedInLight from '../assets/images/LinkedIn.png'
-import Facebook from '../assets/images/Facebook.png'
-import Instagram from '../assets/images/Instagram.png'
-import Youtube from '../assets/images/Youtube.png'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
+import LinkedInLight from '../assets/images/LinkedIn.png'
 
 function Aboutus() {
-    const navigate = useNavigate();
     const { pathname } = useLocation();
+    const navigate = useNavigate();
+
     useEffect(() => {
         window.scrollTo(0, 0); // Scroll to the top
     }, [pathname]);
@@ -99,15 +95,6 @@ function Aboutus() {
             description: "Oleg has been leading DevOps at Amalgam for the last 5 years. His focus had been on Docker, Kubernetes and AWS. He has more than 12 years of experience leading the development and deployment of large scale web & mobile applications. When he's off, Oleg loves spending time with his children and playing table tennis.",
             social: ""
         }
-    ]
-    const employees3 = [
-        {
-            img: Viktor,
-            name: "Vikor",
-            title: "Data Conversion & Migration Developer",
-            description: "Viktor has 8 years in software development and 5 years of extensive experience in the sphere of Web programming. Viktor was a part of the team that successfully implemented two famous projects for Avaya Company. Currently he is working as a senior full-stack engineer (Angular, React, RxJs, Redux, Java EE, SQL optimizations)",
-            social: ""
-        },
     ]
 
     return (
@@ -204,22 +191,9 @@ function Aboutus() {
                                 </div>
                             })}
                         </div>
-                        <div className='aboutus-row-4-employees'>
-                            {employees3.map((employee) => {
-                                return <div>
-                                    <img src={employee.img} alt="" />
-                                    <h2>{employee.name}</h2>
-                                    <p>{employee.title}</p>
-                                    <p>{employee.description}</p>
-                                    <div className='aboutus-row-4-employees-social'>
-                                        <img src={LinkedIn} alt="LinkedIn" />
-                                        <img src={X} alt="X" />
-                                        <img src={Dribble} alt="Dribble" />
-                                    </div>
-                                </div>
-                            })}
-                        </div>
                     </div>
+
+                    <button onClick={() => navigate("/careers")}>Join our team.</button>
                 </div>
             </section >
 

@@ -6,7 +6,6 @@
   gap: 80px;
   background: #012a21;
 }
-
 .startups-row-1 div {
   display: flex;
   flex-direction: column;
@@ -240,6 +239,17 @@
   gap: 80px;
   justify-content: center;
 }
+.star-location {
+}
+.greenstar {
+  position: absolute;
+  width: 527px;
+  height: 368px;
+  top: -180px;
+  right: -100px;
+}
+
+
 
 .startups-row-4-content {
   display: flex;

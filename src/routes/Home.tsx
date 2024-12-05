@@ -35,12 +35,13 @@ import Writing from '../assets/images/Writing.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/home.css'
 
+
 function Home() {
     const navigate = useNavigate();
-    const { pathname } = useLocation();
-    useEffect(() => {
-        // window.scrollTo(0, 0); // Scroll to the top
-    }, [pathname]);
+    // const { pathname } = useLocation();
+    // useEffect(() => {
+    //     // window.scrollTo(0, 0); // Scroll to the top
+    // }, [pathname]);
     return (
         <div >
             <div className='home-row-1'>
@@ -199,116 +200,60 @@ function Home() {
             <div className='divider'>
             </div>
             <div className='home-row-8'>
-                <div className='home-row-8-header'>Business consulting</div>
-                <div className='home-row-8-content'>
-                    <div className='home-row-8-content-container'>
-                        <p className='home-row-8-content-header' >Business & strategy consulting</p>
+                <div className='home-row-8-header business-consulting'>Business consulting</div>
+                <div className='home-row-8-content' >
+                    <div>
+                        <h3>Business & strategy consulting</h3>
                     </div>
-                    <div className='home-row-8-content-container'>
-                        <p className='home-row-8-content-header'>Operational optimization</p>
+                    <div>
+                        <h3>Operational optimization</h3>
                     </div>
-                    <div className='home-row-8-content-container'>
-                        <p className='home-row-8-content-header'>Marketing & branding support</p>
-                    </div>
-                    <h1>Bespoke tech solution</h1>
-                    <div></div>
-                    <div></div>
-                    <div className='home-row-8-content-container'>
-                        <p className='home-row-8-content-header'>Marketing & branding support</p>
-                    </div>
-                    <div className='home-row-8-content-container'>
-                        <p className='home-row-8-content-header'>Marketing & branding support</p>
-                    </div>
-                    <div className='home-row-8-content-container'>
-                        <p className='home-row-8-content-header'>Marketing & branding support</p>
-                    </div>
-
-                    <div className='home-row-8-content-container'>
-                        <p className='home-row-8-content-header'>Marketing & branding support</p>
-                    </div>
-
-                    <div className='home-row-8-content-container'>
-                        <p className='home-row-8-content-header'>Marketing & branding support</p>
-                    </div>
-
-                    <div className='home-row-8-content-container'>
-                        <p className='home-row-8-content-header'>Marketing & branding support</p>
-                    </div>
-
-                    <h1>Entrepreneurial hub</h1>
-                    <div></div>
-                    <div></div>
-
-                    <div className='home-row-8-content-container'>
-                        <p className='home-row-8-content-header'>Marketing & branding support</p>
-                    </div>
-
-                    <div className='home-row-8-content-container'>
-                        <p className='home-row-8-content-header'>Marketing & branding support</p>
-                    </div>
-
-                    <div className='home-row-8-content-container'>
-                        <p className='home-row-8-content-header'>Marketing & branding support</p>
+                    <div>
+                        <h3>Marketing & branding support</h3>
                     </div>
                 </div>
+                <div className='home-row-8-header'>Bespoke tech Solution</div>
+                <div className='home-row-8-content2'>
+                    <div>
+                        <h3>Customer experience & UX/UI</h3>
+                    </div>
+                    <div>
+                        <h3>Web & mobile app development</h3>
+                    </div>
+                    <div>
+                        <h3>Artificial Intelligence & machine learning</h3>
+                    </div>
+                </div>
+                <div className='home-row-8-content3'>
+                    <div>
+                        <h3>Databases, integrations & tools</h3>
+                    </div>
+                    <div>
+                        <h3>Cloud & management Services</h3>
+                    </div>
+                    <div>
+                        <h3>Web3 & Blockchain</h3>
+                    </div>
+                </div>
+
+                <div className='home-row-8-header'>Entreprenueral hub</div>
+                <div className='home-row-8-content4'>
+                    <div>
+                        <h3>Tech & advisory</h3>
+                    </div>
+                    <div>
+                        <h3>Funding</h3>
+                    </div>
+                    <div>
+                        <h3>Networking & funding</h3>
+                    </div>
+                </div>
+
             </div>
 
-            {/* <div className='home-row-9'>
-                <div className='home-row-9-header'>Bespoke tech solutions</div>
-                <div className='home-row-9-content'>
-                    <div className='home-row-9-content-container'>
-                        <img src={Cube} className='cube' alt='Cube' />
-                        <p className='home-row-9-content-header'>Customer experience & UX/UI</p>
-                    </div>
-                    <div className='home-row-8-content-container'>
-                        <img src={Cube} className='cube' alt='Cube' />
-                        <p className='home-row-9-content-header'>Web & mobile app development</p>
-                    </div>
-                    <div className='home-row-8-content-container'>
-                        <img src={Cube} className='cube' alt='Cube' />
-                        <p className='home-row-9-content-header'>Artificial Intelligence & Machine Learning</p>
-                    </div>
-                </div>
-            </div> */}
-
-            {/* <div className='home-row-10'></div>
-            <div className='home-row-8'>
-                <div className='home-row-8-content'>
-                    <div className='home-row-8-content-container'>
-                        <p className='home-row-8-content-header'>Databases, integrations & tools</p>
-                    </div>
-                    <div className='home-row-8-content-container'>
-                        <img src={Cube} className='cube' alt='Cube' />
-                        <p className='home-row-8-content-header'>Cloud & Managment Services </p>
-                    </div>
-                    <div className='home-row-8-content-container'>
-                        <img src={Cube} className='cube' alt='Cube' />
-                        <p className='home-row-8-content-header'>  Web  </p>
-                    </div>
-                </div>
-            </div> */}
-            {/* <div className='home-row-11' >
-                <div className='home-row-9-header'>Entrepreneurial hub</div>
-                <div className='home-row-8'>
-                    <div className='home-row-8-content'>
-                        <div className='home-row-8-content-container'>
-                            <img src={Cube} className='cube' alt='Cube' />
-                            <p className='home-row-8-content-header'>Tech & Advisory</p>
-                        </div>
-                        <div className='home-row-8-content-container'>
-                            <img src={Cube} className='cube' alt='Cube' />
-                            <p className='home-row-8-content-header'>Funding</p>
-                        </div>
-                        <div className='home-row-8-content-container'>
-                            <img src={Cube} className='cube' alt='Cube' />
-                            <p className='home-row-8-content-header'>Networking & funding</p>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
 
             <div className='home-row-12'>
-                <img src={Writing} alt="Writing" id='writing'/>
+                <img src={Writing} alt="Writing" id='writing' />
                 <div className='home-row-12-content'>
                     <p className='home-row-12-header'>
                         Get in touch
@@ -347,7 +292,7 @@ function Home() {
                     <p className='home-row-13-footer-links'>Cookie Policy</p>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 export default Home
