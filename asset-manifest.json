@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/amalgam-react/static/css/main.09e38280.css",
-    "main.js": "/amalgam-react/static/js/main.0e35b850.js",
+    "main.css": "/amalgam-react/static/css/main.c2f5dcd5.css",
+    "main.js": "/amalgam-react/static/js/main.c05d5f72.js",
     "static/media/Team.png": "/amalgam-react/static/media/Team.eb9d3f6e6426a7013109.png",
     "static/media/Clients.png": "/amalgam-react/static/media/Clients.bd618c560f9dc500fd0b.png",
     "static/media/Neeraj.png": "/amalgam-react/static/media/Neeraj.c5bc9ce43b8b1758703a.png",
@@ -13,6 +13,7 @@
     "static/media/BlueBackground.png": "/amalgam-react/static/media/BlueBackground.0c17c22d796f26d6d741.png",
     "static/media/Solutions.png": "/amalgam-react/static/media/Solutions.b3f7ed705c8833729e42.png",
     "static/media/Speaker.png": "/amalgam-react/static/media/Speaker.f826302da1bd77e690f1.png",
+    "static/media/Circles3.png": "/amalgam-react/static/media/Circles3.43049937201938570afe.png",
     "static/media/Easel.png": "/amalgam-react/static/media/Easel.e919906154d342765cc0.png",
     "static/media/Consulting.png": "/amalgam-react/static/media/Consulting.2469d54273dfc7045c40.png",
     "static/media/PurpleBackground.png": "/amalgam-react/static/media/PurpleBackground.19c016017787d71541e6.png",
@@ -22,7 +23,7 @@
     "static/media/Sumita.png": "/amalgam-react/static/media/Sumita.11f6d543c12b622ea89f.png",
     "static/media/Dots.png": "/amalgam-react/static/media/Dots.c166945efc1a989dfc9e.png",
     "static/media/Naren.png": "/amalgam-react/static/media/Naren.0d0b8130cfff00d54248.png",
-    "static/media/Viktor.png": "/amalgam-react/static/media/Viktor.57ea1557f9b698e60850.png",
+    "static/media/Starfish.png": "/amalgam-react/static/media/Starfish.a88d30a352de2a5fdb6e.png",
     "static/media/David.png": "/amalgam-react/static/media/David.33561884e7028cc6b382.png",
     "static/media/Vikas.png": "/amalgam-react/static/media/Vikas.64323cec792e45ccc788.png",
     "static/media/Lisa.png": "/amalgam-react/static/media/Lisa.3d01103f56b9dde7c9c9.png",
@@ -52,11 +53,11 @@
     "static/media/Placeholder.png": "/amalgam-react/static/media/Placeholder.e3e6d1002b825d849602.png",
     "static/media/Placeholder2.png": "/amalgam-react/static/media/Placeholder2.fd801fc2c1c5ce802b42.png",
     "index.html": "/amalgam-react/index.html",
-    "main.09e38280.css.map": "/amalgam-react/static/css/main.09e38280.css.map",
-    "main.0e35b850.js.map": "/amalgam-react/static/js/main.0e35b850.js.map"
+    "main.c2f5dcd5.css.map": "/amalgam-react/static/css/main.c2f5dcd5.css.map",
+    "main.c05d5f72.js.map": "/amalgam-react/static/js/main.c05d5f72.js.map"
   },
   "entrypoints": [
-    "static/css/main.09e38280.css",
-    "static/js/main.0e35b850.js"
+    "static/css/main.c2f5dcd5.css",
+    "static/js/main.c05d5f72.js"
   ]
 }
