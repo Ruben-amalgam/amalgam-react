@@ -1,5 +1,4 @@
 import { useEffect } from 'react'
-import { useLocation } from 'react-router-dom'
 import Cube from '../assets/images/Cube.png'
 import Dots from '../assets/images/Dots.png'
 import Easel from '../assets/images/Easel.png'
@@ -10,9 +9,14 @@ import Starfish from '../assets/images/Starfish.png'
 import AvatarPlaceholder from '../assets/images/AvatarPlaceholder.png'
 import AvatarPlaceholder2 from '../assets/images/Placeholder2.png'
 import Bulb from '../assets/images/Bulb.png'
+import Hands from '../assets/images/Hands.png'
+import Amalgam from '../assets/images/Amalgam-logo.png'
+import LinkedIn from '../assets/images/LinkedIn.png'
 import '../styles/ourwork.css'
+import { Link, useLocation } from 'react-router-dom'
 
 function Ourwork() {
+
     const { pathname } = useLocation();
     // useEffect(() => {
     //     window.scrollTo(0, 0); // Scroll to the top
@@ -243,6 +247,8 @@ function Ourwork() {
             </section>
 
             <section className='ourwork-row-10'>
+                <img src={Dots} alt="Dots" className='ourwork-dots' />
+                <img src={Hands} alt="Dots" className='ourwork-hands' />
                 <div className='ourwork-row-10-header'>
                     <h1>What we can help you with</h1>
                     <p>We've helped businesses evolve for over a decade. We can predict your challenges, expedite your results, and help you seize growth opportunities.</p>
@@ -262,6 +268,7 @@ function Ourwork() {
                     </div>
 
                 </div>
+                <p> Our knowledge of modern software building frameworks, AI, ML, and generative AI tools, allows us to solve your most complex tech problems with ease. The possibilities are endless.</p>
                 <div className='ourwork-row-10-content2'>
                     <div>
                         <img src={Cube} alt="Cube" />
@@ -280,6 +287,7 @@ function Ourwork() {
                         <h3>Data management</h3>
                     </div>
                 </div>
+                <p>You'll get much farther with the right connections. Here's how we can support you on this front:</p>
                 <div className='ourwork-row-10-content3'>
                     <div>
                         <img src={Cube} alt="Cube" />
@@ -294,11 +302,71 @@ function Ourwork() {
                         <h3>Web3 & Blockchain</h3>
                     </div>
                 </div>
-                <div>
-
-                </div>
                 <p>Our knowledge of modern software building frameworks, AI, ML, and generative AI tools, allows us to solve your most complex tech problems with ease. The possibilities are endless.</p>
+            </section>
 
+            <section className='ourwork-row-11'>
+                <h1>Our way of working</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+            </section>
+            <section className='ourwork-row-12'>
+                <div className='ourwork-row-12-content'>
+                    <h4>Assessment</h4>
+                    <p>We dive deep into your case and take on your challenges and ambitions as our own.</p>
+                </div>
+                <div className='ourwork-row-12-content'>
+                    <h4>Creative problem-solving</h4>
+                    <p>Now, we put our minds together to craft with an ideal strategy that puts your goals within reach.</p>
+                </div>
+                <div className='ourwork-row-12-content'>
+                    <h4>Collaborative & transparent build</h4>
+                    <p>We leverage our wealth of experience to seamlessly execute against our vision while keeping you updated with every step.</p>
+                </div>
+            </section>
+            <section className='ourwork-row-13'>
+                <div className='ourwork-row-12-content'>
+                    <h4>Agile iteration and testing</h4>
+                    <p>We second your evolving needs as we test, integrate, build, and learn with you.</p>
+                </div>
+                <div className='ourwork-row-12-content'>
+                    <h4>Measuring success</h4>
+                    <p>After our initial scope of work is completed, we work with you to measure our success against your goals.</p>
+                </div>
+                <div className='ourwork-row-12-content'>
+                    <h4>Future growth</h4>
+                    <p>We ideate with you on the future state of your business to further support your growth goals.</p>
+                </div>
+            </section>
+            <section>
+                <div className='blog-row-13'>
+                    <div className='blog-row-13-content'>
+                        <div className='blog-row-13-content-left'>
+                            <img src={Amalgam} alt="Amalgam" className='logo' style={{ filter: "brightness(0) invert(0)" }} />
+                        </div>
+                        <div className='blog-row-13-content-middle'>
+                            <Link to="/ourwork" className='blog-row-13-links'>Our Work</Link>
+                            <Link to="/aboutus" className='blog-row-13-links'>About Us</Link>
+                            <Link to="/blog" className='blog-row-13-links'>Blog</Link>
+                            <Link to="/careers" className='blog-row-13-links'>Careers</Link>
+                            <Link to="/contactus" className='blog-row-13-links'>Contact Us</Link>
+                        </div>
+                        <div className='blog-row-13-content-right' style={{ filter: "brightness(0) invert(0)" }}>
+                            {/* <img src={Facebook} className='social-media' alt='Facebook' />
+              <img src={Instagram} className='social-media' alt='Instagram' />
+              <img src={X} className='social-media' alt='X' /> */}
+                            <img src={LinkedIn} className='social-media' alt='LinkedIn' />
+                            {/* <img src={Youtube} className='social-media' alt='Youtube' /> */}
+                        </div>
+                    </div>
+
+                    <div className='blog-row-13-bottom'></div>
+                    <div className='blog-row-13-footer'>
+                        <p className='blog-row-13-footer-links'>© 2023 Relume. All rights reserved.</p>
+                        <p className='blog-row-13-footer-links'>Privacy Policy</p>
+                        <p className='blog-row-13-footer-links'>Terms and Conditions</p>
+                        <p className='blog-row-13-footer-links'>Cookie Policy</p>
+                    </div>
+                </div>
             </section>
 
         </div>
