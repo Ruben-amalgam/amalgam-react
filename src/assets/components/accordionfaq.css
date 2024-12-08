@@ -13,6 +13,33 @@
   flex-direction: column;
   align-self: stretch;
 }
+
+.accordion-content h2 {
+  color: var(--Text-primary, #000);
+
+  /* Text/Medium/Normal */
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+.accordion-content ul {
+  color: var(--Text-primary, #000);
+
+  /* Text/Regular/Normal */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  list-style-type: none;
+}
+
+.accordion-button {
+  font-size: 32px;
+}
+
 .leaf {
   position: absolute;
   width: 584px;

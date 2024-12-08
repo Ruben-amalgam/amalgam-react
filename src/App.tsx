@@ -9,6 +9,7 @@ import Careers from 'routes/Careers';
 import ContactUs from 'routes/ContactUs';
 import Startups from 'routes/Startups';
 import Faq from 'routes/Faq';
+import JobPost from 'routes/JobPost';
 
 
 const App: React.FC = () => {
@@ -24,6 +25,7 @@ const App: React.FC = () => {
         <Route path="/contactus" element={<ContactUs/>} /> 
         <Route path="/startups" element={<Startups/>} /> 
         <Route path="/faq" element={<Faq/>} /> 
+        <Route path="/jobpost" element={<JobPost/>} /> 
       </Routes>
     </Router>
   );

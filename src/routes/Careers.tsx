@@ -9,15 +9,11 @@ import Instagram from '../assets/images/Instagram.png'
 import X from '../assets/images/X.png'
 import LinkedIn from '../assets/images/LinkedIn.png'
 import Youtube from '../assets/images/Youtube.png'
-import { Link, useLocation } from 'react-router-dom'
+import { Link, } from 'react-router-dom'
 import Accordion from '../assets/components/AccordionCareers'
 
 
 function Careers() {
-  const { pathname } = useLocation();
-  useEffect(() => {
-    window.scrollTo(0, 0); // Scroll to the top
-  }, [pathname]);
   return (
     <div>
       <section className='careers-row-1'>
@@ -27,7 +23,7 @@ function Careers() {
 
       <section className='careers-row-2'>
         <div className='careers-row-2-header'>
-          <h1>Our open roles</h1>
+          <h2>Our open roles</h2>
         </div>
         <Accordion />
         {/*

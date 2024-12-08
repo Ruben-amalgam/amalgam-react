@@ -1,0 +1,139 @@
+.jobpost-row-2 {
+  display: flex;
+  padding: 112px 64px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  position: relative;
+}
+
+.jobpost-row-2 h1 {
+  color: var(--Text-primary, #000);
+  text-align: center;
+
+  /* Heading/Desktop/H1 */
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 67.2px */
+}
+
+.jobpost-row-2 p {
+  color: var(--Text-primary, #000);
+  text-align: center;
+
+  /* Text/Medium/Normal */
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+
+.jobpost-row-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  padding: 112px 64px;
+}
+
+.jobpost-row-3 h1 {
+  margin-top: 0;
+  margin-bottom: 24px;
+  color: var(--Text-primary, #000);
+
+  /* Heading/Desktop/H2 */
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 57.6px */
+}
+.jobpost-bulb {
+  position: absolute;
+  width: 227.804px;
+  height: 308.691px;
+  transform: rotate(-12.293deg);
+  left: 25vw;
+  top: 45%;
+}
+
+.jobpost-jobposting {
+  width: 90%;
+  height: auto;
+}
+
+.jobpost-row-4 {
+  display: flex;
+  padding: 112px 64px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 80px;
+  justify-content: center;
+}
+
+.jobpost-row-4 h1 {
+  color: var(--Text-primary, #000);
+  /* Heading/Desktop/H2 */
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 57.6px */
+  width: 50%;
+}
+.jobpost-form-div {
+  display: flex;
+  gap: 24px;
+}
+
+.jobpost-form-div div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+#resume {
+  width: 100%;
+}
+
+#resume input {
+  width: 100%;
+}
+
+.jobpost-form-textarea {
+  width: 100%;
+}
+
+.jobpost-form-textarea textarea {
+  display: flex;
+  height: 180px;
+  padding: 12px;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+.jobpost-role-descriptions {
+  width: 700px;
+}
+
+.jobpost-role-descriptions p {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  color: var(--Text-primary, #000);
+
+  /* Text/Regular/Normal */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  margin-bottom: 16px;
+  margin-top: 0;
+}

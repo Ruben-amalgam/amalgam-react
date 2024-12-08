@@ -51,6 +51,17 @@
   line-height: 120%; /* 57.6px */
 }
 
+.careers-row-2-header h2 {
+  color: var(--Text-primary, #000);
+
+  /* Heading/Desktop/H2 */
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 57.6px */
+}
+
 .careers-row-2-content {
   display: flex;
   flex-direction: column;
@@ -77,15 +88,14 @@
   line-height: 130%; /* 41.6px */
 }
 
-
 .careers-row-2-content :nth-child(1) {
   color: var(--Text-primary, #000);
-/* Heading/Desktop/H5 */
-font-family: Roboto;
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: 140%; /* 33.6px */
+  /* Heading/Desktop/H5 */
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 33.6px */
 }
 
 .careers-row-2-content :nth-child(2) {
