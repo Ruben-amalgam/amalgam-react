@@ -160,13 +160,7 @@ function Ourwork() {
                     <h1>How we've helped other businesses</h1>
                     <p>Our case studies will give you clear insights into how we've been able to help companies like yours in the past.</p>
                 </div>
-                <div>
-                    <img src="" alt="" />
-                    <img src="" alt="" />
-                    <img src="" alt="" />
-                </div>
-
-            </section>
+                          </section>
 
             <section>
                 <div className='blog-row-3-article-row' id='ourwork-row-9'>
