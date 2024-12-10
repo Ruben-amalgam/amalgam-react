@@ -56,7 +56,7 @@ function Home() {
             </div>
 
             <div className='home-row-2'>
-                <h3 className='home-row-2-header' style={{ fontSize: "48px" }}>We've worked with:</h3>
+                <h3 className='home-row-2-header'>Trusted by big names and rising stars alike</h3>
                 <div className='home-row-2-worked-with'>
                     <div className='home-row-2-carousel-content'>
                         <img src={AFmensa} className='afmensa' alt='AFmensa' />

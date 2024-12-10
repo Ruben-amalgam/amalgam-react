@@ -84,7 +84,7 @@
 
   /* Text/Medium/Bold */
   font-family: Roboto;
-  font-size: 18px;
+  font-size: 48px;
   font-style: normal;
   font-weight: 700;
   line-height: 150%; /* 27px */
@@ -1342,8 +1342,6 @@
     margin-top: unset;
   }
 
-
-
   .home-row-8-content-header {
     color: var(--Text-primary, #000);
     text-align: center;
@@ -1770,12 +1768,29 @@
     width: 100%;
     height: auto;
   }
-#writing {
-  width: 392px;
-  height: 308px;
-  position: absolute;
-  left: 5%;
-  top: 15%;
-  display: none;
-}
+  #writing {
+    width: 392px;
+    height: 308px;
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    display: none;
+  }
+
+  .home-row-2 {
+    align-items: center;
+  }
+  .home-row-2-header {
+    color: var(--Text-primary, #000);
+
+    /* Text/Medium/Bold */
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 27px */
+    text-align: center;
+    padding-left: unset;
+
+  }
 }
