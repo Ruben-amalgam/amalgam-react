@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/amalgam-react/static/css/main.0188f03b.css",
-    "main.js": "/amalgam-react/static/js/main.00abeb81.js",
+    "main.css": "/amalgam-react/static/css/main.1ff92f19.css",
+    "main.js": "/amalgam-react/static/js/main.251b124f.js",
     "static/media/Team.png": "/amalgam-react/static/media/Team.eb9d3f6e6426a7013109.png",
     "static/media/Clients.png": "/amalgam-react/static/media/Clients.bd618c560f9dc500fd0b.png",
     "static/media/JobPosting.png": "/amalgam-react/static/media/JobPosting.b8b42dab948a695f3a43.png",
@@ -11,31 +11,28 @@
     "static/media/Tech-Consulting.png": "/amalgam-react/static/media/Tech-Consulting.4bece141fd89417595ab.png",
     "static/media/Rocket.png": "/amalgam-react/static/media/Rocket.0f292b690824f488274d.png",
     "static/media/Laptop.png": "/amalgam-react/static/media/Laptop.5d2d7d927d41b3dfe55d.png",
-    "static/media/BlueBackground.png": "/amalgam-react/static/media/BlueBackground.0c17c22d796f26d6d741.png",
     "static/media/Solutions.png": "/amalgam-react/static/media/Solutions.b3f7ed705c8833729e42.png",
     "static/media/Speaker.png": "/amalgam-react/static/media/Speaker.f826302da1bd77e690f1.png",
     "static/media/Circles3.png": "/amalgam-react/static/media/Circles3.43049937201938570afe.png",
     "static/media/Easel.png": "/amalgam-react/static/media/Easel.e919906154d342765cc0.png",
     "static/media/Consulting.png": "/amalgam-react/static/media/Consulting.2469d54273dfc7045c40.png",
-    "static/media/PurpleBackground.png": "/amalgam-react/static/media/PurpleBackground.19c016017787d71541e6.png",
     "static/media/Entrepreneurial-Hub.png": "/amalgam-react/static/media/Entrepreneurial-Hub.c40108ab3351435aa3e6.png",
     "static/media/Map.png": "/amalgam-react/static/media/Map.48f58bc59f5b66086921.png",
     "static/media/Writing.png": "/amalgam-react/static/media/Writing.b5a0862972aa30565f60.png",
     "static/media/Sumita.png": "/amalgam-react/static/media/Sumita.11f6d543c12b622ea89f.png",
+    "static/media/Fitzmier.png": "/amalgam-react/static/media/Fitzmier.f556822b5e23c78d8070.png",
     "static/media/Dots.png": "/amalgam-react/static/media/Dots.c166945efc1a989dfc9e.png",
     "static/media/Naren.png": "/amalgam-react/static/media/Naren.0d0b8130cfff00d54248.png",
     "static/media/Starfish.png": "/amalgam-react/static/media/Starfish.a88d30a352de2a5fdb6e.png",
     "static/media/David.png": "/amalgam-react/static/media/David.33561884e7028cc6b382.png",
     "static/media/Vikas.png": "/amalgam-react/static/media/Vikas.64323cec792e45ccc788.png",
     "static/media/Lisa.png": "/amalgam-react/static/media/Lisa.3d01103f56b9dde7c9c9.png",
+    "static/media/Mooney.png": "/amalgam-react/static/media/Mooney.fa10d10d42bed57cf851.png",
     "static/media/Jub.png": "/amalgam-react/static/media/Jub.b01575fbd21a60adfc3b.png",
+    "static/media/Mendoza.png": "/amalgam-react/static/media/Mendoza.9539ca23f4a562f9ce93.png",
     "static/media/Leaf.png": "/amalgam-react/static/media/Leaf.f2fc57353a48a86a852a.png",
-    "static/media/Fitzmier.png": "/amalgam-react/static/media/Fitzmier.b91bcd553a82917d4abd.png",
-    "static/media/Mooney.png": "/amalgam-react/static/media/Mooney.b264fe298e718df59af6.png",
     "static/media/Cloud.png": "/amalgam-react/static/media/Cloud.8d77330d2975cbd8cf35.png",
     "static/media/Hands.png": "/amalgam-react/static/media/Hands.1273d05da6d5c8fcd6f8.png",
-    "static/media/GreenBackground.png": "/amalgam-react/static/media/GreenBackground.a74833a77ccfb9cc4c9b.png",
-    "static/media/Mendoza.png": "/amalgam-react/static/media/Mendoza.80e0b63eb66e64e48a4b.png",
     "static/media/Oleg.png": "/amalgam-react/static/media/Oleg.469e96fcb06424c12f96.png",
     "static/media/Swirl.png": "/amalgam-react/static/media/Swirl.6c5419371c85d1337606.png",
     "static/media/Bulb.png": "/amalgam-react/static/media/Bulb.d58aac6d1c2ac608c389.png",
@@ -55,11 +52,11 @@
     "static/media/Placeholder.png": "/amalgam-react/static/media/Placeholder.e3e6d1002b825d849602.png",
     "static/media/Placeholder2.png": "/amalgam-react/static/media/Placeholder2.fd801fc2c1c5ce802b42.png",
     "index.html": "/amalgam-react/index.html",
-    "main.0188f03b.css.map": "/amalgam-react/static/css/main.0188f03b.css.map",
-    "main.00abeb81.js.map": "/amalgam-react/static/js/main.00abeb81.js.map"
+    "main.1ff92f19.css.map": "/amalgam-react/static/css/main.1ff92f19.css.map",
+    "main.251b124f.js.map": "/amalgam-react/static/js/main.251b124f.js.map"
   },
   "entrypoints": [
-    "static/css/main.0188f03b.css",
-    "static/js/main.00abeb81.js"
+    "static/css/main.1ff92f19.css",
+    "static/js/main.251b124f.js"
   ]
 }
