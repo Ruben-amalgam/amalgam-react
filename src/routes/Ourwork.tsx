@@ -160,7 +160,7 @@ function Ourwork() {
                     <h1>How we've helped other businesses</h1>
                     <p>Our case studies will give you clear insights into how we've been able to help companies like yours in the past.</p>
                 </div>
-                          </section>
+            </section>
 
             <section>
                 <div className='blog-row-3-article-row' id='ourwork-row-9'>
@@ -305,46 +305,52 @@ function Ourwork() {
             </section>
             <section className='ourwork-row-12'>
                 <div className='ourwork-row-12-content'>
+                    <img src={Cube} alt="Cube" className='cube'/>
                     <h4>Assessment</h4>
                     <p>We dive deep into your case and take on your challenges and ambitions as our own.</p>
                 </div>
                 <div className='ourwork-row-12-content'>
+                    <img src={Cube} alt="Cube" className='cube'/>
                     <h4>Creative problem-solving</h4>
                     <p>Now, we put our minds together to craft with an ideal strategy that puts your goals within reach.</p>
                 </div>
                 <div className='ourwork-row-12-content'>
+                    <img src={Cube} alt="Cube" className='cube'/>
                     <h4>Collaborative & transparent build</h4>
                     <p>We leverage our wealth of experience to seamlessly execute against our vision while keeping you updated with every step.</p>
                 </div>
             </section>
             <section className='ourwork-row-13'>
                 <div className='ourwork-row-12-content'>
+                    <img src={Cube} alt="Cube" className='cube'/>
                     <h4>Agile iteration and testing</h4>
                     <p>We second your evolving needs as we test, integrate, build, and learn with you.</p>
                 </div>
                 <div className='ourwork-row-12-content'>
+                    <img src={Cube} alt="Cube" className='cube'/>
                     <h4>Measuring success</h4>
                     <p>After our initial scope of work is completed, we work with you to measure our success against your goals.</p>
                 </div>
                 <div className='ourwork-row-12-content'>
+                    <img src={Cube} alt="Cube" className='cube'/>
                     <h4>Future growth</h4>
                     <p>We ideate with you on the future state of your business to further support your growth goals.</p>
                 </div>
             </section>
             <section>
-                <div className='blog-row-13'>
+                <div  id='ourwork-row-13'>
                     <div className='blog-row-13-content'>
-                        <div className='blog-row-13-content-left'>
+                        <div className='blog-row-13-content-left' id='ourwork-footer-left'>
                             <img src={Amalgam} alt="Amalgam" className='logo' style={{ filter: "brightness(0) invert(0)" }} />
                         </div>
-                        <div className='blog-row-13-content-middle'>
+                        <div className='blog-row-13-content-middle' id='ourwork-footer-middle'>
                             <Link to="/ourwork" className='blog-row-13-links'>Our Work</Link>
                             <Link to="/aboutus" className='blog-row-13-links'>About Us</Link>
                             <Link to="/blog" className='blog-row-13-links'>Blog</Link>
                             <Link to="/careers" className='blog-row-13-links'>Careers</Link>
                             <Link to="/contactus" className='blog-row-13-links'>Contact Us</Link>
                         </div>
-                        <div className='blog-row-13-content-right' style={{ filter: "brightness(0) invert(0)" }}>
+                        <div className='blog-row-13-content-right' id='ourwork-footer-right' style={{ filter: "brightness(0) invert(0)" }}>
                             {/* <img src={Facebook} className='social-media' alt='Facebook' />
               <img src={Instagram} className='social-media' alt='Instagram' />
               <img src={X} className='social-media' alt='X' /> */}
@@ -354,7 +360,7 @@ function Ourwork() {
                     </div>
 
                     <div className='blog-row-13-bottom'></div>
-                    <div className='blog-row-13-footer'>
+                    <div className='ourwork-row-13-footer'>
                         <p className='blog-row-13-footer-links'>© 2023 Relume. All rights reserved.</p>
                         <p className='blog-row-13-footer-links'>Privacy Policy</p>
                         <p className='blog-row-13-footer-links'>Terms and Conditions</p>
