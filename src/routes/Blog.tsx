@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import '../styles/blog.css'
+import '../styles/home.css'
 import Teamwork from '../assets/images/Teamwork.png'
 import AvatarPlaceholder from '../assets/images/AvatarPlaceholder.png'
 import Amalgam from '../assets/images/Amalgam-logo.png'
@@ -206,19 +207,19 @@ function Blog() {
 
       </section>
       <section>
-        <div className='blog-row-13'>
+        <div id='ourwork-row-13'>
           <div className='blog-row-13-content'>
-            <div className='blog-row-13-content-left'>
+            <div className='blog-row-13-content-left' id='ourwork-footer-left'>
               <img src={Amalgam} alt="Amalgam" className='logo' style={{ filter: "brightness(0) invert(0)" }} />
             </div>
-            <div className='blog-row-13-content-middle'>
+            <div className='blog-row-13-content-middle' id='ourwork-footer-middle'>
               <Link to="/ourwork" className='blog-row-13-links'>Our Work</Link>
               <Link to="/aboutus" className='blog-row-13-links'>About Us</Link>
               <Link to="/blog" className='blog-row-13-links'>Blog</Link>
               <Link to="/careers" className='blog-row-13-links'>Careers</Link>
               <Link to="/contactus" className='blog-row-13-links'>Contact Us</Link>
             </div>
-            <div className='blog-row-13-content-right' style={{ filter: "brightness(0) invert(0)" }}>
+            <div className='blog-row-13-content-right' id='ourwork-footer-right' style={{ filter: "brightness(0) invert(0)" }}>
               {/* <img src={Facebook} className='social-media' alt='Facebook' />
               <img src={Instagram} className='social-media' alt='Instagram' />
               <img src={X} className='social-media' alt='X' /> */}
@@ -228,7 +229,7 @@ function Blog() {
           </div>
 
           <div className='blog-row-13-bottom'></div>
-          <div className='blog-row-13-footer'>
+          <div className='ourwork-row-13-footer'>
             <p className='blog-row-13-footer-links'>© 2023 Relume. All rights reserved.</p>
             <p className='blog-row-13-footer-links'>Privacy Policy</p>
             <p className='blog-row-13-footer-links'>Terms and Conditions</p>

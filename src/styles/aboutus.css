@@ -566,7 +566,6 @@
   gap: 80px;
 }
 .aboutus-row-12 {
-  margin-top: 60px;
   display: flex;
   padding: 90px 64px;
   flex-direction: column;
@@ -586,6 +585,7 @@
     margin-top: unset;
     padding-top: unset;
     text-align: center;
+    
   }
   .aboutus-row-1-header {
     color: var(--Text-primary, #000);
@@ -757,6 +757,7 @@
     align-items: flex-start;
     gap: 48px;
     align-self: stretch;
+  flex-direction: column;
   }
   .aboutus-row-2-right-bottom > div {
     width: 100%;
