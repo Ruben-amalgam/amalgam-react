@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import Envelope from '../assets/icons/Envelope.png'
 import Location from '../assets/icons/Location.png'
 import Phone from '../assets/icons/Phone.png'
@@ -31,9 +31,27 @@ function Aboutus() {
     const { pathname } = useLocation();
     const navigate = useNavigate();
 
+    const [windowDimensions, setWindowDimensions] = useState({
+        width: window.innerWidth,
+        height: window.innerHeight
+    });
+
     useEffect(() => {
         window.scrollTo(0, 0); // Scroll to the top
     }, [pathname]);
+    useEffect(() => {
+        function handleResize() {
+            setWindowDimensions({
+                width: window.innerWidth,
+                height: window.innerHeight
+            });
+        }
+
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
+
+    const isMobile = windowDimensions.width < 560;
 
     const employees1 = [
         {
@@ -99,9 +117,9 @@ function Aboutus() {
 
     return (
         <div >
+            <h1 className='aboutus-row-1-header' >Get to know us</h1>
             <section className='aboutus-row-1'>
                 <div className='aboutus-row-1-content'>
-                    <h1 className='aboutus-row-1-header' style={{ position: "absolute", top: 50, left: "50%", transform: "translate(-50%, -50%)" }}>Get to know us</h1>
                     <h2>When I founded Amalgam, I wanted to build a business that reflected my ethos. We made one promise to our clients, and never broke it: to always put them first.</h2>
                     <div className='aboutus-row-1-info'>
                         <img src={AvatarPlaceholder} alt="placeholder" />
@@ -217,82 +235,197 @@ function Aboutus() {
                 </div>
             </section>
 
-            <section className='aboutus-timeline'>
-                <div className='aboutus-row-7'>
+            <section className='aboutus-timeline'  style={{width: "100%" }}>
+                <div className='aboutus-row-7' >
                     <h1>Our story thus far</h1>
                     <p>Here are a few significant milestones we hit during the past decade.</p>
                 </div>
-                <div className='aboutus-row-8'>
-                    <div className='aboutus-row-8-left'>
-                        2010
-                    </div>
-                    <div className='aboutus-row-8-middle'>
-                        <img src={Divider} style={{ height: "100%" }} alt='Divider' />
+
+                {!isMobile ?
+                    <div >
+                        <div className='aboutus-row-8'>
+
+                            <div className='aboutus-row-8-left'>
+                                2010
+                            </div>
+                            <div className='aboutus-row-8-middle'>
+                                <img src={Divider} style={{ height: "100%" }} alt='Divider' />
+                            </div>
+
+                            <div className='aboutus-row-8-right'>
+                                <p>Amalgam was born. In the early days, we worked with financial institutions. We're proud to say, we rapidly grew our numbers to double digits.</p>
+                                <img src={AvatarPlaceholder} alt='Placeholder' />
+                            </div>
+                        </div>
+                        <div className='aboutus-row-8'>
+
+                            <div className='aboutus-row-8-left'>
+                                2012
+                            </div>
+                            <div className='aboutus-row-8-middle'>
+                                <img src={Divider} style={{ height: "100%" }} alt='Divider' />
+                            </div>
+
+                            <div className='aboutus-row-8-right'>
+                                <p>Amalgam was born. In the early days, we worked with financial institutions. We're proud to say, we rapidly grew our numbers to double digits.</p>
+                                <img src={AvatarPlaceholder} alt='Placeholder' />
+                            </div>
+                        </div>
+                        <div className='aboutus-row-8'>
+
+                            <div className='aboutus-row-8-left'>
+                                2015
+                            </div>
+                            <div className='aboutus-row-8-middle'>
+                                <img src={Divider} style={{ height: "100%" }} alt='Divider' />
+                            </div>
+
+                            <div className='aboutus-row-8-right'>
+                                <p>Amalgam was born. In the early days, we worked with financial institutions. We're proud to say, we rapidly grew our numbers to double digits.</p>
+                                <img src={AvatarPlaceholder} alt='Placeholder' />
+                            </div>
+                        </div>
+                        <div className='aboutus-row-8'>
+
+                            <div className='aboutus-row-8-left'>
+                                2018
+                            </div>
+                            <div className='aboutus-row-8-middle'>
+                                <img src={Divider} style={{ height: "100%" }} alt='Divider' />
+                            </div>
+
+                            <div className='aboutus-row-8-right'>
+                                <p>We invested in a Dublin-based company and grew fourfold!</p>
+                                <img src={AvatarPlaceholder} alt='Placeholder' />
+                            </div>
+                        </div>
+                        <div className='aboutus-row-8'>
+
+                            <div className='aboutus-row-8-left'>
+                                2019
+                            </div>
+                            <div className='aboutus-row-8-middle'>
+                                <img src={Divider} style={{ height: "100%" }} alt='Divider' />
+                            </div>
+
+                            <div className='aboutus-row-8-right'>
+                                <p>We onboarded a number of clients in the retail and insurance spaces.</p>
+                                <img src={AvatarPlaceholder} alt='Placeholder' />
+                            </div>
+                        </div>
+                        <div className='aboutus-row-8'>
+
+                            <div className='aboutus-row-8-left'>
+                                2023
+                            </div>
+                            <div className='aboutus-row-8-middle'>
+                                <img src={Divider} style={{ height: "100%" }} alt='Divider' />
+                            </div>
+
+                            <div className='aboutus-row-8-right'>
+                                <p>We refined our skills in generative AI techniques, became equity and development partners to a number of entrepreneurial ventures that gelled with our ethos, and grew more involved in the startup ecosystem.</p>
+                                <img src={AvatarPlaceholder} alt='Placeholder' />
+                            </div>
+                        </div>
+
                     </div>
 
-                    <div className='aboutus-row-8-right'>
-                        <p>Amalgam was born. In the early days, we worked with financial institutions. We're proud to say, we rapidly grew our numbers to double digits.</p>
-                        <img src={AvatarPlaceholder} alt='Placeholder' />
-                    </div>
-                </div>
+                    :
+                    <div >
+                        <div className='aboutus-row-8'>
+                            <div className='aboutus-row-8-middle'>
+                                <img src={Divider} style={{ height: "100%" }} alt='Divider' />
+                            </div>
 
-                <div className='aboutus-row-8'>
-                    <div className='aboutus-row-8-left'>
-                        2012
-                    </div>
-                    <div className='aboutus-row-8-middle'>
-                        <img src={Divider} style={{ height: "100%" }} alt='Divider' />
-                    </div>
+                            <div className='aboutus-row-8-left'>
+                                <p> 2010</p>
+                                <div className='aboutus-row-8-right'>
+                                    <p>Amalgam was born. In the early days, we worked with financial institutions. We're proud to say, we rapidly grew our numbers to double digits.</p>
+                                    <img src={AvatarPlaceholder} alt='Placeholder' className='timeline-img' />
+                                </div>
+                            </div>
 
-                    <div className='aboutus-row-8-right'>
-                        <p>Amalgam was born. In the early days, we worked with financial institutions. We're proud to say, we rapidly grew our numbers to double digits.</p>
-                        <img src={AvatarPlaceholder} alt='Placeholder' />
-                    </div>
-                </div>
-                <div className='aboutus-row-8'>
-                    <div className='aboutus-row-8-left'>
-                        2015
-                    </div>
-                    <div className='aboutus-row-8-middle'>
-                        <img src={Divider} style={{ height: "100%" }} alt='Divider' />
-                    </div>
+                        </div>
+                        <div className='aboutus-row-8'>
+                            <div className='aboutus-row-8-middle'>
+                                <img src={Divider} style={{ height: "100%" }} alt='Divider' />
+                            </div>
 
-                    <div className='aboutus-row-8-right'>
-                        <p>Amalgam was born. In the early days, we worked with financial institutions. We're proud to say, we rapidly grew our numbers to double digits.</p>
-                        <img src={AvatarPlaceholder} alt='Divider' />
-                    </div>
-                </div>
-                <div className='aboutus-row-8'>
-                    <div className='aboutus-row-8-left'>
-                        2019
-                    </div>
-                    <div className='aboutus-row-8-middle'>
-                        <img src={Divider} style={{ height: "100%" }} alt='Divider' />
-                    </div>
+                            <div className='aboutus-row-8-left'>
+                                <p> 2012</p>
+                                <div className='aboutus-row-8-right'>
+                                    <p>We launched two products:
 
-                    <div className='aboutus-row-8-right'>
-                        <p>Amalgam was born. In the early days, we worked with financial institutions. We're proud to say, we rapidly grew our numbers to double digits.</p>
-                        <img src={AvatarPlaceholder} alt='Placeholder' />
+                                        Transliter8, a software producing precise, standardized transliteration of personal or legal entities from or to English.
+
+                                        AML Analyzer, analyzing sanctions list data for sanction screening companies to ensure that it's accurate and up to date.</p>
+                                    <img src={AvatarPlaceholder} alt='Placeholder' className='timeline-img' />
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className='aboutus-row-8'>
+                            <div className='aboutus-row-8-middle'>
+                                <img src={Divider} style={{ height: "100%" }} alt='Divider' />
+                            </div>
+
+                            <div className='aboutus-row-8-left'>
+                                <p> 2015</p>
+                                <div className='aboutus-row-8-right'>
+                                    <p>We sold Transliter8 to Meta (ex-Facebook) and helped Fortune 100 clients with their digital transformation.</p>
+                                    <img src={AvatarPlaceholder} alt='Placeholder' className='timeline-img' />
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className='aboutus-row-8'>
+                            <div className='aboutus-row-8-middle'>
+                                <img src={Divider} style={{ height: "100%" }} alt='Divider' />
+                            </div>
+
+                            <div className='aboutus-row-8-left'>
+                                <p> 2018</p>
+                                <div className='aboutus-row-8-right'>
+                                    <p>We invested in a Dublin-based company and grew fourfold!</p>
+                                    <img src={AvatarPlaceholder} alt='Placeholder' className='timeline-img' />
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className='aboutus-row-8'>
+                            <div className='aboutus-row-8-middle'>
+                                <img src={Divider} style={{ height: "100%" }} alt='Divider' />
+                            </div>
+
+                            <div className='aboutus-row-8-left'>
+                                <p> 2019</p>
+                                <div className='aboutus-row-8-right'>
+                                    <p>We onboarded a number of clients in the retail and insurance spaces.</p>
+                                    <img src={AvatarPlaceholder} alt='Placeholder' className='timeline-img' />
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className='aboutus-row-8'>
+                            <div className='aboutus-row-8-middle'>
+                                <img src={Divider} style={{ height: "100%" }} alt='Divider' />
+                            </div>
+
+                            <div className='aboutus-row-8-left'>
+                                <p> 2023</p>
+                                <div className='aboutus-row-8-right'>
+                                    <p>We refined our skills in generative AI techniques, became equity and development partners to a number of entrepreneurial ventures that gelled with our ethos, and grew more involved in the startup ecosystem.</p>
+                                    <img src={AvatarPlaceholder} alt='Placeholder' className='timeline-img' />
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
-                </div>
+                }
 
             </section>
 
             <section className='aboutus-timeline-2'>
-                <div className='aboutus-row-8'>
-                    <div className='aboutus-row-8-left'>
-                        2023
-                    </div>
-                    <div className='aboutus-row-8-middle'>
-                        <img src={Divider} style={{ height: "100%" }} alt='Divider' />
-                    </div>
-
-                    <div className='aboutus-row-8-right'>
-                        <p>Amalgam was born. In the early days, we worked with financial institutions. We're proud to say, we rapidly grew our numbers to double digits.</p>
-                        <img src={AvatarPlaceholder} alt='Placeholder' />
-                    </div>
-                </div>
-
                 <div className='aboutus-row-12' style={{ backgroundColor: "unset" }}>
                     <div className='home-row-12-content'>
                         <p className='home-row-12-header'>
