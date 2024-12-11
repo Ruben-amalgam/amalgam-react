@@ -207,7 +207,8 @@ function Blog() {
 
       </section>
       <section>
-        <div id='ourwork-row-13'>
+
+        <div id='ourwork-row-13' className='blog-last'>
           <div className='blog-row-13-content'>
             <div className='blog-row-13-content-left' id='ourwork-footer-left'>
               <img src={Amalgam} alt="Amalgam" className='logo' style={{ filter: "brightness(0) invert(0)" }} />
@@ -228,8 +229,10 @@ function Blog() {
             </div>
           </div>
 
-          <div className='blog-row-13-bottom'></div>
-          <div className='ourwork-row-13-footer'>
+          <div className='blog-row-13-bottom'>
+            <div></div>
+          </div>
+          <div className='blog-row-13-footer' >
             <p className='blog-row-13-footer-links'>© 2023 Relume. All rights reserved.</p>
             <p className='blog-row-13-footer-links'>Privacy Policy</p>
             <p className='blog-row-13-footer-links'>Terms and Conditions</p>
