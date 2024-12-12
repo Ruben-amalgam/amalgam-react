@@ -515,6 +515,10 @@
     align-items: flex-start;
     gap: 48px;
   }
+  .blog-row-2-right {
+    padding-left: unset;
+  }
+
 
   .blog-row-2-left {
   }
@@ -523,11 +527,18 @@
     width: 100%;
     height: auto;
   }
+  .blog-row-3-content div{
+    display: flex;
+  }
+.blog-row-3-content div button{
+    display: flex;
+    font-size: 12px;
+  }
   .blog-row-4 {
     box-sizing: border-box;
     background: white;
     display: flex;
-    padding: 64px;
+    padding: 20px;
     height: unset;
     flex-direction: column;
     align-items: flex-start;

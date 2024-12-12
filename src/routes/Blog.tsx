@@ -56,12 +56,12 @@ function Blog() {
         <section className='blog-row-3'>
 
           <div className='blog-row-3-content'>
-            <hgroup>
+            <div>
               <button>View All</button>
               <button>Business</button>
               <button>Technology</button>
               <button>Entrepreneurship</button>
-            </hgroup>
+            </div>
           </div>
           <div className='blog-row-3-articles'>
             <div className='blog-row-3-article-row'>
