@@ -72,6 +72,19 @@ function Home() {
                         <img src={PFA} className='pfa' alt='pfa' />
                         <img src={Sofi} className='sofi' alt='sofi' />
                         <img src={Zenbank} className='zenbank' alt='zenbank' />
+                        <img src={AFmensa} className='afmensa' alt='AFmensa' />
+                        <img src={BankOfGuam} className='bankofguam' alt='BankOfGuam' />
+                        <img src={BureauVanDijk} className='bureauvandijk' alt='BureauVanDijk' />
+                        <img src={CleanItSupply} className='cleanitsupply' alt='CleanItSupply' />
+                        <img src={Everbank} className='everbank' alt='Everbank' />
+                        <img src={JohnTempleton} className='johntempleton' alt='johntempleton' />
+                        <img src={MTBank} className='mtbank' alt='mtbank' />
+                        <img src={Moodys} className='moodys' alt='moodys' />
+                        <img src={NGrowth} className='ngrowth' alt='ngrowth' />
+                        <img src={PearlX} className='pearlx' alt='pearlx' />
+                        <img src={PFA} className='pfa' alt='pfa' />
+                        <img src={Sofi} className='sofi' alt='sofi' />
+                        <img src={Zenbank} className='zenbank' alt='zenbank' />
                     </div>
                 </div>
             </div>
