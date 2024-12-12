@@ -206,8 +206,8 @@ function Blog() {
         </div>
 
       </section>
-      <section>
 
+      <section>
         <div id='ourwork-row-13' className='blog-last'>
           <div className='blog-row-13-content'>
             <div className='blog-row-13-content-left' id='ourwork-footer-left'>

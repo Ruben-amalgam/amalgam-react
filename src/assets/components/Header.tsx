@@ -21,6 +21,7 @@ function Header() {
                     <Link to="/ourwork" className="navlink">Our Work</Link>
                     <Link to="/aboutus" className="navlink">About Us</Link>
                     <Link to="/blog" className="navlink">Blog</Link>
+                    <Link to="/startups" className="navlink">E-Hub</Link>
                 </div>
                 <div className="nav-button-container">
                     <button className="careers-button" onClick={() => navigate('/careers')}>Careers</button>
