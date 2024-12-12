@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/amalgam-react/static/css/main.46d9a928.css",
-    "main.js": "/amalgam-react/static/js/main.15b31654.js",
+    "main.css": "/amalgam-react/static/css/main.1fe7d612.css",
+    "main.js": "/amalgam-react/static/js/main.c8d0909a.js",
     "static/media/Team.png": "/amalgam-react/static/media/Team.eb9d3f6e6426a7013109.png",
     "static/media/Clients.png": "/amalgam-react/static/media/Clients.bd618c560f9dc500fd0b.png",
     "static/media/JobPosting.png": "/amalgam-react/static/media/JobPosting.b8b42dab948a695f3a43.png",
@@ -55,11 +55,11 @@
     "static/media/Placeholder.png": "/amalgam-react/static/media/Placeholder.e3e6d1002b825d849602.png",
     "static/media/Placeholder2.png": "/amalgam-react/static/media/Placeholder2.fd801fc2c1c5ce802b42.png",
     "index.html": "/amalgam-react/index.html",
-    "main.46d9a928.css.map": "/amalgam-react/static/css/main.46d9a928.css.map",
-    "main.15b31654.js.map": "/amalgam-react/static/js/main.15b31654.js.map"
+    "main.1fe7d612.css.map": "/amalgam-react/static/css/main.1fe7d612.css.map",
+    "main.c8d0909a.js.map": "/amalgam-react/static/js/main.c8d0909a.js.map"
   },
   "entrypoints": [
-    "static/css/main.46d9a928.css",
-    "static/js/main.15b31654.js"
+    "static/css/main.1fe7d612.css",
+    "static/js/main.c8d0909a.js"
   ]
 }
