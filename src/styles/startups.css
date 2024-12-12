@@ -580,15 +580,19 @@
   }
   .startups-row-3 {
     background-color: white;
+    display: flex;
+    padding: 64px 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
   }
 
-   .startups-row-3-content button{
+  .startups-row-3-content button {
     color: black;
   }
 
   #startups-row-3-h1 {
     color: black;
-
   }
   .startups-row-3-content-card :nth-child(2) {
     color: black;
@@ -598,7 +602,6 @@
     width: 100%;
     height: fit-content;
     padding-bottom: 10px;
-
   }
   .startups-row-3-article-info :nth-child(2) {
     color: var(--Text-primary, #000);
