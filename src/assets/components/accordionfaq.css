@@ -89,3 +89,16 @@
   text-wrap: nowrap;
   background-color: transparent;
 }
+
+@media (max-width: 576px) {
+  .accordion-button {
+    font-size: 24px;
+  }
+
+  .accordion-content h2 {
+    font-size: 20px;
+  }
+  .accordion-content p {
+    font-size: 16px;
+  }
+}

@@ -104,24 +104,25 @@ function ContactUs() {
               <p>By clicking Sign Up, you confirm that you agree with our Terms and Conditions.</p>
             </div>
           </div>
-          <img src={Placeholder} alt="" />
+          <img src={Placeholder} alt="Placeholder" />
         </div>
       </section>
 
       <section>
-        <div className='blog-row-13'>
+
+        <div id='ourwork-row-13' className='blog-last'>
           <div className='blog-row-13-content'>
-            <div className='blog-row-13-content-left'>
+            <div className='blog-row-13-content-left' id='ourwork-footer-left'>
               <img src={Amalgam} alt="Amalgam" className='logo' style={{ filter: "brightness(0) invert(0)" }} />
             </div>
-            <div className='blog-row-13-content-middle'>
+            <div className='blog-row-13-content-middle' id='ourwork-footer-middle'>
               <Link to="/ourwork" className='blog-row-13-links'>Our Work</Link>
               <Link to="/aboutus" className='blog-row-13-links'>About Us</Link>
               <Link to="/blog" className='blog-row-13-links'>Blog</Link>
               <Link to="/careers" className='blog-row-13-links'>Careers</Link>
               <Link to="/contactus" className='blog-row-13-links'>Contact Us</Link>
             </div>
-            <div className='blog-row-13-content-right' style={{ filter: "brightness(0) invert(0)" }}>
+            <div className='blog-row-13-content-right' id='ourwork-footer-right' style={{ filter: "brightness(0) invert(0)" }}>
               {/* <img src={Facebook} className='social-media' alt='Facebook' />
               <img src={Instagram} className='social-media' alt='Instagram' />
               <img src={X} className='social-media' alt='X' /> */}
@@ -130,8 +131,10 @@ function ContactUs() {
             </div>
           </div>
 
-          <div className='blog-row-13-bottom'></div>
-          <div className='blog-row-13-footer'>
+          <div className='blog-row-13-bottom'>
+            <div></div>
+          </div>
+          <div className='blog-row-13-footer' >
             <p className='blog-row-13-footer-links'>© 2023 Relume. All rights reserved.</p>
             <p className='blog-row-13-footer-links'>Privacy Policy</p>
             <p className='blog-row-13-footer-links'>Terms and Conditions</p>

@@ -52,7 +52,6 @@
   position: relative;
 }
 .contactus-row-2 form {
-  
   gap: 24px;
 }
 .contactus-label {
@@ -336,4 +335,276 @@
   font-weight: 400;
   line-height: 150%; /* 24px */
   white-space: nowrap;
+}
+
+@media (max-width: 560px) {
+  .contactus-row-1 {
+    display: flex;
+    padding: 64px 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+  }
+  .swirl {
+    display: none;
+  }
+
+  .contactus-row-1 h1 {
+    color: var(--Text-primary, #000);
+    text-align: center;
+
+    /* Heading/Mobile/H1 */
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 48px */
+  }
+
+  .contactus-row-1 p {
+    color: var(--Text-primary, #000);
+    text-align: center;
+
+    /* Text/Regular/Normal */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+  }
+  .contactus-row-2 {
+    display: flex;
+    padding: 64px 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    background: white;
+    width: 100%;
+  }
+  .contactus-row-2 form {
+    gap: 24px;
+    width: 100%;
+  }
+  .contactus-label {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    gap: 8px;
+  }
+
+  .contactus-label p {
+    color: var(--Text-primary, #000);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+    margin-bottom: 0;
+  }
+
+  .contactus-blobert {
+    display: none;
+  }
+
+  .contactus-row-2 form {
+    width: 100%;
+  }
+
+  .contactus-row-3 {
+    display: flex;
+    padding: 64px 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+  }
+
+  .contactus-row-3-header {
+    display: flex;
+    width: unset;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .contactus-row-3-header p {
+    color: var(--Text-primary, #000);
+    text-align: center;
+
+    /* Text/Regular/Semi Bold */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 24px */
+  }
+
+  .contactus-row-3-header h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: var(--Text-primary, #000);
+    text-align: center;
+
+    /* Heading/Desktop/H2 */
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 57.6px */
+  }
+
+  .contactus-row-3-contact {
+    display: flex;
+    align-items: flex-start;
+    gap: 48px;
+    align-self: stretch;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .contactus-row-3-contact div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    flex: 1 0 0;
+  }
+
+  .contactus-row-3-contact img {
+    width: 48px;
+    height: 48px;
+  }
+
+  .contactus-row-3-contact h3 {
+    color: var(--Text-primary, #000);
+    text-align: center;
+
+    /* Heading/Desktop/H4 */
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 41.6px */
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .contactus-row-3-contact p {
+    color: var(--Link-primary, #000);
+    text-align: center;
+
+    /* Text/Regular/Link */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+  }
+  .contactus-row-4 {
+    display: flex;
+    padding: 64px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+  }
+
+  .contactus-row-4-content {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    align-self: stretch;
+    flex-direction: column;
+  }
+
+  .contactus-row-4-content div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    width: 100%;
+  }
+
+  .contactus-row-4-content div h2 {
+    color: var(--Text-primary, #000);
+
+    /* Heading/Desktop/H2 */
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 57.6px */
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .contactus-row-4-content div > p {
+    /* Text/Medium/Normal */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+  }
+
+  .contactus-row-4-content img {
+    height: 400px;
+    flex: 1 0 0;
+  }
+  .contactus-row-4-form {
+    display: flex;
+    width: unset;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 16px;
+  }
+
+  .contactus-row-4-form input {
+    display: flex;
+    padding: 12px;
+    align-items: center;
+    gap: 8px;
+    flex: 1 0 0;
+    margin-right: 16px;
+    width: 100%;
+  }
+
+  .contactus-row-4-form input::placeholder {
+    color: var(--Color-Neutral-neutral, #666);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+  }
+
+  .contactus-row-4-form button {
+    display: flex;
+    width: 103px;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: #000;
+    color: var(--Text-alternate, #fff);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    white-space: nowrap;
+    width: 100%;
+  }
+
+  .contactus-row-4-content img{
+    width: 100%;
+  }
 }
