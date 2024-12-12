@@ -439,6 +439,10 @@
   .home-row-6-header {
     font-size: 46px;
   }
+  #startups-row-2 {
+    padding-bottom: 60px;
+
+  }
   .startups-row-3 {
     display: flex;
     padding: 64px 20px;
@@ -624,5 +628,15 @@
   }
   .startups-row-3-content-card :nth-child(4) {
     color: black;
+  }
+  #startups-header {
+    border: 2px solid black;
+    width: 100%;
+  }
+
+  #startups-header button{
+    font-size: 10px;
+    text-wrap: nowrap;
+
   }
 }

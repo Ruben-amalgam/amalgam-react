@@ -39,7 +39,6 @@ function Startups() {
 
 
             <div className='home-row-6' id='startups-row-2'>
-                <div className='home-row-6'>
                     <div className='home-row-6-header' >
                         <h1 id='home-row-2-h1'>Why us? Hear it from our clients</h1>
                     </div>
@@ -52,7 +51,6 @@ function Startups() {
                     <div>
                         <img src={Mendoza} className='fitzmier' />
                     </div>
-                </div>
 
 
             </div>
@@ -60,7 +58,7 @@ function Startups() {
             <section className='startups-row-3'>
                 <h1 id='startups-row-3-h1'>How we've helped other startups</h1>
                 <div className='startups-row-3-content'>
-                    <div>
+                    <div id='startups-header'>
                         <button>View all</button>
                         <button>Funding</button>
                         <button>Growth</button>
