@@ -4,11 +4,11 @@ import './accordionfaq.css'
 
 function FlushExample() {
     return (
-        <Accordion  flush style={{ width: "100%" }}>
+        <Accordion  flush style={{ width: "100%"  }}>
             <Accordion.Item eventKey="0" >
                 <Accordion.Header>What is business consulting?</Accordion.Header>
                 <Accordion.Body>
-                    <div className='accordion-content'>
+                    <div className='accordion-content '>
                         <h2>What is business consulting?</h2>
                         <p>New York</p>
                         <p>We are seeking a talented Marketing Specialist to join our dynamic team in New York. The ideal candidate will have a strong background in digital marketing and a passion for driving results.</p>

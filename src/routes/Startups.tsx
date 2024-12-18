@@ -58,13 +58,13 @@ function Startups() {
             <section className='startups-row-3'>
                 <h1 id='startups-row-3-h1'>How we've helped other startups</h1>
                 <div className='startups-row-3-content'>
-                    <div id='startups-header'>
+                    {/* <div id='startups-header'>
                         <button>View all</button>
                         <button>Funding</button>
                         <button>Growth</button>
                         <button>Innovation</button>
                         <button>Success Stories</button>
-                    </div>
+                    </div> */}
                     <div className='startups-row-3-row'>
                         <div className='startups-row-3-content-card'>
                             <img src={Placeholder} alt="Placeholder" />

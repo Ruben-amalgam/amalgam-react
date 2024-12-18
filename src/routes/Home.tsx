@@ -2,7 +2,8 @@ import { useEffect } from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
 import AmalgamGroup from '../assets/images/Amalgam-Group.png'
 import Amalgam from '../assets/images/Amalgam-logo.png'
-import AFmensa from '../assets/images/carousel-photos/AFmensa.png'
+import AFMensa from '../assets/images/carousel-photos/AFMensa.png'
+import Constructive from '../assets/images/carousel-photos/Constructive.png'
 import BankOfGuam from '../assets/images/carousel-photos/BankOfGuam.png'
 import BureauVanDijk from '../assets/images/carousel-photos/BureauVanDijk.png'
 import CleanItSupply from '../assets/images/carousel-photos/CleanItSupply.png'
@@ -14,6 +15,7 @@ import NGrowth from '../assets/images/carousel-photos/NGrowth.png'
 import PearlX from '../assets/images/carousel-photos/PearlX.png'
 import PFA from '../assets/images/carousel-photos/PFA.png'
 import Sofi from '../assets/images/carousel-photos/Sofi.png'
+import TIAA from '../assets/images/carousel-photos/TIAA.png'
 import Zenbank from '../assets/images/carousel-photos/Zenbanx.png'
 import Consulting from '../assets/images/Consulting.png'
 import Cube from '../assets/images/Cube.png'
@@ -59,32 +61,20 @@ function Home() {
                 <h3 className='home-row-2-header'>Trusted by big names and rising stars alike</h3>
                 <div className='home-row-2-worked-with'>
                     <div className='home-row-2-carousel-content'>
-                        <img src={AFmensa} className='afmensa' alt='AFmensa' />
+                        <img src={Constructive} className='constructive' alt='constructive'  />
                         <img src={BankOfGuam} className='bankofguam' alt='BankOfGuam' />
-                        <img src={BureauVanDijk} className='bureauvandijk' alt='BureauVanDijk' />
-                        <img src={CleanItSupply} className='cleanitsupply' alt='CleanItSupply' />
-                        <img src={Everbank} className='everbank' alt='Everbank' />
-                        <img src={JohnTempleton} className='johntempleton' alt='johntempleton' />
-                        <img src={MTBank} className='mtbank' alt='mtbank' />
                         <img src={Moodys} className='moodys' alt='moodys' />
+                        <img src={JohnTempleton} className='johntempleton' alt='johntempleton' />
                         <img src={NGrowth} className='ngrowth' alt='ngrowth' />
-                        <img src={PearlX} className='pearlx' alt='pearlx' />
                         <img src={PFA} className='pfa' alt='pfa' />
                         <img src={Sofi} className='sofi' alt='sofi' />
-                        <img src={Zenbank} className='zenbank' alt='zenbank' />
-                        <img src={AFmensa} className='afmensa' alt='AFmensa' />
-                        <img src={BankOfGuam} className='bankofguam' alt='BankOfGuam' />
-                        <img src={BureauVanDijk} className='bureauvandijk' alt='BureauVanDijk' />
+                        <img src={TIAA} className='tiaa' alt='tiaa' />
                         <img src={CleanItSupply} className='cleanitsupply' alt='CleanItSupply' />
-                        <img src={Everbank} className='everbank' alt='Everbank' />
-                        <img src={JohnTempleton} className='johntempleton' alt='johntempleton' />
+                        <img src={AFMensa} className='afmensa' alt='afmensa' />
                         <img src={MTBank} className='mtbank' alt='mtbank' />
-                        <img src={Moodys} className='moodys' alt='moodys' />
-                        <img src={NGrowth} className='ngrowth' alt='ngrowth' />
                         <img src={PearlX} className='pearlx' alt='pearlx' />
-                        <img src={PFA} className='pfa' alt='pfa' />
-                        <img src={Sofi} className='sofi' alt='sofi' />
                         <img src={Zenbank} className='zenbank' alt='zenbank' />
+                        
                     </div>
                 </div>
             </div>

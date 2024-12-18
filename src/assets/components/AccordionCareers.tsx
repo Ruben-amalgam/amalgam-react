@@ -49,7 +49,7 @@ function AccordionCareers() {
                     <div className='accordion-content'>
                         <h2>{jobData[1].title}</h2>
                         <p>{jobData[1].description}</p>
-                        <Link to="/jobpost" state={jobData[1]}>
+                        <Link to="/jobpost" state={jobData[1]} >
                             View Details
                         </Link>
                     </div>

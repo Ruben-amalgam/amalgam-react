@@ -113,15 +113,6 @@ function Ourwork() {
                             <p>Co-Founder and President, PearlX Infrastructure</p>
                         </div>
                     </div>
-                    <div className='ourwork-row-5-content'>
-                        <img src={Webflow} alt="Webflow" />
-                        <h5>ASK NEERAJ TO BE PUT IN TOUCH GET QUOTE GET QUOTE GET QUOTE</h5>
-                        <div className='ourwork-row-5-content-header'>
-                            <p>Zach Peterson</p>
-                            <p>Chief Operating Officer, Premier Financial Alliance</p>
-                        </div>
-
-                    </div>
                 </div>
                 <img src={Circles} alt="circles" className='ourwork-row-5-circles' />
             </section>
@@ -276,10 +267,10 @@ function Ourwork() {
                         <img src={Cube} alt="Cube" />
                         <h3>Artificial Intelligence & machine learning</h3>
                     </div>
-                    <div>
+                    {/* <div>
                         <img src={Cube} alt="Cube" />
                         <h3>Data management</h3>
-                    </div>
+                    </div> */}
                 </div>
                 <p>You'll get much farther with the right connections. Here's how we can support you on this front:</p>
                 <div className='ourwork-row-10-content3'>

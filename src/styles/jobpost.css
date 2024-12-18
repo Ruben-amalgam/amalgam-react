@@ -137,3 +137,74 @@
   margin-bottom: 16px;
   margin-top: 0;
 }
+
+@media (max-width: 560px) {
+  .jobpost-row-2 {
+    padding: 64px 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+  }
+
+  .jobpost-row-2 h1 {
+    font-size: 40px;
+  }
+
+  .jobpost-row-2 p {
+    font-size: 16px;
+  }
+  .jobpost-bulb {
+    display: none;
+  }
+  .jobpost-row-3 {
+    display: flex;
+    padding: 64px 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+  }
+  .jobpost-row-3 > div {
+    width: 100%;
+  }
+
+  .jobpost-row-3 h1 {
+    color: var(--Text-primary, #000);
+
+    /* Heading/Mobile/H2 */
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 43.2px */
+  }
+
+  .jobpost-role-descriptions {
+    width: 100%;
+  }
+  .jobpost-row-3 p {
+    color: var(--Text-primary, #000);
+
+    /* Text/Regular/Normal */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+  }
+
+  .jobpost-jobposting {
+    width: 100%;
+  }
+  .jobpost-row-4 {
+    display: flex;
+    padding: 64px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+  }
+  .jobpost-form > :nth-last-child(1){
+    border: 2px solid;
+    gap: 8px;
+  }
+}
