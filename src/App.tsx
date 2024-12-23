@@ -16,17 +16,17 @@ const App: React.FC = () => {
   return (
     <Router basename="/amalgam-react">
       <Header />
-      <Routes>
-        <Route path="/" element={<Home />} /> 
-        <Route path="/ourwork" element={<Ourwork />} /> 
-        <Route path="/aboutus" element={<Aboutus />} /> 
-        <Route path="/blog" element={<Blog />} /> 
-        <Route path="/careers" element={<Careers/>} /> 
-        <Route path="/contactus" element={<ContactUs/>} /> 
-        <Route path="/startups" element={<Startups/>} /> 
-        <Route path="/faq" element={<Faq/>} /> 
-        <Route path="/jobpost" element={<JobPost/>} /> 
-      </Routes>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/ourwork" element={<Ourwork />} />
+          <Route path="/aboutus" element={<Aboutus />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/careers" element={<Careers />} />
+          <Route path="/contactus" element={<ContactUs />} />
+          <Route path="/startups" element={<Startups />} />
+          <Route path="/faq" element={<Faq />} />
+          <Route path="/jobpost" element={<JobPost />} />
+        </Routes>
     </Router>
   );
 };

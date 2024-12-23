@@ -29,6 +29,7 @@ import LinkedIn from '../assets/images/LinkedIn.png'
 import Rocket from '../assets/images/Rocket.png'
 import Solutions from '../assets/images/Solutions.png'
 import TechConsulting from '../assets/images/Tech-Consulting.png'
+import Header from '../assets/components/Header'
 import X from '../assets/images/X.png'
 import Youtube from '../assets/images/Youtube.png'
 import LeftQoutes from '../assets/images/LeftQuotes.png'
@@ -36,15 +37,19 @@ import RightQoutes from '../assets/images/RightQuotes.png'
 import Writing from '../assets/images/Writing.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/home.css'
+import { useMediaQuery } from 'react-responsive';
+
 
 
 function Home() {
     const navigate = useNavigate();
+    const isMobile = useMediaQuery({ maxWidth: 570 });
     // const { pathname } = useLocation();
     // useEffect(() => {
     //     // window.scrollTo(0, 0); // Scroll to the top
     // }, [pathname]);
     return (
+
         <div style={{ boxSizing: "border-box" }}>
             <div className='home-row-1'>
                 <div className='home-row-1-text-box'>
@@ -58,10 +63,10 @@ function Home() {
             </div>
 
             <div className='home-row-2'>
-                <h3 className='home-row-2-header'>Trusted by big names and rising stars alike</h3>
+                <h3 className='home-row-2-header'>Trusted by big names {isMobile ? <br/>: null} and rising stars alike</h3>
                 <div className='home-row-2-worked-with'>
                     <div className='home-row-2-carousel-content'>
-                        <img src={Constructive} className='constructive' alt='constructive'  />
+                        <img src={Constructive} className='constructive' alt='constructive' />
                         <img src={BankOfGuam} className='bankofguam' alt='BankOfGuam' />
                         <img src={Moodys} className='moodys' alt='moodys' />
                         <img src={JohnTempleton} className='johntempleton' alt='johntempleton' />
@@ -74,7 +79,7 @@ function Home() {
                         <img src={MTBank} className='mtbank' alt='mtbank' />
                         <img src={PearlX} className='pearlx' alt='pearlx' />
                         <img src={Zenbank} className='zenbank' alt='zenbank' />
-                        
+
                     </div>
                 </div>
             </div>
@@ -139,17 +144,20 @@ function Home() {
             </div>
 
             <div className='home-row-6'>
-                <div className='home-row-6-header'>
-                    Why us? Hear it from our clients
-                </div>
                 <div>
-                    <img src={Fitzmier} className='fitzmier' />
-                </div>
-                <div>
-                    <img src={Mooney} className='mooney' />
-                </div>
-                <div>
-                    <img src={Mendoza} className='fitzmier' />
+
+                    <div className='home-row-6-header'>
+                        Why us? Hear it from our clients
+                    </div>
+                    <div>
+                        <img src={Fitzmier} className='fitzmier' />
+                    </div>
+                    <div>
+                        <img src={Mooney} className='mooney' />
+                    </div>
+                    <div>
+                        <img src={Mendoza} className='fitzmier' />
+                    </div>
                 </div>
             </div>
 
