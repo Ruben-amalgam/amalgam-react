@@ -5,11 +5,11 @@ import Teamwork from '../assets/images/Teamwork.png'
 import AvatarPlaceholder from '../assets/images/AvatarPlaceholder.png'
 import Amalgam from '../assets/images/Amalgam-logo.png'
 import AvatarPlaceholder2 from '../assets/images/Placeholder2.png'
-import Facebook from '../assets/images/Facebook.png'
-import Instagram from '../assets/images/Instagram.png'
-import X from '../assets/images/X.png'
+// import Facebook from '../assets/images/Facebook.png'
+// import Instagram from '../assets/images/Instagram.png'
+// import X from '../assets/images/X.png'
 import LinkedIn from '../assets/images/LinkedIn.png'
-import Youtube from '../assets/images/Youtube.png'
+// import Youtube from '../assets/images/Youtube.png'
 import { Link, useLocation } from 'react-router-dom'
 
 
@@ -24,7 +24,6 @@ function Blog() {
         <section className='blog-row-1'>
           <h1>Learn more about what drives your growth</h1>
           <p>Explore our content on entrepreneurship, business, technology, and funding.</p>
-
         </section>
         <section>
           <div className='blog-row-2'>

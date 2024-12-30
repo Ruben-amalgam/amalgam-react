@@ -1,27 +1,29 @@
 import React from 'react'
 import '../styles/startups.css'
-import Stars from '../assets/icons/Stars.png'
+// import Stars from '../assets/icons/Stars.png'
 import Consulting from '../assets/images/Consulting.png'
 import Entrprenuer from '../assets/images/Entrepreneurial-Hub.png'
 import TechConsulting from '../assets/images/Tech-Consulting.png'
 import AvatarPlaceholder from '../assets/images/AvatarPlaceholder.png'
 import Placeholder from '../assets/images/Placeholder.png'
-import LeftQuotes from '../assets/images/LeftQuotes.png'
-import RightQuotes from '../assets/images/RightQuotes.png'
-import Ryan from '../assets/images/Ryan.png'
+// import LeftQuotes from '../assets/images/LeftQuotes.png'
+// import RightQuotes from '../assets/images/RightQuotes.png'
+// import Ryan from '../assets/images/Ryan.png'
 import Bayan from '../assets/images/Bayan.png'
 import Mendoza from '../assets/images/Mendoza.png'
-import GreenStar from '../assets/images/GreenStar.png'
+// import GreenStar from '../assets/images/GreenStar.png'
 
 import Speaker from '../assets/images/Speaker.png'
 import Amalgam from '../assets/images/Amalgam-logo.png'
-import Facebook from '../assets/images/Facebook.png'
-import Instagram from '../assets/images/Instagram.png'
-import X from '../assets/images/X.png'
+// import Facebook from '../assets/images/Facebook.png'
+// import Instagram from '../assets/images/Instagram.png'
+// import X from '../assets/images/X.png'
 import LinkedIn from '../assets/images/LinkedIn.png'
-import Youtube from '../assets/images/Youtube.png'
+// import Youtube from '../assets/images/Youtube.png'
 import { Link, useNavigate } from 'react-router-dom'
 import BlobertRocket from '../assets/images/BlobertRocket.png'
+import GreenBanner from 'assets/components/TestimonialBanner/GreenBanner'
+import BlueBanner from 'assets/components/TestimonialBanner/BlueBanner'
 
 
 function Startups() {
@@ -43,13 +45,15 @@ function Startups() {
                         <h1 id='home-row-2-h1'>Why us? Hear it from our clients</h1>
                     </div>
                     <div>
-                        <img src={Ryan} className='fitzmier' />
+                        {/* <img src={Ryan} className='fitzmier' /> */}
+                        <GreenBanner />
                     </div>
                     <div>
-                        <img src={Bayan} className='mooney' />
+                        {/* <img src={Bayan} className='mooney' alt='Bayan' /> */}
+                        <BlueBanner />
                     </div>
                     <div>
-                        <img src={Mendoza} className='fitzmier' />
+                        <img src={Mendoza} className='fitzmier' alt='Fitzmier'  />
                     </div>
 
 

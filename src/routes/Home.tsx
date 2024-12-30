@@ -2,7 +2,6 @@ import { useEffect } from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
 import AmalgamGroup from '../assets/images/Amalgam-Group.png'
 import Amalgam from '../assets/images/Amalgam-logo.png'
-import AFMensa from '../assets/images/carousel-photos/AFMensa.png'
 import Constructive from '../assets/images/carousel-photos/Constructive.png'
 import BankOfGuam from '../assets/images/carousel-photos/BankOfGuam.png'
 import BureauVanDijk from '../assets/images/carousel-photos/BureauVanDijk.png'
@@ -51,6 +50,7 @@ function Home() {
     return (
 
         <div style={{ boxSizing: "border-box" }}>
+
             <div className='home-row-1'>
                 <div className='home-row-1-text-box'>
                     <h1 className="home-row-1-heading">We're the rocket fuel to your moonshot</h1>
@@ -63,7 +63,7 @@ function Home() {
             </div>
 
             <div className='home-row-2'>
-                <h3 className='home-row-2-header'>Trusted by big names {isMobile ? <br/>: null} and rising stars alike</h3>
+                <h3 className='home-row-2-header'>Trusted by big names {isMobile ? <br /> : null} and rising stars alike</h3>
                 <div className='home-row-2-worked-with'>
                     <div className='home-row-2-carousel-content'>
                         <img src={Constructive} className='constructive' alt='constructive' />
@@ -75,7 +75,6 @@ function Home() {
                         <img src={Sofi} className='sofi' alt='sofi' />
                         <img src={TIAA} className='tiaa' alt='tiaa' />
                         <img src={CleanItSupply} className='cleanitsupply' alt='CleanItSupply' />
-                        <img src={AFMensa} className='afmensa' alt='afmensa' />
                         <img src={MTBank} className='mtbank' alt='mtbank' />
                         <img src={PearlX} className='pearlx' alt='pearlx' />
                         <img src={Zenbank} className='zenbank' alt='zenbank' />
