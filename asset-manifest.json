@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/amalgam-react/static/css/main.98f87d71.css",
-    "main.js": "/amalgam-react/static/js/main.2c27ae62.js",
+    "main.css": "/amalgam-react/static/css/main.379e3a28.css",
+    "main.js": "/amalgam-react/static/js/main.c122e7c6.js",
     "static/media/Team.png": "/amalgam-react/static/media/Team.eb9d3f6e6426a7013109.png",
     "static/media/Clients.png": "/amalgam-react/static/media/Clients.bd618c560f9dc500fd0b.png",
     "static/media/JobPosting.png": "/amalgam-react/static/media/JobPosting.b8b42dab948a695f3a43.png",
@@ -12,6 +12,7 @@
     "static/media/Tech-Consulting.png": "/amalgam-react/static/media/Tech-Consulting.4bece141fd89417595ab.png",
     "static/media/Rocket.png": "/amalgam-react/static/media/Rocket.0f292b690824f488274d.png",
     "static/media/Laptop.png": "/amalgam-react/static/media/Laptop.5d2d7d927d41b3dfe55d.png",
+    "static/media/BlueBackground.png": "/amalgam-react/static/media/BlueBackground.0c17c22d796f26d6d741.png",
     "static/media/Solutions.png": "/amalgam-react/static/media/Solutions.b3f7ed705c8833729e42.png",
     "static/media/Speaker.png": "/amalgam-react/static/media/Speaker.f826302da1bd77e690f1.png",
     "static/media/Circles3.png": "/amalgam-react/static/media/Circles3.43049937201938570afe.png",
@@ -30,13 +31,14 @@
     "static/media/Lisa.png": "/amalgam-react/static/media/Lisa.3d01103f56b9dde7c9c9.png",
     "static/media/Mooney.png": "/amalgam-react/static/media/Mooney.fa10d10d42bed57cf851.png",
     "static/media/Jub.png": "/amalgam-react/static/media/Jub.b01575fbd21a60adfc3b.png",
+    "static/media/BayanAlturkestani.png": "/amalgam-react/static/media/BayanAlturkestani.4287d6364053a1551e6e.png",
     "static/media/Mendoza.png": "/amalgam-react/static/media/Mendoza.9539ca23f4a562f9ce93.png",
     "static/media/Leaf.png": "/amalgam-react/static/media/Leaf.f2fc57353a48a86a852a.png",
+    "static/media/RyanWard.png": "/amalgam-react/static/media/RyanWard.1ee40b96f5d49d4c0560.png",
     "static/media/Cloud.png": "/amalgam-react/static/media/Cloud.8d77330d2975cbd8cf35.png",
     "static/media/Hands.png": "/amalgam-react/static/media/Hands.1273d05da6d5c8fcd6f8.png",
-    "static/media/Ryan.png": "/amalgam-react/static/media/Ryan.476cd15c8f947543ca99.png",
+    "static/media/GreenBackground.png": "/amalgam-react/static/media/GreenBackground.a74833a77ccfb9cc4c9b.png",
     "static/media/Oleg.png": "/amalgam-react/static/media/Oleg.469e96fcb06424c12f96.png",
-    "static/media/Bayan.png": "/amalgam-react/static/media/Bayan.9448dc72ad8e5f2f62d0.png",
     "static/media/Swirl.png": "/amalgam-react/static/media/Swirl.6c5419371c85d1337606.png",
     "static/media/Bulb.png": "/amalgam-react/static/media/Bulb.d58aac6d1c2ac608c389.png",
     "static/media/JohnTempleton.png": "/amalgam-react/static/media/JohnTempleton.da100d1b68a815d118bb.png",
@@ -54,13 +56,12 @@
     "static/media/Placeholder.png": "/amalgam-react/static/media/Placeholder.e3e6d1002b825d849602.png",
     "static/media/TIAA.png": "/amalgam-react/static/media/TIAA.8dc47c30bdf9517dd344.png",
     "static/media/Placeholder2.png": "/amalgam-react/static/media/Placeholder2.fd801fc2c1c5ce802b42.png",
-    "static/media/AFMensa.png": "/amalgam-react/static/media/AFMensa.253483c1dbb561461ca0.png",
     "index.html": "/amalgam-react/index.html",
-    "main.98f87d71.css.map": "/amalgam-react/static/css/main.98f87d71.css.map",
-    "main.2c27ae62.js.map": "/amalgam-react/static/js/main.2c27ae62.js.map"
+    "main.379e3a28.css.map": "/amalgam-react/static/css/main.379e3a28.css.map",
+    "main.c122e7c6.js.map": "/amalgam-react/static/js/main.c122e7c6.js.map"
   },
   "entrypoints": [
-    "static/css/main.98f87d71.css",
-    "static/js/main.2c27ae62.js"
+    "static/css/main.379e3a28.css",
+    "static/js/main.c122e7c6.js"
   ]
 }
