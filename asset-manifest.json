@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/amalgam-react/static/css/main.379e3a28.css",
+    "main.css": "/amalgam-react/static/css/main.be272428.css",
     "main.js": "/amalgam-react/static/js/main.c122e7c6.js",
     "static/media/Team.png": "/amalgam-react/static/media/Team.eb9d3f6e6426a7013109.png",
     "static/media/Clients.png": "/amalgam-react/static/media/Clients.bd618c560f9dc500fd0b.png",
@@ -57,11 +57,11 @@
     "static/media/TIAA.png": "/amalgam-react/static/media/TIAA.8dc47c30bdf9517dd344.png",
     "static/media/Placeholder2.png": "/amalgam-react/static/media/Placeholder2.fd801fc2c1c5ce802b42.png",
     "index.html": "/amalgam-react/index.html",
-    "main.379e3a28.css.map": "/amalgam-react/static/css/main.379e3a28.css.map",
+    "main.be272428.css.map": "/amalgam-react/static/css/main.be272428.css.map",
     "main.c122e7c6.js.map": "/amalgam-react/static/js/main.c122e7c6.js.map"
   },
   "entrypoints": [
-    "static/css/main.379e3a28.css",
+    "static/css/main.be272428.css",
     "static/js/main.c122e7c6.js"
   ]
 }
