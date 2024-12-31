@@ -1,0 +1,158 @@
+.purple-banner {
+    position: relative;
+    width: 800px;
+    height: 529px;
+    background: url('../../images/PurpleBackground.png') no-repeat center/cover;
+}
+
+.purple-banner-thomas {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    right: 20px;
+    bottom: -35px;
+}
+
+.purple-banner-right-quotes {
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    bottom: 180px;
+    right: 35px;
+}
+
+.purple-banner-left-quotes {
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    left: 100px;
+    top: 100px;
+}
+
+.purple-banner :nth-child(4) {
+    position: relative;
+    left: 200px;
+    top: 140px;
+    width: 465px;
+    color: white;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    /* 33.6px */
+}
+
+.purple-banner-title {
+    position: absolute;
+    left: 370px;
+    bottom: 80px;
+    color: white;
+    text-align: right;
+}
+
+
+.purple-banner-title h6 {
+    color: white;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%;
+    /* 28.5px */
+}
+
+
+.purple-banner-title p {
+    color: white;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 121%;
+    /* 18.15px */
+
+}
+
+@media (max-width: 560px) {
+    .purple-banner {
+        position: relative;
+        height: 20px;
+        width: auto;
+        height: 230px;
+        background: url('../../images/PurpleBackground.png')  no-repeat center/115%;
+    }
+
+    .purple-banner-thomas {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        right: 7%;
+        bottom: -15%;
+    }
+
+    .purple-banner-right-quotes {
+        position: absolute;
+        width: 30px;
+        height: 25px;
+        bottom: 34%;
+        right: 7%;
+    }
+
+    .purple-banner-left-quotes {
+        position: absolute;
+        width: 30px;
+        height: 25px;
+        left: 12%;
+        top: 21%;
+    }
+
+    .purple-banner :nth-child(4) {
+        position: relative;
+        left: 24%;
+        top: 25%;
+        width: 60%;
+        color: white;
+        font-family: Roboto;
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+        /* 33.6px */
+    }
+
+    .purple-banner-title {
+        position: absolute;
+        left: 27%;
+        bottom: 11%;
+        color: white;
+    }
+
+    .purple-banner-title h6 {
+        color: white;
+        text-align: right;
+        font-family: Roboto;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 150%;
+        /* 28.5px */
+        margin-bottom: 3px;
+    }
+
+
+    .purple-banner-title p {
+        margin-bottom: 0;
+        color: white;
+        text-align: right;
+        font-family: Roboto;
+        font-size: 9px;
+        font-style: italic;
+        font-weight: 300;
+        line-height: 121%;
+        /* 18.15px */
+
+    }
+}

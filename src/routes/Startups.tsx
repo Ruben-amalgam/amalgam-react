@@ -24,6 +24,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import BlobertRocket from '../assets/images/BlobertRocket.png'
 import GreenBanner from 'assets/components/TestimonialBanner/GreenBanner'
 import BlueBanner from 'assets/components/TestimonialBanner/BlueBanner'
+import PurpleBanner from 'assets/components/TestimonialBanner/PurpleBanner'
 
 
 function Startups() {
@@ -40,7 +41,7 @@ function Startups() {
             </section>
 
 
-            <div className='home-row-6' id='startups-row-2'>
+            <div className='home-row-6' id='startups-row-2' style={{height: ""}}>
                     <div className='home-row-6-header' >
                         <h1 id='home-row-2-h1'>Why us? Hear it from our clients</h1>
                     </div>
@@ -53,7 +54,8 @@ function Startups() {
                         <BlueBanner />
                     </div>
                     <div>
-                        <img src={Mendoza} className='fitzmier' alt='Fitzmier'  />
+                        {/* <img src={Mendoza} className='fitzmier' alt='Fitzmier'  /> */}
+                        <PurpleBanner />
                     </div>
 
 
