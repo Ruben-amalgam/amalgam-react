@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/amalgam-react/static/css/main.a3a28e77.css",
-    "main.js": "/amalgam-react/static/js/main.c122e7c6.js",
+    "main.css": "/amalgam-react/static/css/main.dd589716.css",
+    "main.js": "/amalgam-react/static/js/main.f0f64664.js",
     "static/media/Team.png": "/amalgam-react/static/media/Team.eb9d3f6e6426a7013109.png",
     "static/media/Clients.png": "/amalgam-react/static/media/Clients.bd618c560f9dc500fd0b.png",
     "static/media/JobPosting.png": "/amalgam-react/static/media/JobPosting.b8b42dab948a695f3a43.png",
@@ -18,6 +18,7 @@
     "static/media/Circles3.png": "/amalgam-react/static/media/Circles3.43049937201938570afe.png",
     "static/media/Easel.png": "/amalgam-react/static/media/Easel.e919906154d342765cc0.png",
     "static/media/Consulting.png": "/amalgam-react/static/media/Consulting.2469d54273dfc7045c40.png",
+    "static/media/PurpleBackground.png": "/amalgam-react/static/media/PurpleBackground.19c016017787d71541e6.png",
     "static/media/Entrepreneurial-Hub.png": "/amalgam-react/static/media/Entrepreneurial-Hub.c40108ab3351435aa3e6.png",
     "static/media/Map.png": "/amalgam-react/static/media/Map.48f58bc59f5b66086921.png",
     "static/media/Writing.png": "/amalgam-react/static/media/Writing.b5a0862972aa30565f60.png",
@@ -36,6 +37,7 @@
     "static/media/Leaf.png": "/amalgam-react/static/media/Leaf.f2fc57353a48a86a852a.png",
     "static/media/RyanWard.png": "/amalgam-react/static/media/RyanWard.1ee40b96f5d49d4c0560.png",
     "static/media/Cloud.png": "/amalgam-react/static/media/Cloud.8d77330d2975cbd8cf35.png",
+    "static/media/ThomasKlein.png": "/amalgam-react/static/media/ThomasKlein.20c6d614069657207ddc.png",
     "static/media/Hands.png": "/amalgam-react/static/media/Hands.1273d05da6d5c8fcd6f8.png",
     "static/media/GreenBackground.png": "/amalgam-react/static/media/GreenBackground.a74833a77ccfb9cc4c9b.png",
     "static/media/Oleg.png": "/amalgam-react/static/media/Oleg.469e96fcb06424c12f96.png",
@@ -57,11 +59,11 @@
     "static/media/TIAA.png": "/amalgam-react/static/media/TIAA.8dc47c30bdf9517dd344.png",
     "static/media/Placeholder2.png": "/amalgam-react/static/media/Placeholder2.fd801fc2c1c5ce802b42.png",
     "index.html": "/amalgam-react/index.html",
-    "main.a3a28e77.css.map": "/amalgam-react/static/css/main.a3a28e77.css.map",
-    "main.c122e7c6.js.map": "/amalgam-react/static/js/main.c122e7c6.js.map"
+    "main.dd589716.css.map": "/amalgam-react/static/css/main.dd589716.css.map",
+    "main.f0f64664.js.map": "/amalgam-react/static/js/main.f0f64664.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3a28e77.css",
-    "static/js/main.c122e7c6.js"
+    "static/css/main.dd589716.css",
+    "static/js/main.f0f64664.js"
   ]
 }
