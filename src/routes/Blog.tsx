@@ -55,12 +55,7 @@ function Blog() {
         <section className='blog-row-3'>
 
           <div className='blog-row-3-content'>
-            <div>
-              <button>View All</button>
-              <button>Business</button>
-              <button>Technology</button>
-              <button>Entrepreneurship</button>
-            </div>
+
           </div>
           <div className='blog-row-3-articles'>
             <div className='blog-row-3-article-row'>
@@ -209,7 +204,9 @@ function Blog() {
       <section>
         <div id='ourwork-row-13' className='blog-last'>
           <div className='blog-row-13-content'>
+
             <div className='blog-row-13-content-left' id='ourwork-footer-left'>
+              <img src={Amalgam} alt="Amalgam" id='careers-logo' style={{ filter: "brightness(0) invert(0)" }} />
             </div>
             <div className='blog-row-13-content-middle' id='ourwork-footer-middle'>
               <Link to="/ourwork" className='blog-row-13-links'>Our Work</Link>

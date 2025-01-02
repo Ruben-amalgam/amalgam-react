@@ -15,7 +15,8 @@
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 120%; /* 67.2px */
+  line-height: 120%;
+  /* 67.2px */
   margin-bottom: 24px;
 }
 
@@ -28,7 +29,8 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 150%; /* 27px */
+  line-height: 150%;
+  /* 27px */
   margin-top: 0;
 }
 
@@ -48,7 +50,8 @@
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
-  line-height: 120%; /* 57.6px */
+  line-height: 120%;
+  /* 57.6px */
 }
 
 .careers-row-2-header h2 {
@@ -59,7 +62,8 @@
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
-  line-height: 120%; /* 57.6px */
+  line-height: 120%;
+  /* 57.6px */
 }
 
 .careers-row-2-content {
@@ -67,25 +71,31 @@
   flex-direction: column;
   align-self: stretch;
 }
+
 .accordion-header.collapsed {
   background: #ccc;
 }
 
 .accordion-button:focus {
-  box-shadow: none !important; /* Removes the focus box-shadow */
+  box-shadow: none !important;
+  /* Removes the focus box-shadow */
 }
 
 .accordion-button {
-  background-color: transparent !important; /* Removes the background color */
-  color: #000 !important; /* Sets the text color */
-  border: none !important; /* Removes border (optional) */
+  background-color: transparent !important;
+  /* Removes the background color */
+  color: #000 !important;
+  /* Sets the text color */
+  border: none !important;
+  /* Removes border (optional) */
 
   /* Heading/Desktop/H4 */
   font-family: Roboto;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
-  line-height: 130%; /* 41.6px */
+  line-height: 130%;
+  /* 41.6px */
 }
 
 .careers-row-2-content :nth-child(1) {
@@ -95,7 +105,8 @@
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
-  line-height: 140%; /* 33.6px */
+  line-height: 140%;
+  /* 33.6px */
 }
 
 .careers-row-2-content :nth-child(2) {
@@ -106,7 +117,8 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 150%; /* 27px */
+  line-height: 150%;
+  /* 27px */
 }
 
 .careers-row-2-content :nth-child(3) {
@@ -117,7 +129,8 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 150%; /* 24px */
+  line-height: 150%;
+  /* 24px */
 }
 
 .careers-row-2-divider {
@@ -144,8 +157,10 @@
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
-  line-height: 130%; /* 41.6px */
+  line-height: 130%;
+  /* 41.6px */
 }
+
 .careers-row-2-dropdown img {
   width: 32px;
   height: 32px;
@@ -164,6 +179,7 @@
   gap: 80px;
   position: relative;
 }
+
 .careers-dots {
   position: absolute;
   width: 448px;
@@ -178,9 +194,11 @@
   gap: 80px;
   align-self: stretch;
 }
+
 .careers-row-3-right {
   width: 50%;
 }
+
 .careers-row-3 h1 {
   color: var(--Text-primary, #000);
   width: 50%;
@@ -190,8 +208,10 @@
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
-  line-height: 120%; /* 57.6px */
+  line-height: 120%;
+  /* 57.6px */
 }
+
 .careers-row-3-right-content {
   display: flex;
   padding: 32px;
@@ -219,7 +239,8 @@
   margin-top: 0;
   margin-bottom: 0;
 
-  line-height: 140%; /* 33.6px */
+  line-height: 140%;
+  /* 33.6px */
 }
 
 .careers-row-3-right-content p {
@@ -230,7 +251,12 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 150%; /* 24px */
+  line-height: 150%;
+  /* 24px */
+}
+
+#careers-logo {
+  width: 150px;
 }
 
 @media (max-width: 560px) {
@@ -252,7 +278,8 @@
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
-    line-height: 120%; /* 67.2px */
+    line-height: 120%;
+    /* 67.2px */
     margin-bottom: unset;
   }
 
@@ -265,7 +292,8 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 150%; /* 24px */
+    line-height: 150%;
+    /* 24px */
   }
 
   .careers-row-2 {
@@ -276,8 +304,7 @@
     gap: 48px;
   }
 
-  .careers-row-2-header {
-  }
+  .careers-row-2-header {}
 
   .careers-row-2-header h2 {
     color: var(--Text-primary, #000);
@@ -287,7 +314,8 @@
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 120%; /* 43.2px */
+    line-height: 120%;
+    /* 43.2px */
   }
 
   .careers-row-2-content {
@@ -295,26 +323,33 @@
     flex-direction: column;
     align-self: stretch;
   }
+
   .accordion-header.collapsed {
     background: #ccc;
   }
 
   .accordion-button:focus {
-    box-shadow: none !important; /* Removes the focus box-shadow */
+    box-shadow: none !important;
+    /* Removes the focus box-shadow */
   }
 
   .accordion-button {
-    background-color: transparent !important; /* Removes the background color */
-    color: #000 !important; /* Sets the text color */
-    border: none !important; /* Removes border (optional) */
+    background-color: transparent !important;
+    /* Removes the background color */
+    color: #000 !important;
+    /* Sets the text color */
+    border: none !important;
+    /* Removes border (optional) */
 
     /* Heading/Desktop/H4 */
     font-family: Roboto;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
-    line-height: 130%; /* 41.6px */
+    line-height: 130%;
+    /* 41.6px */
   }
+
   .careers-row-3 {
     display: flex;
     padding: 64px 20px;
@@ -322,6 +357,7 @@
     align-items: flex-start;
     gap: 48px;
   }
+
   .careers-dots {
     position: absolute;
     width: 448px;
@@ -338,9 +374,11 @@
     align-self: stretch;
     flex-direction: column;
   }
+
   .careers-row-3-right {
     width: 100%;
   }
+
   .careers-row-3 h1 {
     width: 100%;
 
@@ -351,8 +389,10 @@
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 120%; /* 43.2px */
+    line-height: 120%;
+    /* 43.2px */
   }
+
   .careers-row-3-right-content {
     display: flex;
     padding: 32px;
@@ -380,7 +420,8 @@
     margin-top: 0;
     margin-bottom: 0;
 
-    line-height: 140%; /* 33.6px */
+    line-height: 140%;
+    /* 33.6px */
   }
 
   .careers-row-3-right-content p {
@@ -391,6 +432,7 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 150%; /* 24px */
+    line-height: 150%;
+    /* 24px */
   }
 }
