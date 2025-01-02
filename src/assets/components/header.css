@@ -121,14 +121,12 @@
 
 .navbar {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: unset;
+  align-items:unset;
   gap: 32px;
 }
 
 @media (max-width: 900px) {
-  .header {}
-
   .navlink {
     color: var(--Link-primary, #000);
     font-family: Roboto;
@@ -158,6 +156,14 @@
     overflow: hidden;
     box-sizing: border-box;
     padding: 0px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .header.expanded {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
   }
 
   .header>div {
