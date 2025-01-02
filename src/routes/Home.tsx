@@ -37,6 +37,9 @@ import Writing from '../assets/images/Writing.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/home.css'
 import { useMediaQuery } from 'react-responsive';
+import FitzmierBanner from 'assets/components/TestimonialBanner/FitzmierBanner'
+import MooneyBanner from 'assets/components/TestimonialBanner/MooneyBanner'
+import MendozaBanner from 'assets/components/TestimonialBanner/MendozaBanner'
 
 
 
@@ -149,13 +152,15 @@ function Home() {
                         Why us? Hear it from our clients
                     </div>
                     <div>
-                        <img src={Fitzmier} className='fitzmier' />
+                        <FitzmierBanner />  
                     </div>
                     <div>
-                        <img src={Mooney} className='mooney' />
+                        {/* <img src={Mooney} className='mooney' /> */}
+                        <MooneyBanner />
                     </div>
                     <div>
-                        <img src={Mendoza} className='fitzmier' />
+                        {/* <img src={Mendoza} className='fitzmier' /> */}
+                        <MendozaBanner />
                     </div>
                 </div>
             </div>
@@ -165,7 +170,7 @@ function Home() {
                 <div className='home-row-7-container'>
                     <p className='home-row-7-header'>We meet you where you are</p>
                     <p className='home-row-7-text'>From your business's conceptual phase to the realization of your most ambitious plans, our end-to-end solution gets you where you want to be. At what stage of your journey are you?</p>
-                    <button>I'm a startup</button>
+                    <button onClick={() => navigate('/startups')}>I'm a startup</button>
                 </div>
                 <img src={AmalgamGroup} className='amalgam-group' alt='Amalgam-group' />
             </div>
@@ -238,7 +243,7 @@ function Home() {
             <div className='home-row-13'>
                 <div className='home-row-13-content'>
                     <div className='home-row-13-content-left'>
-                        <img src={Amalgam} alt="Amalgam" className='logo' />
+                        <img src={Amalgam} alt="Amalgam" className='startups-amalgam-footer-logo' />
                     </div>
                     <div className='home-row-13-content-middle'>
                         <Link to="/ourwork" className='home-row-13-links'>Our Work</Link>

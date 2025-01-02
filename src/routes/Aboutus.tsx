@@ -439,7 +439,7 @@ function Aboutus() {
                 <div className='aboutus-row-13-last'>
                     <div className='home-row-13-content'>
                         <div className='home-row-13-content-left'>
-                            <img src={Amalgam} alt="Amalgam" className='logo' />
+                            <img src={Amalgam} alt="Amalgam" className='startups-amalgam-footer-logo' />
                         </div>
                         <div className='home-row-13-content-middle'>
                             <Link to="/ourwork" className='home-row-13-links'>Our Work</Link>

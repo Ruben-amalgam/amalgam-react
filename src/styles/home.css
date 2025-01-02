@@ -1287,7 +1287,7 @@
   }
   .logo {
     filter: brightness(0) invert(0);
-    width: 70%;
+    width: 100px;
     align-self: center;
   }
   .home-row-13-links {
@@ -1631,6 +1631,7 @@
     font-size: 18px;
   }
   .home-row-4 {
+    position: relative;
     display: flex;
     box-sizing: border-box;
     padding: unset;

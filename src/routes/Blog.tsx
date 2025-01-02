@@ -210,7 +210,6 @@ function Blog() {
         <div id='ourwork-row-13' className='blog-last'>
           <div className='blog-row-13-content'>
             <div className='blog-row-13-content-left' id='ourwork-footer-left'>
-              <img src={Amalgam} alt="Amalgam" className='logo' style={{ filter: "brightness(0) invert(0)" }} />
             </div>
             <div className='blog-row-13-content-middle' id='ourwork-footer-middle'>
               <Link to="/ourwork" className='blog-row-13-links'>Our Work</Link>

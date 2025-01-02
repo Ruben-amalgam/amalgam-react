@@ -21,6 +21,11 @@
     right: 35px;
 }
 
+#mendoza-right-qoutes {
+    right: 100px;
+
+}
+
 .purple-banner-left-quotes {
     position: absolute;
     width: 60px;
@@ -42,6 +47,12 @@
     line-height: 140%;
     /* 33.6px */
 }
+
+#mendoza-p {
+    font-size: 20px;
+}
+
+
 
 .purple-banner-title {
     position: absolute;
@@ -82,7 +93,8 @@
         height: 20px;
         width: auto;
         height: 230px;
-        background: url('../../images/PurpleBackground.png')  no-repeat center/115%;
+        background: url('../../images/PurpleBackground.png') no-repeat center/115%;
+        margin-top: 20px;
     }
 
     .purple-banner-thomas {
@@ -121,6 +133,15 @@
         font-weight: 700;
         line-height: 140%;
         /* 33.6px */
+    }
+
+
+    #mendoza-p {
+        font-size: 10px;
+    }
+
+    #mendoza-right-qoutes {
+        right: 10%;
     }
 
     .purple-banner-title {

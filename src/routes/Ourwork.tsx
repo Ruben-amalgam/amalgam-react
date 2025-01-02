@@ -13,9 +13,10 @@ import Hands from '../assets/images/Hands.png'
 import Amalgam from '../assets/images/Amalgam-logo.png'
 import LinkedIn from '../assets/images/LinkedIn.png'
 import '../styles/ourwork.css'
-import { Link, useLocation } from 'react-router-dom'
-
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 function Ourwork() {
+    const navigate = useNavigate();
+
 
     const { pathname } = useLocation();
     // useEffect(() => {
@@ -141,7 +142,7 @@ function Ourwork() {
                 <h1>We meet you where you are</h1>
                 <div>
                     <p>From your business's conceptual phase to the realization of your most ambitious plans, our end-to-end solution gets you where you want to be. At what stage of your journey are you?</p>
-                    <button>I'm a startup</button>
+                    <button onClick={() => navigate('/startups')}>I'm a startup</button>
                 </div>
 
             </section>
@@ -292,7 +293,7 @@ function Ourwork() {
 
             <section className='ourwork-row-11'>
                 <h1>Our way of working</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+                <p>It's not about having many resources; it's about having the right ones.<br /><br /> With our proven method, top-notch team, and cutting-edge technology, there's no challenge too big for us to tackle. <br /><br />No two companies are the same. That's why we tailor our approach to your unique needs. Yet, our process, always involves this sequence of steps.</p>
             </section>
             <section className='ourwork-row-12'>
                 <div className='ourwork-row-12-content'>

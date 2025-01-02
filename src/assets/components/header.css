@@ -3,25 +3,28 @@
   position: relative;
   width: 100%;
   height: 64px;
-  padding: 0px 0px;
+  padding: 0px 64px;
   align-items: flex-start;
   transition: height 1.5s ease-in-out;
+  align-items: center;
 }
 
-.header > div {
+.header>div {
   display: flex;
   justify-content: space-between;
   width: 100%;
   align-items: center;
 }
+
 .header.expanded {
-  height: 360px; /* Target height */
+  height: 360px;
+  /* Target height */
 }
 
 .accordion-header {
   display: flex;
   flex-direction: column;
-  gap: 12px; 
+  gap: 12px;
   margin-top: 360px;
   position: absolute;
   width: 90%;
@@ -31,12 +34,14 @@
   align-items: center;
   gap: 32px;
 }
+
 .accordion-button {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 32px;
 }
+
 .accordion-button::after {
   flex-shrink: 0;
   width: var(--bs-accordion-btn-icon-width);
@@ -59,6 +64,7 @@
   align-items: flex-start;
   gap: 32px;
 }
+
 .navlink {
   color: #000;
   text-decoration: none;
@@ -68,6 +74,7 @@
   font-weight: 400;
   line-height: 150%;
 }
+
 .nav-button-container {
   display: flex;
   justify-content: center;
@@ -108,7 +115,8 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
-  line-height: 150%; /* 24px */
+  line-height: 150%;
+  /* 24px */
 }
 
 .navbar {
@@ -119,8 +127,7 @@
 }
 
 @media (max-width: 900px) {
-  .header {
-  }
+  .header {}
 
   .navlink {
     color: var(--Link-primary, #000);
@@ -129,13 +136,16 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 150%; /* 24px */
+    line-height: 150%;
+    /* 24px */
   }
+
   .careers-button {
     width: 76px;
     height: 35px;
     font-size: 13px;
   }
+
   .contact-us-button {
     width: 100px;
     height: 35px;
@@ -147,12 +157,15 @@
   .header {
     overflow: hidden;
     box-sizing: border-box;
+    padding: 0px 12px;
   }
-  .header > div {
+
+  .header>div {
     display: flex;
     justify-content: space-between;
     padding: 10px 10px;
   }
+
   .header-logo {
     filter: brightness(0) saturate(100%);
     transform-origin: left;
@@ -190,8 +203,10 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 150%; /* 27px */
+    line-height: 150%;
+    /* 27px */
   }
+
   .nav-button-container {
     display: flex;
     justify-content: unset;
@@ -236,17 +251,21 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    line-height: 150%; /* 24px */
+    line-height: 150%;
+    /* 24px */
   }
+
   .nav-button-container {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     gap: 16px;
   }
+
   .accordion-button {
     padding: 0px;
   }
+
   .accordion-button::after {
     flex-shrink: 0;
     width: var(--bs-accordion-btn-icon-width);

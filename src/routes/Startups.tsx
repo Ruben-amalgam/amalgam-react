@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/startups.css'
-// import Stars from '../assets/icons/Stars.png'
+import Star from '../assets/images/Star.png'
 import Consulting from '../assets/images/Consulting.png'
 import Entrprenuer from '../assets/images/Entrepreneurial-Hub.png'
 import TechConsulting from '../assets/images/Tech-Consulting.png'
@@ -30,7 +30,7 @@ import PurpleBanner from 'assets/components/TestimonialBanner/PurpleBanner'
 function Startups() {
     const navigate = useNavigate()
     return (
-        <div >
+        <div style={{overflowX: "hidden"}}>
             <section className='startups-row-1'>
                 <div>
                     <h1>Launch, grow, thrive</h1>
@@ -41,22 +41,22 @@ function Startups() {
             </section>
 
 
-            <div className='home-row-6' id='startups-row-2' style={{height: ""}}>
-                    <div className='home-row-6-header' >
-                        <h1 id='home-row-2-h1'>Why us? Hear it from our clients</h1>
-                    </div>
-                    <div>
-                        {/* <img src={Ryan} className='fitzmier' /> */}
-                        <GreenBanner />
-                    </div>
-                    <div>
-                        {/* <img src={Bayan} className='mooney' alt='Bayan' /> */}
-                        <BlueBanner />
-                    </div>
-                    <div>
-                        {/* <img src={Mendoza} className='fitzmier' alt='Fitzmier'  /> */}
-                        <PurpleBanner />
-                    </div>
+            <div className='home-row-6' id='startups-row-2' style={{ height: "" }}>
+                <div className='home-row-6-header' >
+                    <h1 id='home-row-2-h1'>Why us? Hear it from our clients</h1>
+                </div>
+                <div>
+                    {/* <img src={Ryan} className='fitzmier' /> */}
+                    <GreenBanner />
+                </div>
+                <div>
+                    {/* <img src={Bayan} className='mooney' alt='Bayan' /> */}
+                    <BlueBanner />
+                </div>
+                <div>
+                    {/* <img src={Mendoza} className='fitzmier' alt='Fitzmier'  /> */}
+                    <PurpleBanner />
+                </div>
 
 
             </div>
@@ -139,9 +139,10 @@ function Startups() {
             </section >
 
 
-            <div className='home-row-4 star-location' id='addon-from-home-page'>
-                <div className='home-row-4-top'>
-                    <h1 className='home-row-4-top-header' style={{ color: "white" }}>How we can help you</h1>
+            <div className='home-row-4' id='addon-from-home-page'>
+                <div className='home-row-4-top star-position' >
+                    <img src={Star} alt="Star" className='star-location' />
+                    <h1 className='home-row-4-top-header' style={{ color: "white" }}>We support you on three fronts</h1>
                     <p className='home-row-4-top-text' style={{ color: "white" }}>We support you on all fronts:</p>
                 </div>
 
@@ -209,7 +210,7 @@ function Startups() {
                 <div id='ourwork-row-13' className='blog-last'>
                     <div className='blog-row-13-content'>
                         <div className='blog-row-13-content-left' id='ourwork-footer-left'>
-                            <img src={Amalgam} alt="Amalgam" className='logo' style={{ filter: "brightness(0) invert(0)" }} />
+                            <img src={Amalgam} alt="Amalgam" className='startups-amalgam-footer-logo' style={{ filter: "brightness(0) invert(0)" }} />
                         </div>
                         <div className='blog-row-13-content-middle' id='ourwork-footer-middle'>
                             <Link to="/ourwork" className='blog-row-13-links'>Our Work</Link>

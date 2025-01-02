@@ -43,6 +43,38 @@
     /* 33.6px */
 }
 
+.fitzmier-banner-title {
+    position: absolute;
+    left: 340px;
+    bottom: 100px;
+    color: black;
+}
+
+.fitzmier-banner-title h6 {
+    color: var(--Text-primary, #000);
+    text-align: right;
+    font-family: Roboto;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%;
+    /* 28.5px */
+}
+
+
+.fitzmier-banner-title p {
+    color: var(--Text-primary, #000);
+    text-align: right;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 121%;
+    /* 18.15px */
+
+}
+
+
 .green-banner-title {
     position: absolute;
     left: 400px;
@@ -127,6 +159,37 @@
         left: 30%;
         bottom: 10%;
         color: black;
+    }
+
+    .fitzmier-banner-title {
+        position: absolute;
+        left: 15%;
+        bottom: 10%;
+        color: black;
+    }
+
+    .fitzmier-banner-title h6 {
+        color: var(--Text-primary, #000);
+        text-align: right;
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 150%;
+        /* 28.5px */
+    }
+
+
+    .fitzmier-banner-title p {
+        color: var(--Text-primary, #000);
+        text-align: right;
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: italic;
+        font-weight: 300;
+        line-height: 121%;
+        /* 18.15px */
+
     }
 
     .green-banner-title h6 {
