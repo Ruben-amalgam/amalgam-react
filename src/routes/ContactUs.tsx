@@ -74,7 +74,7 @@ function ContactUs() {
           <div>
             <img src={Location} />
             <h3>US Office</h3>
-            <p>10 Sarum Forge Way, Glen Mills, PA 19342
+            <p>851 Duportail Road, 2nd Floor, Chesterbrook, PA 19087
             </p>
             <p>
               EU Office

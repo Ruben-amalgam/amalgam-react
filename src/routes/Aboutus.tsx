@@ -140,24 +140,20 @@ function Aboutus() {
                 <div className='aboutus-row-2-right'>
                     <div className='aboutus-row-2-right-top'>
                         <div className='aboutus-row-2-right-content'>
-                            <img src={Cube} alt="cube" className='cube' />
                             <h2>Creativity</h2>
                             <p>We take pride in our ability to think outside the box, as it allows us to quickly identify the best path forward for our clients from a business and technological perspective.</p>
                         </div>
                         <div className='aboutus-row-2-right-content'>
-                            <img src={Cube} alt="cube" className='cube' />
                             <h2>Integrity</h2>
                             <p>It informs our every move - from our way of working and the quality of our deliverables, to the clients we onboard. We love collaborating with inspired entrepreneurs who strive to find impactful solutions to world problems.</p>
                         </div>
                     </div>
                     <div className='aboutus-row-2-right-bottom'>
                         <div className='aboutus-row-2-right-content'>
-                            <img src={Cube} alt="cube" className='cube' />
                             <h2>Transparency</h2>
                             <p>We're fueled by our enthusiasm and dedication, and our passion has been growing evermore since we began our journey 14 years ago. We see every challenge an opportunity for growth.</p>
                         </div>
                         <div className='aboutus-row-2-right-content'>
-                            <img src={Cube} alt="cube" className='cube' />
                             <h2>Passion</h2>
                             <p>Our integrity translates into transparency in our practice. Our clear and honest communication helps us nurture a healthy, trusting relationship with our clients.</p>
                         </div>
@@ -216,21 +212,16 @@ function Aboutus() {
             </section >
 
             <section className='aboutus-row-5'>
-                <h2>Our Team</h2>
+                <h2>Our team in action</h2>
                 <img src={Team} alt='team' />
             </section>
 
             <section className='aboutus-row-6'>
                 <div className='aboutus-row-6-headers'>
-                    <p>We're everywhere!</p>
+                    <p>We're fully global</p>
                     <h1>Our team is truly global:</h1>
                 </div>
                 <div className='aboutus-row-6-bottom'>
-                    <div className='aboutus-row-6-bottom-details'>
-                        <img src={Envelope} alt='Envelope' />
-                        <img src={Phone} alt='Phone' />
-                        <img src={Location} alt='Location' />
-                    </div>
                     <img src={Map} alt='Map' />
                 </div>
             </section>
@@ -254,7 +245,6 @@ function Aboutus() {
 
                             <div className='aboutus-row-8-right'>
                                 <p>Amalgam was born. In the early days, we worked with financial institutions. We're proud to say, we rapidly grew our numbers to double digits.</p>
-                                <img src={AvatarPlaceholder} alt='Placeholder' />
                             </div>
                         </div>
                         <div className='aboutus-row-8'>
@@ -268,7 +258,6 @@ function Aboutus() {
 
                             <div className='aboutus-row-8-right'>
                                 <p>Amalgam was born. In the early days, we worked with financial institutions. We're proud to say, we rapidly grew our numbers to double digits.</p>
-                                <img src={AvatarPlaceholder} alt='Placeholder' />
                             </div>
                         </div>
                         <div className='aboutus-row-8'>
@@ -282,7 +271,6 @@ function Aboutus() {
 
                             <div className='aboutus-row-8-right'>
                                 <p>Amalgam was born. In the early days, we worked with financial institutions. We're proud to say, we rapidly grew our numbers to double digits.</p>
-                                <img src={AvatarPlaceholder} alt='Placeholder' />
                             </div>
                         </div>
                         <div className='aboutus-row-8'>
@@ -296,7 +284,6 @@ function Aboutus() {
 
                             <div className='aboutus-row-8-right'>
                                 <p>We invested in a Dublin-based company and grew fourfold!</p>
-                                <img src={AvatarPlaceholder} alt='Placeholder' />
                             </div>
                         </div>
                         <div className='aboutus-row-8'>
@@ -310,7 +297,6 @@ function Aboutus() {
 
                             <div className='aboutus-row-8-right'>
                                 <p>We onboarded a number of clients in the retail and insurance spaces.</p>
-                                <img src={AvatarPlaceholder} alt='Placeholder' />
                             </div>
                         </div>
                         <div className='aboutus-row-8'>
@@ -324,7 +310,6 @@ function Aboutus() {
 
                             <div className='aboutus-row-8-right'>
                                 <p>We refined our skills in generative AI techniques, became equity and development partners to a number of entrepreneurial ventures that gelled with our ethos, and grew more involved in the startup ecosystem.</p>
-                                <img src={AvatarPlaceholder} alt='Placeholder' />
                             </div>
                         </div>
 
@@ -341,7 +326,6 @@ function Aboutus() {
                                 <p> 2010</p>
                                 <div className='aboutus-row-8-right'>
                                     <p>Amalgam was born. In the early days, we worked with financial institutions. We're proud to say, we rapidly grew our numbers to double digits.</p>
-                                    <img src={AvatarPlaceholder} alt='Placeholder' className='timeline-img' />
                                 </div>
                             </div>
 
@@ -359,7 +343,6 @@ function Aboutus() {
                                         Transliter8, a software producing precise, standardized transliteration of personal or legal entities from or to English.
 
                                         AML Analyzer, analyzing sanctions list data for sanction screening companies to ensure that it's accurate and up to date.</p>
-                                    <img src={AvatarPlaceholder} alt='Placeholder' className='timeline-img' />
                                 </div>
                             </div>
 
@@ -373,7 +356,6 @@ function Aboutus() {
                                 <p> 2015</p>
                                 <div className='aboutus-row-8-right'>
                                     <p>We sold Transliter8 to Meta (ex-Facebook) and helped Fortune 100 clients with their digital transformation.</p>
-                                    <img src={AvatarPlaceholder} alt='Placeholder' className='timeline-img' />
                                 </div>
                             </div>
 
@@ -387,7 +369,6 @@ function Aboutus() {
                                 <p> 2018</p>
                                 <div className='aboutus-row-8-right'>
                                     <p>We invested in a Dublin-based company and grew fourfold!</p>
-                                    <img src={AvatarPlaceholder} alt='Placeholder' className='timeline-img' />
                                 </div>
                             </div>
 
@@ -401,7 +382,6 @@ function Aboutus() {
                                 <p> 2019</p>
                                 <div className='aboutus-row-8-right'>
                                     <p>We onboarded a number of clients in the retail and insurance spaces.</p>
-                                    <img src={AvatarPlaceholder} alt='Placeholder' className='timeline-img' />
                                 </div>
                             </div>
 
@@ -415,7 +395,6 @@ function Aboutus() {
                                 <p> 2023</p>
                                 <div className='aboutus-row-8-right'>
                                     <p>We refined our skills in generative AI techniques, became equity and development partners to a number of entrepreneurial ventures that gelled with our ethos, and grew more involved in the startup ecosystem.</p>
-                                    <img src={AvatarPlaceholder} alt='Placeholder' className='timeline-img' />
                                 </div>
                             </div>
 

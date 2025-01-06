@@ -126,6 +126,8 @@
   font-style: normal;
   font-weight: 700;
   line-height: 120%; /* 57.6px */
+  display: inline;
+  white-space: nowrap;
 }
 
 .aboutus-row-2-left-text {
@@ -205,11 +207,14 @@
 
 .aboutus-row-2-right-content {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
+  justify-content: center;
+  text-align: center;
   gap: 8px;
   align-self: stretch;
-  width: 50;
+  border: 2px solid black;
+  
 }
 .aboutus-row-2-right-content img {
   width: 48px;
@@ -336,19 +341,20 @@
 .aboutus-row-4-bottom {
   display: flex;
   flex-direction: column;
+  gap: 64px;
 }
 
 .aboutus-row-4-employees {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   display: flex;
   align-items: flex-start;
-  justify-content: space-between;
   gap: 32px;
   align-self: stretch;
 }
 
-.aboutus-row-4-employees div {
+.aboutus-row-4-employees > div {
   color: var(--Text-primary, #000);
 
   /* Text/Large/Semi Bold */
@@ -358,6 +364,11 @@
   font-weight: 600;
   line-height: 150%; /* 30px */
   width: 304px;
+}
+
+.aboutus-row-4-employees h2 {
+  padding-top: 24px;
+
 }
 
 .aboutus-row-4-employees p {
@@ -446,7 +457,8 @@
 
 .aboutus-row-6-bottom {
   display: flex;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   gap: 80px;
   height: 100%;
 }
@@ -699,7 +711,7 @@
   .aboutus-row-2-left-header {
     color: var(--Text-primary, #000);
     font-family: Roboto;
-    font-size: 48px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: 120%; /* 57.6px */
@@ -784,7 +796,6 @@
 
   .aboutus-row-2-right-content {
     display: flex;
-    align-items: flex-start;
     flex-direction: column;
     gap: 8px;
     align-self: stretch;
@@ -918,6 +929,8 @@
     justify-content: space-between;
     gap: 32px;
     align-self: stretch;
+    padding-left: unset;
+    padding-right: unset;
   }
 
   .aboutus-row-4-employees div {

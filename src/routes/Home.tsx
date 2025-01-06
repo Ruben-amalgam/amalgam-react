@@ -57,7 +57,7 @@ function Home() {
             <div className='home-row-1'>
                 <div className='home-row-1-text-box'>
                     <h1 className="home-row-1-heading">We're the rocket fuel to your moonshot</h1>
-                    <p className='home-text'>We empower visionary business owners like you to make their ideas come to life. Benefit from our long-standing expertise in business development and product-building, and access our network of enlightened entrepreneurs. Are you working on a breakthrough idea?</p>
+                    <p className='home-text'>We empower visionary business owners like you to make their ideas come to life. Benefit from our long-standing expertise in business development and product-building, and access our network of enlightened entrepreneurs.</p>
                     <p className='home-text'>Are you working on a breakthrough idea?</p>
                     <button className='home-lets-talk' onClick={() => { navigate("./contactus") }}>Let's talk</button>
                     <img src={Rocket} className='rocket2' alt='Rocket' />
@@ -107,21 +107,27 @@ function Home() {
                 <div className='home-row-4-bottom'>
                     <div className='home-row-4-images'>
                         <img src={Consulting} alt="Consulting" className='consulting' />
-                        <p className='home-row-4-image-headers'>Business consulting</p>
-                        <p className='home-row-4-image-subheader'>Our experienced team of consultants is ready to guide you through every step of your business journey, from growth advice to rebranding and beyond.</p>
+                        <div>
+                            <p className='home-row-4-image-headers'>Business consulting</p>
+                            <p className='home-row-4-image-subheader'>Our experienced team of consultants is ready to guide you through every step of your business journey, from growth advice to rebranding and beyond.</p>
+                        </div>
                     </div>
                     <div className='home-row-4-images'>
-                        <img src={TechConsulting} alt="Consulting" className='home-row-4-images tech-consulting' />
-                        <p className='home-row-4-image-headers'>Bespoke tech solutions</p>
-                        <p className='home-row-4-image-subheader'>We empower you with a wide range of bespoke tech solutions with transparent value, from custom software development to generative AI.</p>
+                        <img src={TechConsulting} alt="Consulting" className=' tech-consulting' />
+                        <div>
+                            <p className='home-row-4-image-headers'>Bespoke tech solutions</p>
+                            <p className='home-row-4-image-subheader'>We empower you with a wide range of bespoke tech solutions with transparent value, from custom software development to generative AI.</p>
+                        </div>
                     </div>
                     <div className='home-row-4-images'>
-                        <img src={Entrprenuer} alt="Consulting" className='home-row-4-images entrepreneur' />
-                        <p className='home-row-4-image-headers'>Entrepreneural hub</p>
-                        <p className='home-row-4-image-subheader'>We're your bridge to top-tier consultants, forward-thinking business owners, funders, and investors.</p>
+                        <img src={Entrprenuer} alt="Consulting" className=' entrepreneur' />
+                        <div>
+                            <p className='home-row-4-image-headers'>Entrepreneural hub</p>
+                            <p className='home-row-4-image-subheader'>We're your bridge to top-tier consultants, forward-thinking business owners, funders, and investors.</p>
+                        </div>
                     </div>
                 </div>
-                <button className='lets-talk-button'>Lets talk!</button>
+                <button className='lets-talk-button'>Lets talk</button>
             </div>
 
             <div className='home-row-5'>
@@ -136,7 +142,7 @@ function Home() {
                     </div>
                     <div className='home-row-5-stat'>
                         <div className='home-row-5-stat-header'>30+</div>
-                        <div className='home-row-5-stat-sub-header'>Clients aroundthe globe</div>
+                        <div className='home-row-5-stat-sub-header'>Clients around the globe</div>
                     </div>
                     <div className='home-row-5-stat'>
                         <div className='home-row-5-stat-header'>500+</div>
@@ -152,7 +158,7 @@ function Home() {
                         Why us? Hear it from our clients
                     </div>
                     <div>
-                        <FitzmierBanner />  
+                        <FitzmierBanner />
                     </div>
                     <div>
                         {/* <img src={Mooney} className='mooney' /> */}
@@ -189,7 +195,7 @@ function Home() {
                         <h3>Marketing & branding support</h3>
                     </div>
                 </div>
-                <div className='home-row-8-header'>Bespoke tech Solution</div>
+                <div className='home-row-8-header'>Bespoke tech solutions</div>
                 <div className='home-row-8-content2'>
                     <div>
                         <h3>Customer experience & UX/UI</h3>
@@ -222,7 +228,7 @@ function Home() {
                         <h3>Funding</h3>
                     </div>
                     <div>
-                        <h3>Networking & funding</h3>
+                        <h3>Networking</h3>
                     </div>
                 </div>
 
