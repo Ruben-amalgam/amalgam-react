@@ -807,6 +807,7 @@
 .home-row-8-header {
   color: var(--Text-primary, #000);
   text-align: center;
+  width: 100%;
 
   /* Heading/Desktop/H2 */
   font-family: Roboto;
