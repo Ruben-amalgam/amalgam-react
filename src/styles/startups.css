@@ -143,12 +143,121 @@
 }
 
 .startups-row-3 {
+  position: relative;
   display: flex;
+  height: 1650px;
   padding: 112px 64px;
   flex-direction: column;
   align-items: center;
   gap: 48px;
-  background: #012a21;
+  background: #012A21;
+}
+
+.home-row-2-carousel-content {
+  display: inline-block;
+
+}
+
+.home-row-2-carousel-content::before {
+  content: "";
+  display: repeat(auto-fill, 100px);
+  /* Dynamically fill with duplicates */
+}
+
+.home-row-2-carousel-content img {
+  display: inline-block;
+  margin-left: 200px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.startups-carousel {
+  display: flex;
+  box-sizing: border-box;
+  height: 740px;
+  align-items: flex-start;
+  animation: scroll 40s linear infinite;
+  gap: 24px;
+}
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.startups-carousel :nth-child(2),
+:nth-child(4),
+:nth-child(6) {
+  align-self: flex-end;
+}
+
+.startups-solidstar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1115px;
+  height: 627px;
+  background: url("../assets/images/carousel-2/WhiteStar.png") 50% / cover no-repeat;
+
+}
+
+.startups-solidstar p {
+  color: var(--Text-primary, #000);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  width: 477px;
+  height: 112px;
+  margin-bottom: 100px;
+  /* 30.8px */
+}
+
+.startups-hollowstar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1049px;
+  height: 692px;
+  background: url("../assets/images/carousel-2/HollowStar.png") 50% / cover no-repeat;
+
+}
+
+.startups-hollowstar p {
+  width: 547px;
+  height: 112px;
+  margin-bottom: 50px;
+  color: var(--Border-alternate, #FFF);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 30.8px */
+}
+
+.startups-blobertmoon {
+  position: absolute;
+  bottom: 0px;
+  width: 1147px;
+  height: 681px;
 }
 
 .startups-row-3 h1 {

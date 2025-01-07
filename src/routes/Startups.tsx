@@ -6,12 +6,13 @@ import Entrprenuer from '../assets/images/Entrepreneurial-Hub.png'
 import TechConsulting from '../assets/images/Tech-Consulting.png'
 import AvatarPlaceholder from '../assets/images/AvatarPlaceholder.png'
 import Placeholder from '../assets/images/Placeholder.png'
+import BlobertMoon from '../assets/images/BlobertMoon.png'
 // import LeftQuotes from '../assets/images/LeftQuotes.png'
 // import RightQuotes from '../assets/images/RightQuotes.png'
 // import Ryan from '../assets/images/Ryan.png'
 import Bayan from '../assets/images/Bayan.png'
 import Mendoza from '../assets/images/Mendoza.png'
-// import GreenStar from '../assets/images/GreenStar.png'
+import HollowStar from "../assets/components/CarouselStars/HollowStar"
 
 import Speaker from '../assets/images/Speaker.png'
 import Amalgam from '../assets/images/Amalgam-logo.png'
@@ -25,12 +26,15 @@ import BlobertRocket from '../assets/images/BlobertRocket.png'
 import GreenBanner from 'assets/components/TestimonialBanner/GreenBanner'
 import BlueBanner from 'assets/components/TestimonialBanner/BlueBanner'
 import PurpleBanner from 'assets/components/TestimonialBanner/PurpleBanner'
+import SolidStar from 'assets/components/CarouselStars/SolidStar'
+import FilledStar from 'assets/components/CarouselStars/HollowStar'
 
 
 function Startups() {
     const navigate = useNavigate()
+    const carouselText = ["We’re helping a client in the consumer safety compliance space build customer-specific versions of their product. This app will help vendors and importers provide proof of consumer product safety to regulatory agencies in the markets where they sell products.", "We're providing guidance, and build support to a business helping small and mid-size manufacturing companies improve their financial efficiency. Our algorithms and AI expertise will power up their software, which is aimed at identifying hidden margin leaks and creating actionable insights for their users.", "We're supporting a founder building a mobile app that allows citizens to address and discuss issues that are threatening democracy. The votes are traceable, which ensures their transparency and validity. At the same time, the voters' anonymity is preserved.", "We designed and built a fully clickable prototype for a portal connecting utility companies with service providers in the water and sewage industries. The tool improves the operational efficiency of companies seeking to source raw materials for water treatment and other essential services.", "We provided a company in the innovative healthcare space with strategic aid. We helped them secure funding. We also connected them with legal experts in key regions and supported them as they scaled their business and composed their team.", "We helped our client develop the first MVP for their digital memory preservation platform. It's a user-friendly, scalable solution leveraging AI to safely store personal memories and help families preserve their legacies through time."]
     return (
-        <div style={{overflowX: "hidden"}}>
+        <div style={{ overflowX: "hidden" }}>
             <section className='startups-row-1'>
                 <div>
                     <h1>Launch, grow, thrive</h1>
@@ -63,79 +67,21 @@ function Startups() {
 
             <section className='startups-row-3'>
                 <h1 id='startups-row-3-h1'>How we've helped other startups</h1>
-                <div className='startups-row-3-content'>
-                    {/* <div id='startups-header'>
-                        <button>View all</button>
-                        <button>Funding</button>
-                        <button>Growth</button>
-                        <button>Innovation</button>
-                        <button>Success Stories</button>
-                    </div> */}
-                    <div className='startups-row-3-row'>
-                        <div className='startups-row-3-content-card'>
-                            <img src={Placeholder} alt="Placeholder" />
-                            <p>Category</p>
-                            <h5>Innovation Strategies for Startups</h5>
-                            <p>Explore innovative strategies to stay ahead in the competitive startup landscape.</p>
-                            <div className='startups-row-3-content-card-info'>
-                                <img src={AvatarPlaceholder} alt="" />
-                                <div className='startups-row-3-article-info'>
-                                    <article >
-                                        John Doe
-                                    </article>
-                                    <article> 11 Jan 2022 • 10 min read</article>
-                                </div>
-                            </div>
-                        </div>
-                        <div className='startups-row-3-content-card'>
-                            <img src={Placeholder} alt="Placeholder" />
-                            <p>Category</p>
-                            <h5>Innovation Strategies for Startups</h5>
-                            <p>Explore innovative strategies to stay ahead in the competitive startup landscape.</p>
-                            <div className='startups-row-3-content-card-info'>
-                                <img src={AvatarPlaceholder} alt="" />
-                                <div className='startups-row-3-article-info'>
-                                    <article >
-                                        John Doe
-                                    </article>
-                                    <article> 11 Jan 2022 • 10 min read</article>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='startups-row-3-row'>
-                        <div className='startups-row-3-content-card'>
-                            <img src={Placeholder} alt="Placeholder" />
-                            <p>Category</p>
-                            <h5>Innovation Strategies for Startups</h5>
-                            <p>Explore innovative strategies to stay ahead in the competitive startup landscape.</p>
-                            <div className='startups-row-3-content-card-info'>
-                                <img src={AvatarPlaceholder} alt="" />
-                                <div className='startups-row-3-article-info'>
-                                    <article >
-                                        John Doe
-                                    </article>
-                                    <article> 11 Jan 2022 • 10 min read</article>
-                                </div>
-                            </div>
-                        </div>
-                        <div className='startups-row-3-content-card'>
-                            <img src={Placeholder} alt="Placeholder" />
-                            <p>Category</p>
-                            <h5>Innovation Strategies for Startups</h5>
-                            <p>Explore innovative strategies to stay ahead in the competitive startup landscape.</p>
-                            <div className='startups-row-3-content-card-info'>
-                                <img src={AvatarPlaceholder} alt="" />
-                                <div className='startups-row-3-article-info'>
-                                    <article >
-                                        John Doe
-                                    </article>
-                                    <article> 11 Jan 2022 • 10 min read</article>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div className='startups-carousel'>
+                    <SolidStar text={carouselText[0]} />
+                    <HollowStar text={carouselText[1]} />
+                    <SolidStar text={carouselText[2]} />
+                    <HollowStar text={carouselText[3]} />
+                    <SolidStar text={carouselText[4]} />
+                    <HollowStar text={carouselText[5]} />
+                    <SolidStar text={carouselText[0]} />
+                    <HollowStar text={carouselText[1]} />
+                    <SolidStar text={carouselText[2]} />
+                    <HollowStar text={carouselText[3]} />
+                    <SolidStar text={carouselText[4]} />
+                    <HollowStar text={carouselText[5]} />
                 </div>
+                <img src={BlobertMoon} alt="BlobertMoon" className='startups-blobertmoon' />
             </section >
 
 
