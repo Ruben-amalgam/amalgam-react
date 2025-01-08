@@ -44,32 +44,26 @@ function Careers() {
 
       <section className='careers-row-3'>
         <img src={Dots} alt="dots" className='careers-dots' />
+        <h1>You'll love it here if:</h1>
         <div className='careers-row-3-content'>
-          <h1>You'll love it here if:</h1>
-          <div className='careers-row-3-right'>
-            <div className='careers-row-3-right-content'>
-              <img src={Cube} alt='Cube' />
-              <h3>You want to be valued for your professionalism.</h3>
-              <p>Everyone has a voice, and each opinion is valued. We encourage our team members to always take ownership of their work.</p>
-            </div>
-            <div className='careers-row-3-right-content'>
-              <img src={Cube} alt='Cube' />
-              <h3>You always put the client first..</h3>
-              <p>We are genuinely committed to making our clients happy by providing exceptional support. We think creatively and are passionate about delivering high-quality work.</p>
-            </div>
-            <div className='careers-row-3-right-content'>
-              <img src={Cube} alt='Cube' />
-              <h3>You value your freedom.</h3>
-              <p>We give our team members the direction they need and the space they deserve to thrive. We also work asynchronously from anywhere in the world.</p>
-            </div>
-            <div className='careers-row-3-right-content'>
-              <img src={Cube} alt='Cube' />
-              <h3>You're a lifelong student.</h3>
-              <p>We're curious, love to experiment, and view mistakes as learning opportunities. We strive for continuous improvement so that each day we become wiser and more confident than the one before.</p>
-            </div>
+          <div className='careers-row-3-right-content'>
+            <h3>You want to be valued for your professionalism.</h3>
+            <p>Everyone has a voice, and each opinion is valued. We encourage our team members to always take ownership of their work.</p>
           </div>
-
+          <div className='careers-row-3-right-content'>
+            <h3>You always put the client first..</h3>
+            <p>We are genuinely committed to making our clients happy by providing exceptional support. We think creatively and are passionate about delivering high-quality work.</p>
+          </div>
+          <div className='careers-row-3-right-content'>
+            <h3>You value your freedom.</h3>
+            <p>We give our team members the direction they need and the space they deserve to thrive. We also work asynchronously from anywhere in the world.</p>
+          </div>
+          <div className='careers-row-3-right-content'>
+            <h3>You're a lifelong student.</h3>
+            <p>We're curious, love to experiment, and view mistakes as learning opportunities. We strive for continuous improvement so that each day we become wiser and more confident than the one before.</p>
+          </div>
         </div>
+
       </section>
 
       <section>

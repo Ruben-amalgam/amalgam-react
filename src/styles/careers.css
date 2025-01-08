@@ -173,9 +173,10 @@
 
 .careers-row-3 {
   display: flex;
-  padding: 112px 64px;
   flex-direction: column;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
   gap: 80px;
   position: relative;
 }
@@ -189,19 +190,26 @@
 }
 
 .careers-row-3-content {
-  display: flex;
-  align-items: flex-start;
+  display: grid;
+  padding: 112px 64px;
+  grid-template-columns: 1fr 1fr;
+  /* 2 equal columns */
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  width: 100%;
   gap: 80px;
   align-self: stretch;
 }
 
-.careers-row-3-right {
-  width: 50%;
+.careers-row-3-bottom {
+  border: 2px solid black;
+  width: 100%;
 }
 
 .careers-row-3 h1 {
   color: var(--Text-primary, #000);
   width: 50%;
+  text-align: center;
 
   /* Heading/Desktop/H2 */
   font-family: Roboto;
@@ -216,7 +224,8 @@
   display: flex;
   padding: 32px;
   flex-direction: column;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   gap: 16px;
   align-self: stretch;
   border: 1px solid var(--Border-primary, #000);
@@ -243,6 +252,23 @@
   /* 33.6px */
 }
 
+
+.careers-row-3-content> :nth-child(1) {
+  background: linear-gradient(#c5ebe5, #c5e2e8);
+}
+
+.careers-row-3-content> :nth-child(2) {
+  background: linear-gradient(#c5e1e8, #c3d6e8);
+}
+
+.careers-row-3-content> :nth-child(3) {
+  background: linear-gradient(#c3d3e8, #c3c9eb);
+}
+
+.careers-row-3-content> :nth-child(4) {
+  background: linear-gradient(#c5c3eb, #c5b9ed);
+}
+
 .careers-row-3-right-content p {
   color: var(--Text-primary, #000);
 
@@ -252,6 +278,8 @@
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
+  text-align: center;
+  width: 60%;
   /* 24px */
 }
 
@@ -370,6 +398,7 @@
   .careers-row-3-content {
     display: flex;
     align-items: flex-start;
+    padding: 0px 0px;
     gap: 80px;
     align-self: stretch;
     flex-direction: column;
@@ -386,7 +415,7 @@
 
     /* Heading/Mobile/H2 */
     font-family: Roboto;
-    font-size: 36px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 700;
     line-height: 120%;
@@ -395,12 +424,13 @@
 
   .careers-row-3-right-content {
     display: flex;
-    padding: 32px;
     flex-direction: column;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     gap: 16px;
     align-self: stretch;
     border: 1px solid var(--Border-primary, #000);
+    width: 100%;
     margin-bottom: 32px;
   }
 
@@ -414,11 +444,12 @@
 
     /* Heading/Desktop/H5 */
     font-family: Roboto;
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     margin-top: 0;
     margin-bottom: 0;
+    text-align: center;
 
     line-height: 140%;
     /* 33.6px */
@@ -433,6 +464,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
+    width: 90%;
     /* 24px */
   }
 }
