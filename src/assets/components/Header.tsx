@@ -51,7 +51,7 @@ function Header() {
                     </nav>
                 }
                 {isMobile ?
-                    <div className='accordion-header'>
+                    <div className='header-accordion-header'>
                         <Link to="/" className="navlink">Home</Link>
                         <Link to="/ourwork" className="navlink">Our Work</Link>
                         <Link to="/aboutus" className="navlink">About Us</Link>
