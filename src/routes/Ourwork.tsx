@@ -14,6 +14,12 @@ import Amalgam from '../assets/images/Amalgam-logo.png'
 import LinkedIn from '../assets/images/LinkedIn.png'
 import '../styles/ourwork.css'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
+import One from '../assets/images/One.png'
+import Two from '../assets/images/Two.png'
+import Three from '../assets/images/Three.png'
+import Four from '../assets/images/Four.png'
+import Five from '../assets/images/Five.png'
+import Six from '../assets/images/Six.png'
 function Ourwork() {
     const navigate = useNavigate();
 
@@ -293,34 +299,44 @@ function Ourwork() {
 
             <section className='ourwork-row-11'>
                 <h1>Our way of working</h1>
-                <p>It's not about having many resources; it's about having the right ones.<br /><br /> With our proven method, top-notch team, and cutting-edge technology, there's no challenge too big for us to tackle. <br /><br />No two companies are the same. That's why we tailor our approach to your unique needs. Yet, our process, always involves this sequence of steps.</p>
+                <p>It's not about having many resources; it's about having the right ones.<br /> With our proven method, top-notch team, and cutting-edge technology, there's no challenge too big for us to tackle. <br />No two companies are the same. That's why we tailor our approach to your unique needs. Yet, our process, always involves this sequence of steps.</p>
             </section>
             <section className='ourwork-row-12'>
-                <div className='ourwork-row-12-content'>
-                    <h4>Assessment</h4>
-                    <p>We dive deep into your case and take on your challenges and ambitions as our own.</p>
-                </div>
-                <div className='ourwork-row-12-content'>
-                    <h4>Creative problem-solving</h4>
-                    <p>Now, we put our minds together to craft with an ideal strategy that puts your goals within reach.</p>
-                </div>
-                <div className='ourwork-row-12-content'>
-                    <h4>Collaborative & transparent build</h4>
-                    <p>We leverage our wealth of experience to seamlessly execute against our vision while keeping you updated with every step.</p>
+                <div className='ourwork-row-12-content-top'>
+                    <div className='ourwork-row-12-content'>
+                        <img src={One} alt="One" />
+                        <h4>Assessment</h4>
+                        <p>We dive deep into your case and take on your challenges and ambitions as our own.</p>
+                    </div>
+                    <div className='ourwork-row-12-content'>
+                        <img src={Two} alt="One" />
+                        <h4>Creative <br /> problem-solving</h4>
+                        <p>Now, we put our minds together to craft with an ideal strategy that puts your goals within reach.</p>
+                    </div>
+                    <div className='ourwork-row-12-content'>
+                        <img src={Three} alt="One" />
+                        <h4>Collaborative & transparent build</h4>
+                        <p>We leverage our wealth of experience to seamlessly execute against our vision while keeping you updated with every step.</p>
+                    </div>
                 </div>
             </section>
             <section className='ourwork-row-13'>
-                <div className='ourwork-row-12-content'>
-                    <h4>Agile iteration and testing</h4>
-                    <p>We second your evolving needs as we test, integrate, build, and learn with you.</p>
-                </div>
-                <div className='ourwork-row-12-content'>
-                    <h4>Measuring success</h4>
-                    <p>After our initial scope of work is completed, we work with you to measure our success against your goals.</p>
-                </div>
-                <div className='ourwork-row-12-content'>
-                    <h4>Future growth</h4>
-                    <p>We ideate with you on the future state of your business to further support your growth goals.</p>
+                <div className='ourwork-row-13-content-bottom'>
+                    <div className='ourwork-row-13-content'>
+                        <img src={Four} alt="One" />
+                        <h4>Agile iteration and testing</h4>
+                        <p>We second your evolving needs as we test, integrate, build, and learn with you.</p>
+                    </div>
+                    <div className='ourwork-row-13-content'>
+                        <img src={Five} alt="One" />
+                        <h4>Measuring success</h4>
+                        <p>After our initial scope of work is completed, we work with you to measure our success against your goals.</p>
+                    </div>
+                    <div className='ourwork-row-13-content'>
+                        <img src={Six} alt="One" />
+                        <h4>Future growth</h4>
+                        <p>We ideate with you on the future state of your business to further support your growth goals.</p>
+                    </div>
                 </div>
             </section>
             <section>
