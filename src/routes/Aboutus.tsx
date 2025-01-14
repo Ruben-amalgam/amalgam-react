@@ -1,12 +1,8 @@
 import { useEffect, useState } from 'react'
-import Envelope from '../assets/icons/Envelope.png'
-import Location from '../assets/icons/Location.png'
-import Phone from '../assets/icons/Phone.png'
+import SVGComponent from '../assets/components/SvgComponent'
 import Amalgam from '../assets/images/Amalgam-logo.png'
 import Bulb from '../assets/images/Bulb.png'
 import Cloud from '../assets/images/Cloud.png'
-import Cube from '../assets/images/Cube.png'
-import Divider from '../assets/images/Divider.png'
 import Dribble from '../assets/images/Dribble.png'
 import LinkedIn from '../assets/images/LinkedInDark.png'
 import Map from '../assets/images/Map.png'
@@ -21,6 +17,13 @@ import Neeraj2 from '../assets/images/Team/Neeraj.png'
 import Oleg from '../assets/images/Team/Oleg.png'
 import Sumita from '../assets/images/Team/Sumita.png'
 import Vikas from '../assets/images/Team/Vikas.png'
+import LeftCurve from '../assets/images/timeline/CurvedLineLeft.png'
+import RightCurve from '../assets/images/timeline/CurvedLineRight.png'
+import LineAcross from '../assets/images/timeline/ShortLine.png'
+import Star5 from '../assets/images/timeline/Black5Point.png'
+import GreenCircle from '../assets/images/timeline/GreenCircle.png'
+import Green11Point from '../assets/images/timeline/Green11Point.png'
+import LightGreenCircle from '../assets/images/timeline/LightGreenCircle.png'
 import X from '../assets/images/XDark.png'
 import '../styles/aboutus.css'
 
@@ -226,183 +229,57 @@ function Aboutus() {
                 </div>
             </section>
 
-            <section className='aboutus-timeline'  style={{width: "100%" }}>
-                <div className='aboutus-row-7' >
-                    <h1>Our story thus far</h1>
-                    <p>Here are a few significant milestones we hit during the past decade.</p>
+            <section className='aboutus-row-7'>
+                <h2>Our story thus far</h2>
+                <p>Here are a few significant milestones we hit during the past decade.</p>
+                <div className='aboutus-timeline'>
+                    <div className='aboutus-timeline-row-1'>
+                        <p className='aboutus-timeline-p'>Amalgam was born. In the early days, we worked with financial institutions. We're proud to say, we rapidly grew our numbers to double digits.</p>
+                        <img src={GreenCircle} alt="Green Circle" className='aboutus-green-circle' />
+                    </div>
+                    {/* <SVGComponent dimensions={windowDimensions} /> */}
+                    <img src={Star5} alt="" className='aboutus-star-5' />
+                    <img src={LineAcross} alt="" className='aboutus-line-across1' />
+                    <div className='aboutus-timeline-row-2'>
+                        <p className='aboutus-timeline-p'>Amalgam was born. In the early days, we worked with financial institutions. We're proud to say, we rapidly grew our numbers to double digits.</p>
+                        <img src={GreenCircle} alt="Green Circle" className='aboutus-light-green-circle' />
+                    </div>
+                    <img src={LeftCurve} alt="" className='aboutus-curved-left1' />
+                    <img src={LineAcross} alt="" className='aboutus-line-across2' />
+                    <div className='aboutus-timeline-row-3'>
+                        <p className='aboutus-timeline-p'>We sold Transliter8 to Meta (ex-Facebook) and helped Fortune 100 clients with their digital transformation.</p>
+                        <img src={GreenCircle} alt="Green Circle" className='aboutus-green-circle' />
+                    </div>
+
+
+                    <img src={RightCurve} alt="" className='aboutus-curved-right1' />
+                    <img src={LineAcross} alt="" className='aboutus-line-across3' />
+
+                    <div className='aboutus-timeline-row-4'>
+                        <p className='aboutus-timeline-p'>We invested in a Dublin-based company and grew fourfold!</p>
+                        <img src={GreenCircle} alt="Green Circle" className='aboutus-green-circle' />
+                    </div>
+                    <img src={LeftCurve} alt="" className='aboutus-curved-left2' />
+                    <img src={LineAcross} alt="" className='aboutus-line-across4' />
+
+                    <div className='aboutus-timeline-row-5'>
+                        <p className='aboutus-timeline-p'>We invested in a Dublin-based company and grew fourfold!</p>
+                        <img src={GreenCircle} alt="Green Circle" className='aboutus-green-circle' />
+                    </div>
+                    <img src={RightCurve} alt="" className='aboutus-curved-right3' />
+                    <img src={LineAcross} alt="" className='aboutus-line-across5' />
+                    <img src={LeftCurve} alt="" className='aboutus-curved-left3' />
+                    <img src={LineAcross} alt="" className='aboutus-line-across6' />
+                    <img src={RightCurve} alt="" className='aboutus-curved-right4' />
+                    <div className='aboutus-timeline-row-6'>
+                        <p className='aboutus-timeline-p'>We refined our skills in generative AI techniques, became equity and development partners to a number of entrepreneurial ventures that gelled with our ethos, and grew more involved in the startup ecosystem.</p>
+                        <img src={Green11Point} alt="Green Circle" className='aboutus-green11point-circle' />
+                    </div>
+
                 </div>
 
-                {!isMobile ?
-                    <div >
-                        <div className='aboutus-row-8'>
-
-                            <div className='aboutus-row-8-left'>
-                                2010
-                            </div>
-                            <div className='aboutus-row-8-middle'>
-                                <img src={Divider} style={{ height: "100%" }} alt='Divider' />
-                            </div>
-
-                            <div className='aboutus-row-8-right'>
-                                <p>Amalgam was born. In the early days, we worked with financial institutions. We're proud to say, we rapidly grew our numbers to double digits.</p>
-                            </div>
-                        </div>
-                        <div className='aboutus-row-8'>
-
-                            <div className='aboutus-row-8-left'>
-                                2012
-                            </div>
-                            <div className='aboutus-row-8-middle'>
-                                <img src={Divider} style={{ height: "100%" }} alt='Divider' />
-                            </div>
-
-                            <div className='aboutus-row-8-right'>
-                                <p>Amalgam was born. In the early days, we worked with financial institutions. We're proud to say, we rapidly grew our numbers to double digits.</p>
-                            </div>
-                        </div>
-                        <div className='aboutus-row-8'>
-
-                            <div className='aboutus-row-8-left'>
-                                2015
-                            </div>
-                            <div className='aboutus-row-8-middle'>
-                                <img src={Divider} style={{ height: "100%" }} alt='Divider' />
-                            </div>
-
-                            <div className='aboutus-row-8-right'>
-                                <p>Amalgam was born. In the early days, we worked with financial institutions. We're proud to say, we rapidly grew our numbers to double digits.</p>
-                            </div>
-                        </div>
-                        <div className='aboutus-row-8'>
-
-                            <div className='aboutus-row-8-left'>
-                                2018
-                            </div>
-                            <div className='aboutus-row-8-middle'>
-                                <img src={Divider} style={{ height: "100%" }} alt='Divider' />
-                            </div>
-
-                            <div className='aboutus-row-8-right'>
-                                <p>We invested in a Dublin-based company and grew fourfold!</p>
-                            </div>
-                        </div>
-                        <div className='aboutus-row-8'>
-
-                            <div className='aboutus-row-8-left'>
-                                2019
-                            </div>
-                            <div className='aboutus-row-8-middle'>
-                                <img src={Divider} style={{ height: "100%" }} alt='Divider' />
-                            </div>
-
-                            <div className='aboutus-row-8-right'>
-                                <p>We onboarded a number of clients in the retail and insurance spaces.</p>
-                            </div>
-                        </div>
-                        <div className='aboutus-row-8'>
-
-                            <div className='aboutus-row-8-left'>
-                                2023
-                            </div>
-                            <div className='aboutus-row-8-middle'>
-                                <img src={Divider} style={{ height: "100%" }} alt='Divider' />
-                            </div>
-
-                            <div className='aboutus-row-8-right'>
-                                <p>We refined our skills in generative AI techniques, became equity and development partners to a number of entrepreneurial ventures that gelled with our ethos, and grew more involved in the startup ecosystem.</p>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    :
-                    <div >
-                        <div className='aboutus-row-8'>
-                            <div className='aboutus-row-8-middle'>
-                                <img src={Divider} style={{ height: "100%" }} alt='Divider' />
-                            </div>
-
-                            <div className='aboutus-row-8-left'>
-                                <p> 2010</p>
-                                <div className='aboutus-row-8-right'>
-                                    <p>Amalgam was born. In the early days, we worked with financial institutions. We're proud to say, we rapidly grew our numbers to double digits.</p>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div className='aboutus-row-8'>
-                            <div className='aboutus-row-8-middle'>
-                                <img src={Divider} style={{ height: "100%" }} alt='Divider' />
-                            </div>
-
-                            <div className='aboutus-row-8-left'>
-                                <p> 2012</p>
-                                <div className='aboutus-row-8-right'>
-                                    <p>We launched two products:
-
-                                        Transliter8, a software producing precise, standardized transliteration of personal or legal entities from or to English.
-
-                                        AML Analyzer, analyzing sanctions list data for sanction screening companies to ensure that it's accurate and up to date.</p>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div className='aboutus-row-8'>
-                            <div className='aboutus-row-8-middle'>
-                                <img src={Divider} style={{ height: "100%" }} alt='Divider' />
-                            </div>
-
-                            <div className='aboutus-row-8-left'>
-                                <p> 2015</p>
-                                <div className='aboutus-row-8-right'>
-                                    <p>We sold Transliter8 to Meta (ex-Facebook) and helped Fortune 100 clients with their digital transformation.</p>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div className='aboutus-row-8'>
-                            <div className='aboutus-row-8-middle'>
-                                <img src={Divider} style={{ height: "100%" }} alt='Divider' />
-                            </div>
-
-                            <div className='aboutus-row-8-left'>
-                                <p> 2018</p>
-                                <div className='aboutus-row-8-right'>
-                                    <p>We invested in a Dublin-based company and grew fourfold!</p>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div className='aboutus-row-8'>
-                            <div className='aboutus-row-8-middle'>
-                                <img src={Divider} style={{ height: "100%" }} alt='Divider' />
-                            </div>
-
-                            <div className='aboutus-row-8-left'>
-                                <p> 2019</p>
-                                <div className='aboutus-row-8-right'>
-                                    <p>We onboarded a number of clients in the retail and insurance spaces.</p>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div className='aboutus-row-8'>
-                            <div className='aboutus-row-8-middle'>
-                                <img src={Divider} style={{ height: "100%" }} alt='Divider' />
-                            </div>
-
-                            <div className='aboutus-row-8-left'>
-                                <p> 2023</p>
-                                <div className='aboutus-row-8-right'>
-                                    <p>We refined our skills in generative AI techniques, became equity and development partners to a number of entrepreneurial ventures that gelled with our ethos, and grew more involved in the startup ecosystem.</p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                }
-
             </section>
+
 
             <section className='aboutus-timeline-2'>
                 <div className='aboutus-row-12' style={{ backgroundColor: "unset" }}>
