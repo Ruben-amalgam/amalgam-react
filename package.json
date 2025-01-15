@@ -1,7 +1,6 @@
 {
   "name": "amalgam",
   "version": "0.1.0",
-  "homepage": "https://ruben-amalgam.github.io/amalgam-react",
   "private": true,
   "dependencies": {
     "@craco/craco": "^7.1.0",
