@@ -269,7 +269,7 @@ function Ourwork() {
                     </div>
                     <div>
                         <h3>Networking</h3>
-                        <p>Engaging with like-minded business owners, industry leaders, and key partners is an essential move to any entrepreneur who is trying to grow their network and influence. Look no further—your community's right in front of you.</p>
+                        <p>Grow your network and influence by engaging with forward-thinking business owners, industry leaders, and key partners. We're ready to introduce you to our trusted partners and peers.</p>
                     </div>
 
                 </div>
