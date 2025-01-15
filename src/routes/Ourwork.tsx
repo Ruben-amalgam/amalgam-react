@@ -87,43 +87,6 @@ function Ourwork() {
                 </div>
             </div>
 
-            <section className='ourwork-row-5'>
-                <h2>Why us? Hear it from our clients</h2>
-                <div className='ourwork-row-5-content-container'>
-                    <div className='ourwork-row-5-content'>
-                        <img src={Webflow} alt="Webflow" />
-                        <h5>Partnering with Amalgam has helped us to streamline our team’s evaluative workflows and to pilot new technologies in ways that consistently help us to better understand the impact of our funding and to learn how to improve our grantmaking.</h5>
-                        <div className='ourwork-row-5-content-header'>
-                            <p>Steve Fitzmier</p>
-                            <p>Director of Planning & Evaluation,<br /> John Templeton Foundation</p>
-                        </div>
-                    </div>
-                    <div className='ourwork-row-5-content'>
-                        <img src={Webflow} alt="Webflow" />
-                        <h5>Partnering with Amalgam has helped us to streamline our team’s evaluative workflows and to pilot new technologies in ways that consistently help us to better understand the impact of our funding and to learn how to improve our grantmaking.</h5>
-                        <div className='ourwork-row-5-content-header'>
-                            <p>Mike Mooney</p>
-                            <p>Chief Technology Officer, CleanItSupply</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section className='ourwork-row-5'>
-                <div className='ourwork-row-5-content-container'>
-                    <div className='ourwork-row-5-content'>
-                        <img src={Webflow} alt="Webflow" />
-                        <h5>Amalgam has helped us build the virtual power plant that has
-                            helped us raise over $100 millions to date. They've been our loyal allies since our early days, wisely guiding our efforts as we scaled. That's why they're our sole development partner..</h5>
-                        <div className='ourwork-row-5-content-header'>
-                            <p>Peter Mendonez</p>
-                            <p>Co-Founder and President, PearlX Infrastructure</p>
-                        </div>
-                    </div>
-                </div>
-                <img src={Circles} alt="circles" className='ourwork-row-5-circles' />
-            </section>
-
             <section className='ourwork-row-6'>
                 <h1>You can count on us for <br />your:</h1>
                 <div className='ourwork-row-6-content-container'>
@@ -247,32 +210,32 @@ function Ourwork() {
                 </div>
                 <div className='ourwork-row-10-content'>
                     <div>
-                        <img src={Cube} alt="Cube" />
                         <h3>Business & strategy consulting</h3>
+                        <p>We'll be your strategic partners and help you manage your risk and performance</p>
                     </div>
                     <div>
-                        <img src={Cube} alt="Cube" />
                         <h3>Operational optimization</h3>
+                        <p>We'll help you manage changes, reengineer your business processes, and transform your operations so they're as effective as can be.</p>
                     </div>
                     <div>
-                        <img src={Cube} alt="Cube" />
                         <h3>Marketing & branding support</h3>
+                        <p>We'll support you with your branding and market positioning, optimizing the way you present yourself to your potential customers</p>
                     </div>
 
                 </div>
                 <p> Our knowledge of modern software building frameworks, AI, ML, and generative AI tools, allows us to solve your most complex tech problems with ease. The possibilities are endless.</p>
                 <div className='ourwork-row-10-content2'>
                     <div>
-                        <img src={Cube} alt="Cube" />
                         <h3>Customer experience & UX/UI</h3>
+                        <p>We'll refine your user experience and craft intuitive, visually appealing interfaces to enhance every interaction your customers have with your brand.</p>
                     </div>
                     <div>
-                        <img src={Cube} alt="Cube" />
                         <h3>Web & mobile app development</h3>
+                        <p>We're excited to deliver solutions that are both functional and innovative, whether it's by building a sleek website or a robust mobile application.</p>
                     </div>
                     <div>
-                        <img src={Cube} alt="Cube" />
                         <h3>Artificial Intelligence & machine learning</h3>
+                        <p>We'll help you unlock new insights and make your operations more efficient than ever by harnessing the power of AI and ML.</p>
                     </div>
                     {/* <div>
                         <img src={Cube} alt="Cube" />
@@ -282,17 +245,33 @@ function Ourwork() {
                 <p>You'll get much farther with the right connections. Here's how we can support you on this front:</p>
                 <div className='ourwork-row-10-content3'>
                     <div>
-                        <img src={Cube} alt="Cube" />
+                        <h3>Languages & scripts</h3>
+                        <p>JAVA, GO and Scala Technologies | JavaScript frameworks (i.e. angular, react, node, rekit, view) | .NET framework and Akka framework | Content Management Systems with specialization in Magnolia and Wordpress</p>
+                    </div>
+                    <div>
                         <h3>Databases, integrations & tools</h3>
+                        <p>JAVA, GO and Scala Technologies | JavaScript frameworks (i.e. angular, react, node, rekit, view) | .NET framework and Akka framework | Content Management Systems with specialization in Magnolia and Wordpress</p>
                     </div>
                     <div>
-                        <img src={Cube} alt="Cube" />
                         <h3>Cloud & management Services</h3>
+                        <p>Corda R3, Hyperledger, Ethereum | AWS, Digital Ocean, GCP, Azure | Docker, Kubernetes | FIS Profile Banking Core and Channels, Bottomline Digital Banking</p>
+                    </div>
+
+                </div>
+                <div className='ourwork-row-10-content4'>
+                    <div>
+                        <h3>Tech & advisory</h3>
+                        <p>Our top consultants and tech advisors are ready to share the invaluable insights and guidance you need to make your moonshot a reality.</p>
                     </div>
                     <div>
-                        <img src={Cube} alt="Cube" />
-                        <h3>Web3 & Blockchain</h3>
+                        <h3>Network & funding</h3>
+                        <p>JAVA, GO and Scala Technologies | JavaScript frameworks (i.e. angular, react, node, rekit, view) | .NET framework and Akka framework | Content Management Systems with specialization in Magnolia and Wordpress</p>
                     </div>
+                    <div>
+                        <h3>Networking</h3>
+                        <p>Engaging with like-minded business owners, industry leaders, and key partners is an essential move to any entrepreneur who is trying to grow their network and influence. Look no further—your community's right in front of you.</p>
+                    </div>
+
                 </div>
                 <p>Our knowledge of modern software building frameworks, AI, ML, and generative AI tools, allows us to solve your most complex tech problems with ease. The possibilities are endless.</p>
             </section>

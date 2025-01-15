@@ -39,7 +39,6 @@ function Startups() {
                 <div>
                     <h1>Launch, grow, thrive</h1>
                     <p>From expert advice to cutting-edge tech and connections with the right people, we provide <br />all the support your startup needs to thrive.</p>
-                    <button>Let's talk!</button>
                 </div>
                 <img src={BlobertRocket} alt="" className='blobert-rocket' />
             </section>
@@ -68,7 +67,7 @@ function Startups() {
             <section className='startups-row-3'>
                 <h1 id='startups-row-3-h1'>How we've helped other startups</h1>
                 <div className='startups-carousel'>
-                    <SolidStar text={carouselText[0]} />
+                    <SolidStar text={carouselText[0]}  />
                     <HollowStar text={carouselText[1]} />
                     <SolidStar text={carouselText[2]} />
                     <HollowStar text={carouselText[3]} />
