@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/amalgam-react/static/css/main.59d37342.css",
-    "main.js": "/amalgam-react/static/js/main.6ef424ea.js",
+    "main.css": "/amalgam-react/static/css/main.fcb17302.css",
+    "main.js": "/amalgam-react/static/js/main.54618a2e.js",
     "static/media/Team.png": "/amalgam-react/static/media/Team.eb9d3f6e6426a7013109.png",
     "static/media/Clients.png": "/amalgam-react/static/media/Clients.bd618c560f9dc500fd0b.png",
     "static/media/BlobertMoon.png": "/amalgam-react/static/media/BlobertMoon.f3e636ce9f34d78fbc06.png",
@@ -10,6 +10,7 @@
     "static/media/Teamwork.png": "/amalgam-react/static/media/Teamwork.8a186f5be262d9c6b810.png",
     "static/media/BlobertRocket.png": "/amalgam-react/static/media/BlobertRocket.0d3e2a1a218057750683.png",
     "static/media/Amalgam-Group.png": "/amalgam-react/static/media/Amalgam-Group.0eaaa03af5aa0abce22a.png",
+    "static/media/LightGreenCircle.png": "/amalgam-react/static/media/LightGreenCircle.89e3e7680a2811c79c2f.png",
     "static/media/Tech-Consulting.png": "/amalgam-react/static/media/Tech-Consulting.4bece141fd89417595ab.png",
     "static/media/Rocket.png": "/amalgam-react/static/media/Rocket.0f292b690824f488274d.png",
     "static/media/Laptop.png": "/amalgam-react/static/media/Laptop.5d2d7d927d41b3dfe55d.png",
@@ -67,11 +68,11 @@
     "static/media/TIAA.png": "/amalgam-react/static/media/TIAA.8dc47c30bdf9517dd344.png",
     "static/media/Placeholder2.png": "/amalgam-react/static/media/Placeholder2.fd801fc2c1c5ce802b42.png",
     "index.html": "/amalgam-react/index.html",
-    "main.59d37342.css.map": "/amalgam-react/static/css/main.59d37342.css.map",
-    "main.6ef424ea.js.map": "/amalgam-react/static/js/main.6ef424ea.js.map"
+    "main.fcb17302.css.map": "/amalgam-react/static/css/main.fcb17302.css.map",
+    "main.54618a2e.js.map": "/amalgam-react/static/js/main.54618a2e.js.map"
   },
   "entrypoints": [
-    "static/css/main.59d37342.css",
-    "static/js/main.6ef424ea.js"
+    "static/css/main.fcb17302.css",
+    "static/js/main.54618a2e.js"
   ]
 }
