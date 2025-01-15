@@ -241,8 +241,10 @@ function Aboutus() {
                     <img src={Star5} alt="" className='aboutus-star-5' />
                     <img src={LineAcross} alt="" className='aboutus-line-across1' />
                     <div className='aboutus-timeline-row-2'>
-                        <p className='aboutus-timeline-p'>Amalgam was born. In the early days, we worked with financial institutions. We're proud to say, we rapidly grew our numbers to double digits.</p>
-                        <img src={GreenCircle} alt="Green Circle" className='aboutus-light-green-circle' />
+                        <p className='aboutus-timeline-p'>We launched two products:
+Transliter8, a software producing precise, standardized transliteration of personal or legal entities from or to English.
+AML Analyzer, analyzing sanctions list data for sanction screening companies to ensure that it's accurate and up to date.</p>
+                        <img src={LightGreenCircle} alt="Green Circle" className='aboutus-light-green-circle' />
                     </div>
                     <img src={LeftCurve} alt="" className='aboutus-curved-left1' />
                     <img src={LineAcross} alt="" className='aboutus-line-across2' />
@@ -257,13 +259,13 @@ function Aboutus() {
 
                     <div className='aboutus-timeline-row-4'>
                         <p className='aboutus-timeline-p'>We invested in a Dublin-based company and grew fourfold!</p>
-                        <img src={GreenCircle} alt="Green Circle" className='aboutus-green-circle' />
+                        <img src={LightGreenCircle} alt="Green Circle" className='aboutus-green-circle' />
                     </div>
                     <img src={LeftCurve} alt="" className='aboutus-curved-left2' />
                     <img src={LineAcross} alt="" className='aboutus-line-across4' />
 
                     <div className='aboutus-timeline-row-5'>
-                        <p className='aboutus-timeline-p'>We invested in a Dublin-based company and grew fourfold!</p>
+                        <p className='aboutus-timeline-p'>We onboarded a number of clients in the retail and insurance spaces.</p>
                         <img src={GreenCircle} alt="Green Circle" className='aboutus-green-circle' />
                     </div>
                     <img src={RightCurve} alt="" className='aboutus-curved-right3' />

@@ -264,7 +264,7 @@ function Ourwork() {
                         <p>Our top consultants and tech advisors are ready to share the invaluable insights and guidance you need to make your moonshot a reality.</p>
                     </div>
                     <div>
-                        <h3>Network & funding</h3>
+                        <h3>Funding</h3>
                         <p>JAVA, GO and Scala Technologies | JavaScript frameworks (i.e. angular, react, node, rekit, view) | .NET framework and Akka framework | Content Management Systems with specialization in Magnolia and Wordpress</p>
                     </div>
                     <div>
