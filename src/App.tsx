@@ -14,7 +14,7 @@ import JobPost from 'routes/JobPost';
 
 const App: React.FC = () => {
   return (
-    <Router basename="/amalgam-react">
+    <Router>
       <Header />
         <Routes>
           <Route path="/" element={<Home />} />
